@@ -1,0 +1,29 @@
+{"flower": "botania:blaze_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#c28a29",
+	"secondaryColor": "#ffe205",
+	"honeycombColor": "#ff9705",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"minecraft:blaze_rod",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Sulfur",
+	"parent2": "Lava",
+	"feedItem": "minecraft:blaze_rod",
+	"feedAmount": 1}
+}

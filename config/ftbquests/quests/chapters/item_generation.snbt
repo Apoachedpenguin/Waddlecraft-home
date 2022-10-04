@@ -1,0 +1,31 @@
+{
+	id: "05B304E4D720779E"
+	group: "3F98E193960D4053"
+	order_index: 1
+	filename: "item_generation"
+	title: "Item generation"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "7F9F87C54698F2D0"
+			tasks: [{
+				id: "62A48F286802D126"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "6584C94CB034E21E"
+			tasks: [{
+				id: "0F104ECE7CD8B30D"
+				type: "item"
+				item: "resourcefulbees:t1_apiary"
+			}]
+		}
+	]
+}

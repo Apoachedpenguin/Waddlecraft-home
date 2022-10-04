@@ -1,0 +1,19 @@
+{
+	id: "5E65F4D72422AABC"
+	group: "040733FB8D3F280D"
+	order_index: 2
+	filename: "item_transportation"
+	title: "Item transportation"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "2C0EA9E8D3CBACF9"
+		tasks: [{
+			id: "77451D1960C4DD44"
+			type: "item"
+			item: "pipez:item_pipe"
+		}]
+	}]
+}

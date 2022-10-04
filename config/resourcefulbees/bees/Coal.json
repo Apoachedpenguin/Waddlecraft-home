@@ -1,0 +1,29 @@
+{"flower": "tag:forge:storage_blocks/coal",
+  "maxTimeInHive": 1600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/coal/coal_bee",
+  "apiaryOutputAmounts" : [2,4,2,4],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#303030",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:coal",
+    "mainOutputCount": 5
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:overworld",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "feedItem": "minecraft:coal",
+    "feedAmount": 1,
+    "isBreedable": true,
+    "parent1": "Lava",
+    "parent2": "Wood"
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,29 @@
+{"flower": "powah:niotic_crystal_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#0081a8",
+	"secondaryColor": "#009dbd",
+	"honeycombColor": "#009dbd",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"powah:crystal_niotic",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 2.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Blazing",
+	"parent2": "Diamond",
+	"feedItem": "powah:crystal_niotic",
+	"feedAmount": 1}
+}

@@ -1,0 +1,29 @@
+{"flower": "minecraft:soul_sand",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#fafafa",
+	"secondaryColor": "#ebebeb",
+	"honeycombColor": "#ebebeb",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"minecraft:ghast_tear",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Netherrack",
+	"parent2": "Creeper",
+	"feedItem": "minecraft:ghast_tear",
+	"feedAmount": 1}
+}

@@ -1,0 +1,29 @@
+{
+  "flower": "minecraft:bone_block",
+  "maxTimeInHive": 1600,
+  "hasHoneycomb": true,
+  "apiaryOutputAmounts" : [2,4,2,4],
+  "baseLayerTexture": "skeleton/skeleton_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#F6F2E6"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:bone",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean",
+    "lightLevel": "NIGHT"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:bone",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

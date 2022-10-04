@@ -1,0 +1,29 @@
+{"flower": "refinedstorage:1k_storage_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#b0aea9",
+	"secondaryColor": "#9c9992",
+	"honeycombColor": "#b8b6b2",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"refinedstorage:silicon",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Nether_Quartz",
+	"parent2": "Coal",
+	"feedItem": "refinedstorage:silicon",
+	"feedAmount": 1}
+}

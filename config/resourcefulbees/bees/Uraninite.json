@@ -1,0 +1,29 @@
+{"flower": "powah:uraninite_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#5a914a",
+	"secondaryColor": "#4ab02e",
+	"honeycombColor": "#4ab02e",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"powah:uraninite",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Emerald",
+	"parent2": "Zombie",
+	"feedItem": "powah:uraninite",
+	"feedAmount": 1}
+}

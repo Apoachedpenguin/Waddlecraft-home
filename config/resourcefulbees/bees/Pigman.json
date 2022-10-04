@@ -1,0 +1,33 @@
+{
+  "flower": "minecraft:glowstone",
+  "maxTimeInHive": 1600,
+  "hasHoneycomb": true,
+  "apiaryOutputAmounts" : [2,4,2,4],
+  "baseLayerTexture": "pigman/pigman_bee",
+  "traits": ["nether", "pigman"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#885956"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:glowstone_dust",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:nether",
+    "lightLevel": "NIGHT"
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "minecraft:glowstone",
+	"feedAmount": 1,
+	"parent1": "Zombie",
+	"parent2": "Netherrack"
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

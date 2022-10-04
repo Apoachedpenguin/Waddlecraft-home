@@ -1,0 +1,29 @@
+{"flower": "draconicevolution:awakened_crafting_injector",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [1,2,1,2],
+"ColorData": {
+	"primaryColor": "#cf7911",
+	"secondaryColor": "#b57e07",
+	"honeycombColor": "#c77210",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"draconicevolution:awakened_draconium_nugget",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Draconium",
+	"parent2": "Dragon",
+	"feedItem": "draconicevolution:awakened_draconium_nugget",
+	"feedAmount": 1}
+}

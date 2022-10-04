@@ -1,0 +1,29 @@
+{"flower": "minecraft:snow_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#ffffff",
+	"secondaryColor": "#ffffff",
+	"honeycombColor": "#ffffff",
+	"isBeeColored": true,
+	"modelType": ""
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"minecraft:snowball",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Icy",
+	"parent2": "Water",
+	"feedItem": "minecraft:snowball",
+	"feedAmount": 1}
+}

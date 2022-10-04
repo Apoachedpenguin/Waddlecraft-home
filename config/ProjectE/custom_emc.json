@@ -1,0 +1,148 @@
+{
+  "entries": [
+    {
+      "item": "extendedcrafting:ultimate_table",
+      "emc": 513
+    },
+    {
+      "item": "projecte:low_covalence_dust",
+      "emc": 8
+    },
+    {
+      "item": "projecte:medium_covalence_dust",
+      "emc": 107
+    },
+    {
+      "item": "projecte:high_covalence_dust",
+      "emc": 167
+    },
+    {
+      "item": "projecte:alchemical_chest",
+      "emc": 34121
+    },
+    {
+      "item": "projecte:alchemical_coal",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:mobius_fuel",
+      "emc": 8192
+    },
+    {
+      "item": "projecte:aeternalis_fuel",
+      "emc": 32768
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot",
+      "emc": 4928
+    },
+    {
+      "item": "botania:mana_powder",
+      "emc": 320
+    },
+    {
+      "item": "botania:mana_diamond",
+      "emc": 10240
+    },
+    {
+      "item": "botania:dragonstone",
+      "emc": 12800
+    },
+    {
+      "item": "botania:mana_pearl",
+      "emc": 1280
+    },
+    {
+      "item": "botania:pixie_dust",
+      "emc": 1600
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 2312094
+    },
+    {
+      "item": "extendedcrafting:black_iron_ingot",
+      "emc": 400
+    },
+    {
+      "item": "projecte:klein_star_ein",
+      "emc": 167236
+    },
+    {
+      "item": "projecte:klein_star_zwei",
+      "emc": 668944
+    },
+    {
+      "item": "projecte:klein_star_drei",
+      "emc": 2675776
+    },
+    {
+      "item": "projecte:klein_star_vier",
+      "emc": 10703104
+    },
+    {
+      "item": "projecte:klein_star_sphere",
+      "emc": 42812416
+    },
+    {
+      "item": "projecte:klein_star_omega",
+      "emc": 171249664
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 1703680
+    },
+    {
+      "item": "projecte:red_matter",
+      "emc": 42522432
+    },
+    {
+      "item": "projecte:collector_mk1",
+      "emc": 5072539
+    },
+    {
+      "item": "projecte:collector_mk2",
+      "emc": 38532195
+    },
+    {
+      "item": "projecte:collector_mk3",
+      "emc": 414329681
+    },
+    {
+      "item": "projecte:relay_mk1",
+      "emc": 628462
+    },
+    {
+      "item": "projecte:relay_mk2",
+      "emc": 15114852
+    },
+    {
+      "item": "projecte:relay_mk3",
+      "emc": 357463031
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 6402485
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 105865053
+    },
+    {
+      "item": "botania:manasteel_ingot",
+      "emc": 320
+    },
+    {
+      "item": "botania:terrasteel_ingot",
+      "emc": 12736
+    },
+    {
+      "item": "botania:elementium_ingot",
+      "emc": 19104
+    },
+    {
+      "item": "mythicbotany:alfsteel_ingot",
+      "emc": 56956
+    }
+  ]
+}

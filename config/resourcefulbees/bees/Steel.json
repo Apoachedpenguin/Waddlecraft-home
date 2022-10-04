@@ -1,0 +1,39 @@
+{
+    "flower": "mekanism:block_steel",
+    "maxTimeInHive": 1600,
+    "hasHoneycomb": true,
+    "sizeModifier": 1.0,
+    "baseLayerTexture": "/custom/bee",  
+    "traits" : [""],
+    "customCombDrop": "",
+    "customBombBlockDrop": "",
+    "apiaryOutputAmounts" : [2,4,2,4],
+    "ColorData": {
+	"primaryColor": "#636363",
+	"secondaryColor": "#4d4e4f",
+	"honeycombColor": "#595959",
+        "isBeeColored": true,
+		"modelType": "ARMORED"
+	},
+    "MutationData": {  
+        "hasMutation": false,
+        "mutationType": "NONE"
+    },
+    "CentrifugeData": {  
+        "hasCentrifugeOutput": true,
+		"mainOutput":"mekanism:ingot_steel",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 3.00
+    },
+    "SpawnData": {  
+        "canSpawnInWorld": false
+    },
+    "BreedData": {  
+        "isBreedable": true,
+	"parent1": "coal",
+	"parent2": "iron",
+	"feedItem": "mekanism:ingot_steel",
+	"feedAmount": 1
+    },
+    "TraitData": {}
+}

@@ -1,0 +1,31 @@
+{
+  "flower": "rats:dye_sponge",
+  "maxTimeInHive": 1600,
+  "hasHoneycomb": true,
+  "apiaryOutputAmounts" : [2,4,2,4],
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#ffffff",
+    "isRainbowBee": true,
+    "isGlowing": true
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:black_dye",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00,
+    "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
+    "bottleOutputWeight": 0.02
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "TAG:OVerWorld",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:dyes",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

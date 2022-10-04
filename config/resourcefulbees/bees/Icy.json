@@ -1,0 +1,35 @@
+{
+  "flower": "minecraft:ice",
+  "hasHoneycomb": true,
+  "traits": ["can_swim"],
+  "apiaryOutputAmounts" : [2,4,2,4],
+  "maxTimeInHive": 1600,
+  "sizeModifier": 0.75,
+  "baseLayerTexture": "natural/icy_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#92b9fe",
+    "primaryColor": "#92b9fe",
+    "secondaryColor": "#303030",
+    "modelType": "GELATINOUS"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+	"mainOutput":"minecraft:ice",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:COLD, ice, ice_plains, frozen, frozen_peaks",
+    "biomeBlacklist": ""
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:ice",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

@@ -1,0 +1,100 @@
+{
+	id: "2B3320876A4A6BB0"
+	group: ""
+	order_index: 0
+	filename: "welcome_to_waddlecraft"
+	title: "Welcome to WADDLECRAFT!"
+	icon: "cyclic:heart"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:sunflower"
+			x: 0.0d
+			y: 0.0d
+			description: ["Thanks for downloading! i hope you enjoy!"]
+			size: 1.3d
+			id: "3D1B51B3D9410A69"
+			tasks: [{
+				id: "59CEF8F4B67928EF"
+				type: "checkmark"
+				title: "thanks for checking my pack out :)"
+			}]
+			rewards: [{
+				id: "029B9250B16ED77B"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Check out my discord!"
+			icon: "rats:music_disc_living_mice"
+			x: 0.0d
+			y: 1.9500000000000002d
+			subtitle: "Shameless plugging WOO."
+			description: [
+				"discord.gg/nHxGNaS2TX"
+				"this is the best way to reach me if you notice any issues! "
+			]
+			dependencies: ["3D1B51B3D9410A69"]
+			hide: false
+			size: 1.3d
+			id: "263C8D59DB3D8659"
+			tasks: [{
+				id: "5893511E677469E7"
+				type: "checkmark"
+				title: "Discord"
+			}]
+		}
+		{
+			title: "FTB teams"
+			icon: "cyclic:heart"
+			x: 1.3d
+			y: 0.0d
+			shape: "heart"
+			subtitle: "friends are nice. they help you do quests!"
+			description: ["create a team with your friends! type \"/ftbteams party create\" to create a party, \"ftbteams party invite (friend name)\" to invite a friend, and your friend can enter the chat with \"t\" or \"/\" and click accept!"]
+			dependencies: ["3D1B51B3D9410A69"]
+			size: 1.3d
+			id: "21504A1A3153ECC6"
+			tasks: [{
+				id: "032EA36FAA8A5DF9"
+				type: "checkmark"
+				title: "FTB teams"
+			}]
+		}
+		{
+			x: -1.3d
+			y: 0.0d
+			subtitle: "quests are HARRRD"
+			description: [
+				"back again at 1.1.5! Thanks so much for coming here! alot of progression has taken place since the last time this was updated but Oh my lord are quests a PAIN. Thanks so much yall for being awesome! Please let me know if there are any bugs or issues on curseforge or discord, Thanks!"
+				""
+			]
+			dependencies: ["3D1B51B3D9410A69"]
+			size: 1.3d
+			id: "79F0F9C6783CF42B"
+			tasks: [{
+				id: "5DF33AA948D2A3C3"
+				type: "checkmark"
+				title: "Quests are (obviously) incomplete"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			id: "048C044E5705BE8B"
+			tasks: [{
+				id: "1BD889EEB35174A9"
+				type: "checkmark"
+				title: "Remember to have fun, the quests are there to guide and give you tips to awesome things, But if you know what you are doing and want to branch off, remember to be yourself, and enjoy every moment you can!"
+			}]
+		}
+	]
+}

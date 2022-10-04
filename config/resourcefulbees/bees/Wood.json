@@ -1,0 +1,32 @@
+{
+    "flower": "minecraft:oak_wood",
+    "maxTimeInHive": 1600,
+    "hasHoneycomb": true,
+    "sizeModifier": 1.0,
+    "baseLayerTexture": "/custom/bee",  
+    "traits" : [""],
+    "customCombDrop": "",
+    "customBombBlockDrop": "",
+    "apiaryOutputAmounts" : [2,4,2,4],
+    "ColorData": {
+	"primaryColor": "#A28461",
+	"secondaryColor": "#826a4d",
+	"honeycombColor": "#6B544B",
+        "isBeeColored": true,
+		"modelType": "VILLAGER"
+    },
+    "CentrifugeData": {  
+        "hasCentrifugeOutput": true,
+		"mainOutput":"minecraft:oak_log"
+    },
+    "SpawnData": {  
+        "canSpawnInWorld": true,
+		"biomeWhitelist": "TAG:forest"
+    },
+    "BreedData": {  
+        "isBreedable": true,
+		"feedItem": "minecraft:oak_log",
+		"feedAmount": 1
+    },
+    "TraitData": {}
+}

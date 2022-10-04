@@ -1,0 +1,29 @@
+{"flower": "powah:furnator_starter",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#242424",
+	"secondaryColor": "#080807",
+	"honeycombColor": "#0d0d0d",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"powah:dielectric_paste",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 3.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Coal",
+	"parent2": "Creeper",
+	"feedItem": "powah:dielectric_paste",
+	"feedAmount": 1}
+}

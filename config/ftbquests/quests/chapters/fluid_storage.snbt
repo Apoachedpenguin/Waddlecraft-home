@@ -1,0 +1,19 @@
+{
+	id: "01BCE31076C5CCFB"
+	group: "659870EDC2E7CCBB"
+	order_index: 2
+	filename: "fluid_storage"
+	title: "Fluid storage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "192582703CDF698A"
+		tasks: [{
+			id: "76145DADEA619EF2"
+			type: "item"
+			item: "mekanism:basic_fluid_tank"
+		}]
+	}]
+}

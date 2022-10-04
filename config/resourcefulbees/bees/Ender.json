@@ -1,0 +1,36 @@
+{
+  "flower": "cyclic:eye_teleport",
+  "hasHoneycomb": true,
+  "traits": ["ender"],
+  "maxTimeInHive": 1600,
+  "apiaryOutputAmounts" : [2,4,2,4],
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#339786",
+    "primaryColor": "#339786",
+    "secondaryColor": "#303030"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:ender_pearl",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "TAG:end",
+    "lightLevel": "NIGHT",
+    "spawnWeight": 20
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "minecraft:ender_pearl",
+	"parent1": "End_stone",
+	"parent2": "Zombie",
+	"feedAmount": 1
+
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

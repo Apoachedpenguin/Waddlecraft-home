@@ -1,0 +1,29 @@
+{"flower": "iceandfire:dragonsteel_lightning_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [1,2,1,2],
+"ColorData": {
+	"primaryColor": "#9800c7",
+	"secondaryColor": "#84608f",
+	"honeycombColor": "#84608f",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"iceandfire:dragonsteel_lightning_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 1.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Beelitz",
+	"parent2": "Dragon",
+	"feedItem": "iceandfire:dragonsteel_lightning_ingot",
+	"feedAmount": 1}
+}

@@ -1,0 +1,29 @@
+{
+  "flower": "minecraft:slime_block",
+  "hasHoneycomb": true,
+  "traits": ["slimy"],
+  "maxTimeInHive": 1600,
+  "apiaryOutputAmounts" : [2,4,2,4],
+  "baseLayerTexture": "slime/slime_bee",
+  "ColorData": {
+    "modelType": "GELATINOUS",
+    "gelLayerTexture": "/slime/slime_gel_Layer",
+    "honeycombColor": "#62B64A"
+  },
+ "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:slime_ball",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+},
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Water",
+    "parent2": "RGBee",
+    "feedItem": "minecraft:slime_ball",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

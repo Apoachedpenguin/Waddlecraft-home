@@ -1,0 +1,29 @@
+{"flower": "thermal:sulfur_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#fbff2b",
+	"secondaryColor": "#babd35",
+	"honeycombColor": "#eef08b",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"thermal:sulfur",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Blaze",
+	"parent2": "Coal",
+	"feedItem": "thermal:sulfur",
+	"feedAmount": 1}
+}

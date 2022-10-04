@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "24F6E96EC17D0C6B", title: "Equipment" }
+		{ id: "3F98E193960D4053", title: "Resource generation" }
+		{ id: "040733FB8D3F280D", title: "Transportation" }
+		{ id: "659870EDC2E7CCBB", title: "Storage" }
+	]
+}

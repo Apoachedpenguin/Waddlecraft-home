@@ -1,0 +1,29 @@
+{"flower": "refinedstorage:quartz_enriched_iron_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#b3aea2",
+	"secondaryColor": "#e3e3e3",
+	"honeycombColor": "#c7c3b9",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"refinedstorage:quartz_enriched_iron",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 3.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Nether_Quartz",
+	"parent2": "Iron",
+	"feedItem": "refinedstorage:quartz_enriched_iron",
+	"feedAmount": 1}
+}

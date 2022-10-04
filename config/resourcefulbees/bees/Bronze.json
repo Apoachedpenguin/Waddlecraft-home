@@ -1,0 +1,29 @@
+{"flower": "Thermal:bronze_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#d49400",
+	"secondaryColor": "#f2af11",
+	"honeycombColor": "#f2af11",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"thermal:bronze_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Tin",
+	"parent2": "Copper",
+	"feedItem": "thermal:bronze_ingot",
+	"feedAmount": 1}
+}

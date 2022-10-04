@@ -1,0 +1,31 @@
+{"flower": "botania:glimmering_dreamwood",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [1,2,1,2],
+"ColorData": {
+	"primaryColor": "#bda8bf",
+	"secondaryColor": "#b6c4b3",
+	"honeycombColor": "#a699b0",
+	"isBeeColored": true,
+	"modelType": "/custom/bee",
+	"isGlowing": true,
+	"glowColor": "#975ebf"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"botania:gaia_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 1.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Terrasteel",
+	"parent2": "Elementium",
+	"feedItem": "botania:gaia_ingot",
+	"feedAmount": 1}
+}

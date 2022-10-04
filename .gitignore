@@ -1,0 +1,51 @@
+# config
+/config/jei/world/
+/config/jei/bookmarks.ini
+/config/jei-client.toml
+config/sodium-options.json
+config/oculus.properties
+config/blockswap/known_states/
+
+# kubejs
+/kubejs/exported/*
+
+# root folders
+/not-enough-crashes/
+/crash-reports/
+/resourcepacks/
+/screenshots/
+/saves/
+/logs/
+/mods/
+/debug/
+/backups/
+/ct_dumps/
+/ESM/
+/local/
+/profileImage/
+/XaeroWaypoints*/
+/XaeroWorldMap/
+
+
+# root files
+knownkeys.txt
+options.txt
+realms_persistence.json
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json
+patchouli_data.json
+o_prof
+enigmatic_persistence.dat
+reauth.toml
+mods
+hs_err_pid*.log
+servers.dat*
+WailaErrorOutput.txt
+
+
+# launcher-related
+.curseclient
+icon.png
+/server-resource-packs/
+/coremods/

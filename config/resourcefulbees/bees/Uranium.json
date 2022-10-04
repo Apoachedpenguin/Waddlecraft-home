@@ -1,0 +1,29 @@
+{"flower": "mekanism:block_uranium",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#c4fcac",
+	"secondaryColor": "#add49d",
+	"honeycombColor": "#cce9c1",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"mekanism:ingot_uranium",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Uraninite",
+	"parent2": "Sulfur",
+	"feedItem": "mekanism:ingot_uranium",
+	"feedAmount": 1}
+}

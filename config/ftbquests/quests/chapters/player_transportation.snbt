@@ -1,0 +1,19 @@
+{
+	id: "0F30A38869186513"
+	group: "040733FB8D3F280D"
+	order_index: 3
+	filename: "player_transportation"
+	title: "Player transportation"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "120AEC5F7217CB99"
+		tasks: [{
+			id: "7701ADE437C79314"
+			type: "item"
+			item: "mekanism:portable_teleporter"
+		}]
+	}]
+}

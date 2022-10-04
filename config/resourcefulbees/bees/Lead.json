@@ -1,0 +1,29 @@
+{"flower": "thermal:lead_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#230b4f",
+	"secondaryColor": "#270369",
+	"honeycombColor": "#1f0947",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"thermal:lead_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Obsidian",
+	"parent2": "Iron",
+	"feedItem": "thermal:lead_ingot",
+	"feedAmount": 1}
+}

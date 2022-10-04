@@ -1,0 +1,33 @@
+{
+    "flower": "minecraft:nether_bricks",
+    "maxTimeInHive": 1600,
+    "hasHoneycomb": true,
+    "sizeModifier": 1.0,
+    "baseLayerTexture": "/custom/bee",  
+    "traits" : ["nether"],
+    "customCombDrop": "",
+    "customBombBlockDrop": "",
+    "apiaryOutputAmounts" : [2,4,2,4],
+    "ColorData": {
+	"primaryColor": "#fc6203",
+	"secondaryColor": "#421900",
+	"honeycombColor": "#ff8133",
+        "isBeeColored": true
+    },
+    "CentrifugeData": {  
+        "hasCentrifugeOutput": true,
+		"mainOutput":"minecraft:magma_block",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+    },
+    "SpawnData": {  
+        "canSpawnInWorld": true,
+		"biomeWhitelist": "TAG:nether"
+    },
+    "BreedData": {  
+        "isBreedable": true,
+		"feedItem": "minecraft:magma_block",
+		"feedAmount": 1
+    },
+    "TraitData": {}
+}

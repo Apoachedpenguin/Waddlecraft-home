@@ -1,0 +1,19 @@
+{
+	id: "69E7E4706B9D007B"
+	group: "659870EDC2E7CCBB"
+	order_index: 1
+	filename: "item_storage"
+	title: "Item storage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "24415474E0431555"
+		tasks: [{
+			id: "62AB54AD646C9670"
+			type: "item"
+			item: "minecraft:chest"
+		}]
+	}]
+}

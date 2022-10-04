@@ -1,0 +1,29 @@
+{"flower": "powah:nitro_crystal_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [1,2,1,2],
+"ColorData": {
+	"primaryColor": "#a6001e",
+	"secondaryColor": "#750016",
+	"honeycombColor": "#a6001e",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"powah:crystal_nitro",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 1.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Spirited",
+	"parent2": "Redstone",
+	"feedItem": "powah:crystal_nitro",
+	"feedAmount": 1}
+}

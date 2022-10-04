@@ -1,0 +1,33 @@
+{
+    "flower": "minecraft:dirt",
+    "maxTimeInHive": 1600,
+    "hasHoneycomb": true,
+    "sizeModifier": 1.0,
+    "baseLayerTexture": "/custom/bee",  
+    "traits" : [""],
+    "customCombDrop": "",
+    "customBombBlockDrop": "",
+    "apiaryOutputAmounts" : [2,4,2,4],
+    "ColorData": {
+	"primaryColor": "#63453C",
+	"secondaryColor": "#3F2D27",
+	"honeycombColor": "#523931",
+        "isBeeColored": true
+    },
+    "CentrifugeData": {  
+        "hasCentrifugeOutput": true,
+		"mainOutput":"minecraft:dirt",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+    },
+    "SpawnData": {  
+        "canSpawnInWorld": true,
+		"biomeWhitelist": "TAG:bee_habitat, meadow, hills"
+    },
+    "BreedData": {  
+        "isBreedable": true,
+		"feedItem": "minecraft:dirt",
+		"feedAmount": 1
+    },
+    "TraitData": {}
+}

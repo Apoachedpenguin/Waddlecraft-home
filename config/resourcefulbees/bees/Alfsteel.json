@@ -1,0 +1,29 @@
+{"flower": "mythicbotany:alfsteel_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [1,2,1,2],
+"ColorData": {
+	"primaryColor": "#ff9900",
+	"secondaryColor": "#fc9d0d",
+	"honeycombColor": "#fc9d0d",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"mythicbotany:alfsteel_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 1.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Elementium",
+	"parent2": "Bronze",
+	"feedItem": "mythicbotany:alfsteel_ingot",
+	"feedAmount": 1}
+}

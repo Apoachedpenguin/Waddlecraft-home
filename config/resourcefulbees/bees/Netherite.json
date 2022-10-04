@@ -1,0 +1,33 @@
+{
+  "flower": "tag:forge:storage_blocks/netherite",
+  "maxTimeInHive": 1600,
+  "hasHoneycomb": true,
+  "apiaryOutputAmounts" : [2,4,2,4],
+  "baseLayerTexture": "ores/netherite/netherite_bee",
+  "traits": ["nether", "wither"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#654740"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:netherite_scrap",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:nether",
+    "lightLevel": "NIGHT"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Netherrack",
+    "parent2": "Diamond",
+    "feedItem": "minecraft:netherite_ingot",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

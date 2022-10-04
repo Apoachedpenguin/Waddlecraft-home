@@ -1,0 +1,33 @@
+{
+  "flower": "tag:forge:storage_blocks/quartz",
+  "maxTimeInHive": 1600,
+  "hasHoneycomb": true,
+  "apiaryOutputAmounts" : [2,4,2,4],
+  "traits": ["nether"],
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#D4CABA",
+    "primaryColor": "#D4CABA",
+    "secondaryColor": "#303030"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:quartz",
+    "mainOutputCount": 5
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:nether",
+    "lightLevel": "NIGHT"
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"parent1": "Netherrack",
+	"parent2": "Snow",
+	"feedItem": "minecraft:quartz",
+	"feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

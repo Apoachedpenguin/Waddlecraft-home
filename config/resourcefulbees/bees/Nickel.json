@@ -1,0 +1,29 @@
+{"flower": "thermal:nickel_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#d4ad77",
+	"secondaryColor": "#b09063",
+	"honeycombColor": "#b09063",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"thermal:nickel_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 3.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Brass",
+	"parent2": "Iron",
+	"feedItem": "thermal:nickel_ingot",
+	"feedAmount": 1}
+}

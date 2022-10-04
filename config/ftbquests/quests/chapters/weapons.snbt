@@ -1,0 +1,26 @@
+{
+	id: "412759C36AC4BACC"
+	group: "24F6E96EC17D0C6B"
+	order_index: 1
+	filename: "weapons"
+	title: "Weapons"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		description: ["Poke"]
+		id: "5590912615C2B204"
+		tasks: [{
+			id: "347F566651958DE1"
+			type: "item"
+			item: {
+				id: "minecraft:wooden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	id: "55FAE929109D834A"
+	group: "040733FB8D3F280D"
+	order_index: 0
+	filename: "power_transportation"
+	title: "Power transportation"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "63510E8564628947"
+		tasks: [{
+			id: "5FF3B58C10408DBD"
+			type: "item"
+			item: "fluxnetworks:flux_plug"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	id: "76FEB8A097B35F42"
+	group: "24F6E96EC17D0C6B"
+	order_index: 3
+	filename: "magic"
+	title: "Magic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "7A28D050BE08DBE8"
+		tasks: [{
+			id: "26AF542C998B829C"
+			type: "item"
+			item: {
+				id: "projecte:philosophers_stone"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+		}]
+	}]
+}

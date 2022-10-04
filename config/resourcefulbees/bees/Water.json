@@ -1,0 +1,33 @@
+{
+    "flower": "minecraft:prismarine",
+    "maxTimeInHive": 1600,
+    "hasHoneycomb": true,
+    "sizeModifier": 1.0,
+	"baseLayerTexture": "/custom/bee",  
+    "traits" : [""],
+    "customCombDrop": "",
+    "customBombBlockDrop": "",
+    "apiaryOutputAmounts" : [2,4,2,4],
+    "ColorData": {
+	"primaryColor": "#00d5ff",
+	"secondaryColor": "#008eab",
+	"honeycombColor": "#00758c",
+        "isBeeColored": true
+    },
+    "CentrifugeData": {  
+        "hasCentrifugeOutput": true,
+		"mainOutput":"minecraft:prismarine",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+    },
+    "SpawnData": {  
+        "canSpawnInWorld": true,
+		"biomeWhitelist": "TAG:ocean, river"
+    },
+    "BreedData": {  
+        "isBreedable": true,
+		"feedItem": "minecraft:prismarine",
+		"feedAmount": 1
+    },
+    "TraitData": {}
+}

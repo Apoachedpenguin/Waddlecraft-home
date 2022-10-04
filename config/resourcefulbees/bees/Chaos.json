@@ -1,0 +1,29 @@
+{"flower": "draconicevolution:chaotic_crafting_injector",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [1,2,1,2],
+"ColorData": {
+	"primaryColor": "#000000",
+	"secondaryColor": "#000000",
+	"honeycombColor": "#000000",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"draconicevolution:small_chaos_frag",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Draconium",
+	"parent2": "Awakened_Draconium",
+	"feedItem": "draconicevolution:small_chaos_frag",
+	"feedAmount": 1}
+}

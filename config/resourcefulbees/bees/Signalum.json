@@ -1,0 +1,29 @@
+{"flower": "thermal:signalum_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#bf2d0f",
+	"secondaryColor": "#ba2102",
+	"honeycombColor": "#b82507",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"thermal:signalum_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 3.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Redstone",
+	"parent2": "Copper",
+	"feedItem": "thermal:signalum_ingot",
+	"feedAmount": 1}
+}

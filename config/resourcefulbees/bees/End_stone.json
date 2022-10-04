@@ -1,0 +1,31 @@
+{"flower": "minecraft:end_stone",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#dbdb9a",
+	"secondaryColor": "#d1d1a3",
+	"honeycombColor": "#ebebc5",
+	"isBeeColored": true,
+	"modelType": ""
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"minecraft:end_stone",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+},
+ "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "TAG:end",
+    "lightLevel": "NIGHT",
+    "spawnWeight": 20
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "",
+	"parent2": "",
+	"feedItem": "minecraft:end_stone",
+	"feedAmount": 1}
+}

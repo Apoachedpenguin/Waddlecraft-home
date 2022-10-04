@@ -1,0 +1,29 @@
+{"flower": "thermal:tin_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#9db0ac",
+	"secondaryColor": "#a5c2bc",
+	"honeycombColor": "#889996",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"thermal:tin_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Iron",
+	"parent2": "Stone",
+	"feedItem": "thermal:tin_ingot",
+	"feedAmount": 1}
+}

@@ -1,0 +1,29 @@
+{"flower": "create:brass_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#b89d44",
+	"secondaryColor": "#a68c37",
+	"honeycombColor": "#a68c37",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"create:brass_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Zinc",
+	"parent2": "Copper",
+	"feedItem": "create:brass_ingot",
+	"feedAmount": 1}
+}

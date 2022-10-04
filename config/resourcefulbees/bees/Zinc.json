@@ -1,0 +1,29 @@
+{"flower": "create:zinc_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#929c8e",
+	"secondaryColor": "#7c8778",
+	"honeycombColor": "#c8d4c3",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"create:zinc_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Tin",
+	"parent2": "Gravel",
+	"feedItem": "create:zinc_ingot",
+	"feedAmount": 1}
+}

@@ -1,0 +1,27 @@
+{"flower": "draconicevolution:basic_crafting_injector",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [1,2,1,2],
+"ColorData": {
+	"primaryColor": "#a079ba",
+	"secondaryColor": "#614673",
+	"honeycombColor": "#774e91",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"draconicevolution:draconium_ingot"
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Alfsteel",
+	"parent2": "Dragon",
+	"feedItem": "draconicevolution:draconium_ingot",
+	"feedAmount": 1}
+}

@@ -1,0 +1,29 @@
+{"flower": "mekanism:block_osmium",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#a4a9b0",
+	"secondaryColor": "#d1deed",
+	"honeycombColor": "#b1bbc7",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"mekanism:ingot_osmium",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 4.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Fluorite",
+	"parent2": "Iron",
+	"feedItem": "mekanism:ingot_osmium",
+	"feedAmount": 1}
+}

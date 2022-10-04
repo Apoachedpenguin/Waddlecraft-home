@@ -1,0 +1,29 @@
+{"flower": "psi:psimetal_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#e2b8ff",
+	"secondaryColor": "#c8a4e0",
+	"honeycombColor": "#cfb1e3",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"psi:psimetal",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 2.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Dielectric",
+	"parent2": "Gold",
+	"feedItem": "psi:psimetal",
+	"feedAmount": 1}
+}

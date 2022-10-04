@@ -1,0 +1,29 @@
+{"flower": "botania:terrasteel_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#2dff26",
+	"secondaryColor": "#23b31e",
+	"honeycombColor": "#44d43f",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"botania:terrasteel_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 2.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true,
+	"parent1": "Manasteel",
+	"parent2": "Emerald",
+	"feedItem": "botania:terrasteel_ingot",
+	"feedAmount": 1}
+}

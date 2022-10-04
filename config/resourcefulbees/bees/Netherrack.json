@@ -1,0 +1,33 @@
+{
+    "flower": "minecraft:netherrack",
+    "maxTimeInHive": 1600,
+    "hasHoneycomb": true,
+    "sizeModifier": 1.0,
+    "baseLayerTexture": "/custom/bee",  
+    "traits" : ["nether"],
+    "customCombDrop": "",
+    "customBombBlockDrop": "",
+    "apiaryOutputAmounts" : [2,4,2,4],
+    "ColorData": {
+	"primaryColor": "#8c0000",
+	"secondaryColor": "#380000",
+	"honeycombColor": "#993232",
+        "isBeeColored": true
+	},
+    "CentrifugeData": {  
+        "hasCentrifugeOutput": true,
+		"mainOutput":"minecraft:netherrack",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 5.00
+    },
+    "SpawnData": {  
+        "canSpawnInWorld": true,
+		"biomeWhitelist": "TAG:nether"
+    },
+    "BreedData": {  
+        "isBreedable": true,
+		"feedItem": "minecraft:netherrack",
+		"feedAmount": 1
+    },
+    "TraitData": {}
+}
