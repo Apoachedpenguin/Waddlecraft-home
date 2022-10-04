@@ -22,7 +22,7 @@
 },
 "BreedData": {  
 	"isBreedable": true,
-	"parent1": "Blaze",
+	"parent1": "Creeper",
 	"parent2": "Coal",
 	"feedItem": "thermal:sulfur",
 	"feedAmount": 1}

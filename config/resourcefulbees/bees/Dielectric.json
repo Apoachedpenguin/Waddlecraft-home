@@ -23,7 +23,7 @@
 "BreedData": {  
 	"isBreedable": true,
 	"parent1": "Coal",
-	"parent2": "Creeper",
+	"parent2": "Psimetal",
 	"feedItem": "powah:dielectric_paste",
 	"feedAmount": 1}
 }
