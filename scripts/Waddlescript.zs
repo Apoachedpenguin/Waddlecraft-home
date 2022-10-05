@@ -4,57 +4,6 @@ import mods.botania.PureDaisy;
 import crafttweaker.api.item.IItemStack;
 
 //recipe removal
-craftingTable.removeRecipe(<item:cyclic:heart>);
-craftingTable.removeRecipe(<item:cyclic:charm_creeper>);
-craftingTable.removeRecipe(<item:cyclic:soulstone>);
-craftingTable.removeRecipe(<item:psi:cad_assembler>);
-craftingTable.removeRecipe(<item:psi:programmer>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_iron>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_gold>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_psimetal>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_ebony_psimetal>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_ivory_psimetal>);
-craftingTable.removeRecipe(<item:thermal:machine_frame>);
-craftingTable.removeRecipe(<item:industrialforegoing:machine_frame_pity>);
-craftingTable.removeRecipe(<item:mekanism:steel_casing>);
-craftingTable.removeRecipe(<item:powah:dielectric_paste>);
-craftingTable.removeRecipe(<item:tiab:timeinabottle>);
-craftingTable.removeRecipe(<item:immersiveengineering:component_iron>);
-craftingTable.removeRecipe(<item:immersiveengineering:component_steel>);
-craftingTable.removeRecipe(<item:draconicevolution:draconium_core>);
-craftingTable.removeRecipe(<item:draconicevolution:wyvern_core>);
-craftingTable.removeRecipe(<item:ctiers:centrifuge_casing_tier_creative>);
-craftingTable.removeRecipe(<item:ctiers:centrifuge_controller_tier_creative>);
-craftingTable.removeRecipe(<item:extendedcrafting:black_iron_ingot>);
-craftingTable.removeRecipe(<item:rats:rat_whistle>);
-craftingTable.removeRecipe(<item:refinedstorage:processor_binding>);
-craftingTable.removeRecipe(<item:immersiveengineering:blastbrick>);
-craftingTable.removeRecipe(<item:bloodmagic:sacrificialdagger>);
-craftingTable.removeRecipe(<item:bloodmagic:altar>);
-craftingTable.removeRecipe(<item:rftoolsbase:machine_base>);
-craftingTable.removeRecipe(<item:rftoolsbase:machine_frame>);
-craftingTable.removeRecipe(<item:projecte:alchemical_chest>);
-craftingTable.removeRecipe(<item:projecte:collector_mk1>);
-craftingTable.removeRecipe(<item:projecte:collector_mk2>);
-craftingTable.removeRecipe(<item:projecte:collector_mk3>);
-craftingTable.removeRecipe(<item:projecte:condenser_mk1>);
-craftingTable.removeRecipe(<item:projecte:condenser_mk2>);
-craftingTable.removeRecipe(<item:projecte:transmutation_table>);
-craftingTable.removeRecipe(<item:projecte:relay_mk1>);
-craftingTable.removeRecipe(<item:projecte:relay_mk2>);
-craftingTable.removeRecipe(<item:projecte:relay_mk3>);
-craftingTable.removeRecipe(<item:projecte:philosophers_stone>);
-craftingTable.removeRecipe(<item:projecte:klein_star_ein>);
-craftingTable.removeRecipe(<item:projecte:alchemical_coal>);
-craftingTable.removeRecipe(<item:projecte:low_covalence_dust>);
-craftingTable.removeRecipe(<item:projecte:medium_covalence_dust>);
-craftingTable.removeRecipe(<item:projecte:high_covalence_dust>);
-craftingTable.removeRecipe(<item:projecte:dark_matter>);
-craftingTable.removeRecipe(<item:projecte:red_matter>);
-craftingTable.removeRecipe(<item:projecte:watch_of_flowing_time>);
-craftingTable.removeRecipe(<item:projecte:transmutation_tablet>);
-craftingTable.removeRecipe(<item:projecte:repair_talisman>);
-craftingTable.removeRecipe(<item:itemcollectors:basic_collector>);
 craftingTable.removeByRegex(".*_gear.*");
 craftingTable.removeRecipeByInput(<item:immersiveengineering:hammer>);
 <recipetype:immersiveengineering:metal_press>.removeByRegex(".*plate_.*");
@@ -90,10 +39,6 @@ craftingTable.addShapeless("processor_binding", <item:refinedstorage:processor_b
 	[<item:botania:mana_powder>, <item:powah:dielectric_paste>, <item:minecraft:slime_ball>]);
 craftingTable.addShapeless("witherbone", <item:iceandfire:witherbone> *2,
 	[<item:minecraft:wither_skeleton_skull>]);
-craftingTable.addShaped("basic_collector", <item:itemcollectors:basic_collector>, [
-	[<item:minecraft:air>, <item:minecraft:ender_eye>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:hopper>, <item:minecraft:air>],
-	[<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]]);
 
 //create mod
 
@@ -665,3 +610,5 @@ craftingTable.addShaped ("transmutation_tablet", <item:projecte:transmutation_ta
 [<item:projecte:dark_matter_block>, <item:botania:dragonstone_block>, <item:projecte:dark_matter_block>],
 [<item:botania:dragonstone_block>, <item:projecte:transmutation_table>, <item:botania:dragonstone_block>],
 [<item:projecte:dark_matter_block>, <item:botania:dragonstone_block>, <item:projecte:dark_matter_block>]]);
+
+//gobber
