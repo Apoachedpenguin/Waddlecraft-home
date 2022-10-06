@@ -26,6 +26,7 @@ config/blockswap/known_states/
 /XaeroWaypoints*/
 /XaeroWorldMap/
 /cache/
+/.vscode/
 
 
 # root files
