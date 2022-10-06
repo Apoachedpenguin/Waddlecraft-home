@@ -25,6 +25,7 @@ config/blockswap/known_states/
 /profileImage/
 /XaeroWaypoints*/
 /XaeroWorldMap/
+/cache/
 
 
 # root files
