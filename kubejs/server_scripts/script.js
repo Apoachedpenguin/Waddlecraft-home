@@ -73,81 +73,89 @@ onEvent('recipes', event => {
 		event.remove({ id: recipe })
 	})
 
-	onEvent('recipes', event => {
-		const shapedRecipes = [
-			{
-				output: '2x industrialforegoing:machine_frame_pity',
-				pattern: [
-					'ABA',
-					'BCB',
-					'ABA'
-				],
-				key: {
-					A: 'minecraft:oak_wood',
-					B: 'thermal:iron_gear',
-					C: 'immersiveengineering:rs_engineering'
-				}
-			},
-			{
-				output: '6x immersiveengineering:blastbrick',
-				pattern: [
-					'KJK',
-					'JLJ',
-					'KJK'
-				],
-				key: {
-					K: 'minecraft:nether_brick',
-					J: 'thermal:iron_plate',
-					L: 'minecraft:magma_block'
-				}
-			},
-			{
-				output: 'thermal:machine_frame',
-				pattern: [
-					'KJK',
-					'JLJ',
-					'KJK'
-				],
-				key: {
-					K: 'immersiveengineering:sheetmetal_steel',
-					J: 'immersiveengineering:sheetmetal_silver',
-					L: 'minecraft:iron_block'
-				}
-			},
-			{
-				output: 'psi:cad_assembler',
-				pattern: [
-					'ABA',
-					'CDC',
-					'CCC'
-				],
-				key: {
-					A: 'pneumaticcraft:air_canister',
-					B: 'pneumaticcraft:capacitor',
-					C: 'pneumaticcraft:ingot_iron_compressed',
-					D: 'pneumaticcraft:compressed_iron_block'
-				}
-			},
-			{
-				output: 'psi:programmer',
-				pattern: [
-					'ABA',
-					'ACA',
-					'DDD'
-				],
-				key: {
-					A: 'pneumaticcraft:network_node',
-					B: 'pneumaticcraft:capacitor',
-					C: 'pneumaticcraft:compressed_iron_block',
-					D: 'pneumaticcraft:ingot_iron_compressed'
-				}
+	const shapedRecipes = [
+		{
+			output: '2x industrialforegoing:machine_frame_pity',
+			pattern: [
+				'ABA',
+				'BCB',
+				'ABA'
+			],
+			key: {
+				A: 'minecraft:oak_wood',
+				B: 'thermal:iron_gear',
+				C: 'immersiveengineering:rs_engineering'
 			}
-		]
-	
-		shapedRecipes.forEach(recipe => {
-			event.shaped(recipe.output, recipe.pattern, recipe.key)
+		},
+		{
+			output: '6x immersiveengineering:blastbrick',
+			pattern: [
+				'KJK',
+				'JLJ',
+				'KJK'
+			],
+			key: {
+				K: 'minecraft:nether_brick',
+				J: 'thermal:iron_plate',
+				L: 'minecraft:magma_block'
+			}
+		},
+		{
+			output: 'thermal:machine_frame',
+			pattern: [
+				'KJK',
+				'JLJ',
+				'KJK'
+			],
+			key: {
+				K: 'immersiveengineering:sheetmetal_steel',
+				J: 'immersiveengineering:sheetmetal_silver',
+				L: 'minecraft:iron_block'
+			}
+		},
+		{
+			output: 'psi:cad_assembler',
+			pattern: [
+				'ABA',
+				'CDC',
+				'CCC'
+			],
+			key: {
+				A: 'pneumaticcraft:air_canister',
+				B: 'pneumaticcraft:capacitor',
+				C: 'pneumaticcraft:ingot_iron_compressed',
+				D: 'pneumaticcraft:compressed_iron_block'
+			}
+		},
+		{
+			output: 'psi:programmer',
+			pattern: [
+				'ABA',
+				'ACA',
+				'DDD'
+			],
+			key: {
+				A: 'pneumaticcraft:network_node',
+				B: 'pneumaticcraft:capacitor',
+				C: 'pneumaticcraft:compressed_iron_block',
+				D: 'pneumaticcraft:ingot_iron_compressed'
+			}
+		}
+	]
+	colours.forEach(colour => {
+		event.shaped(`16x minecraft:${colour}_dye`, [
+			'AAA',
+			'ABA',
+			'AAA'
+		], {
+			A: 'resourcefulbees:rgbee_honeycomb',
+			B: 'minecraft:' + colour + '_dye'
 		})
 	})
+})
+
+shapedRecipes.forEach(recipe => {
+	event.shaped(recipe.output, recipe.pattern, recipe.key)
 })
 
 onEvent('item.tags', event => {

@@ -274,19 +274,6 @@ mods.jei.JEI.addInfo(<item:rats:rat_whistle>, ["disabled due to crashing, sorry!
 	
 //blood magic
 
-<recipetype:bloodmagic:altar>.addRecipe("blankslate", <item:bloodmagic:blankslate>, <item:botania:quartz_elven>, 0, 1000, 10, 2);
-<recipetype:bloodmagic:altar>.addRecipe("weakbloodorb", <item:bloodmagic:weakbloodorb>, <item:botania:mana_diamond>, 0, 2000, 20, 2);
-<recipetype:bloodmagic:altar>.addRecipe("soulsnare", <item:bloodmagic:soulsnare>, <item:botania:mana_string>, 0, 500, 10, 2);
-<recipetype:bloodmagic:altar>.addRecipe("daggerofsacrifice", <item:bloodmagic:daggerofsacrifice>, <item:botania:terra_sword>, 1, 3000, 30, 6);
-<recipetype:bloodmagic:altar>.addRecipe("weak_tau", <item:bloodmagic:weak_tau>, <item:minecraft:sweet_berries>, 1, 1500, 30, 6);
-<recipetype:bloodmagic:altar>.addRecipe("apprenticebloodorb", <item:bloodmagic:apprenticebloodorb>, <item:botania:elementium_ingot>, 1, 5000, 30, 6);
-<recipetype:bloodmagic:altar>.addRecipe("magicianbloodorb", <item:bloodmagic:magicianbloodorb>, <item:botania:terrasteel_ingot>, 2, 25000, 100, 10);
-<recipetype:bloodmagic:altar>.addRecipe("airscribetool", <item:bloodmagic:airscribetool>, <item:botania:rune_air>, 2, 1000, 100, 10);
-<recipetype:bloodmagic:altar>.addRecipe("waterinscribetool", <item:bloodmagic:waterscribetool>, <item:botania:rune_water>, 2, 1000, 100, 10);
-<recipetype:bloodmagic:altar>.addRecipe("earthscribetool", <item:bloodmagic:earthscribetool>, <item:botania:rune_earth>, 2, 1000, 100, 10);
-<recipetype:bloodmagic:altar>.addRecipe("firescribetool", <item:bloodmagic:firescribetool>, <item:botania:rune_fire>, 2, 1000, 100, 10);
-<recipetype:bloodmagic:altar>.addRecipe("duskscribetool", <item:bloodmagic:duskscribetool>, <item:botania:rune_mana>, 3, 2000, 200, 15);
-<recipetype:bloodmagic:altar>.addRecipe("masterbloodorb", <item:bloodmagic:masterbloodorb>, <item:mythicbotany:alfsteel_ingot>, 3, 40000, 200, 15);
 
 
 craftingTable.addShaped("sacrificialdagger", <item:bloodmagic:sacrificialdagger>, [
