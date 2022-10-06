@@ -92,11 +92,6 @@ craftingTable.addShapeless("vgearbox", <item:create:vertical_gearbox>,
 <recipetype:immersiveengineering:metal_press>.addRecipe("compressed_iron_gear", <item:pneumaticcraft:ingot_iron_compressed> *4, <item:immersiveengineering:mold_gear>, 1000, <item:pneumaticcraft:compressed_iron_gear>);
 <recipetype:immersiveengineering:crusher>.addRecipe("plastic_waste", <item:rats:plastic_waste>, 500, <item:industrialforegoing:dryrubber>, <item:industrialforegoing:dryrubber> %75);
 
-craftingTable.addShaped("blastbrick", <item:immersiveengineering:blastbrick> *6, [
-	[<item:minecraft:nether_brick>, <item:thermal:iron_plate>, <item:minecraft:nether_brick>],
-	[<item:thermal:iron_plate>, <item:minecraft:magma_block>, <item:thermal:iron_plate>],
-	[<item:minecraft:nether_brick>, <item:thermal:iron_plate>, <item:minecraft:nether_brick>]]);
-	
 //thermal mod
 
 <recipetype:thermal:press>.addRecipe("plate_steel", [<item:immersiveengineering:plate_steel> % 100], <fluid:minecraft:empty>, [<item:mekanism:ingot_steel>], 500);
@@ -110,16 +105,8 @@ craftingTable.addShaped("blastbrick", <item:immersiveengineering:blastbrick> *6,
 <recipetype:thermal:smelter>.addRecipe("steel_casing", [<item:mekanism:steel_casing> %100], [<item:mekanism:block_steel>, <item:thermal:machine_frame>, <item:industrialforegoing:plastic> *4], 25, 1000);
 <recipetype:thermal:smelter>.addRecipe("press_gear_die", [<item:thermal:press_gear_die> %100], [<item:thermal:diamond_gear>, <item:thermal:invar_plate> *4], 25, 1000);
 craftingTable.addShaped("thermal_machine_frame", <item:thermal:machine_frame>, [
-	[<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:sheetmetal_silver>, <item:immersiveengineering:sheetmetal_steel>],
-	[<item:immersiveengineering:sheetmetal_silver>, <item:minecraft:iron_block>, <item:immersiveengineering:sheetmetal_silver>],
-	[<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:sheetmetal_silver>, <item:immersiveengineering:sheetmetal_steel>]]);
 
 //industrial foregoing mod
-
-craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_frame_pity> *2, [
-	[<item:minecraft:oak_wood>, <item:thermal:iron_gear>, <item:minecraft:oak_wood>],
-	[<item:thermal:iron_gear>, <item:immersiveengineering:rs_engineering>, <item:thermal:iron_gear>],
-	[<item:minecraft:oak_wood>, <item:thermal:iron_gear>, <item:minecraft:oak_wood>]]);
 
 //mekanism mod
 
@@ -144,11 +131,6 @@ craftingTable.addShapedMirrored("cad_assembly_ivory_psimetal", <item:psi:cad_ass
 	[<item:psi:psigem>, <item:psi:ivory_psimetal>, <item:pneumaticcraft:pneumatic_cylinder>],
 	[<item:psi:ivory_psimetal>, <item:pneumaticcraft:advanced_pcb>, <item:minecraft:air>]]);
 
-craftingTable.addShaped("assembler", <item:psi:cad_assembler>, [
-	[<item:pneumaticcraft:air_canister>, <item:pneumaticcraft:capacitor>, <item:pneumaticcraft:air_canister>],
-	[<item:pneumaticcraft:ingot_iron_compressed>, <item:pneumaticcraft:compressed_iron_block>, <item:pneumaticcraft:ingot_iron_compressed>],
-	[<item:pneumaticcraft:ingot_iron_compressed>, <item:pneumaticcraft:ingot_iron_compressed>, <item:pneumaticcraft:ingot_iron_compressed>]]);
-	
 craftingTable.addShaped("programmer", <item:psi:programmer>, [
 	[<item:pneumaticcraft:network_node>, <item:pneumaticcraft:capacitor>, <item:pneumaticcraft:network_node>],
 	[<item:pneumaticcraft:network_node>, <item:pneumaticcraft:compressed_iron_block>, <item:pneumaticcraft:network_node>],
