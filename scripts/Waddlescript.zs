@@ -4,57 +4,6 @@ import mods.botania.PureDaisy;
 import crafttweaker.api.item.IItemStack;
 
 //recipe removal
-craftingTable.removeRecipe(<item:cyclic:heart>);
-craftingTable.removeRecipe(<item:cyclic:charm_creeper>);
-craftingTable.removeRecipe(<item:cyclic:soulstone>);
-craftingTable.removeRecipe(<item:psi:cad_assembler>);
-craftingTable.removeRecipe(<item:psi:programmer>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_iron>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_gold>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_psimetal>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_ebony_psimetal>);
-craftingTable.removeRecipe(<item:psi:cad_assembly_ivory_psimetal>);
-craftingTable.removeRecipe(<item:thermal:machine_frame>);
-craftingTable.removeRecipe(<item:industrialforegoing:machine_frame_pity>);
-craftingTable.removeRecipe(<item:mekanism:steel_casing>);
-craftingTable.removeRecipe(<item:powah:dielectric_paste>);
-craftingTable.removeRecipe(<item:tiab:timeinabottle>);
-craftingTable.removeRecipe(<item:immersiveengineering:component_iron>);
-craftingTable.removeRecipe(<item:immersiveengineering:component_steel>);
-craftingTable.removeRecipe(<item:draconicevolution:draconium_core>);
-craftingTable.removeRecipe(<item:draconicevolution:wyvern_core>);
-craftingTable.removeRecipe(<item:ctiers:centrifuge_casing_tier_creative>);
-craftingTable.removeRecipe(<item:ctiers:centrifuge_controller_tier_creative>);
-craftingTable.removeRecipe(<item:extendedcrafting:black_iron_ingot>);
-craftingTable.removeRecipe(<item:rats:rat_whistle>);
-craftingTable.removeRecipe(<item:refinedstorage:processor_binding>);
-craftingTable.removeRecipe(<item:immersiveengineering:blastbrick>);
-craftingTable.removeRecipe(<item:bloodmagic:sacrificialdagger>);
-craftingTable.removeRecipe(<item:bloodmagic:altar>);
-craftingTable.removeRecipe(<item:rftoolsbase:machine_base>);
-craftingTable.removeRecipe(<item:rftoolsbase:machine_frame>);
-craftingTable.removeRecipe(<item:projecte:alchemical_chest>);
-craftingTable.removeRecipe(<item:projecte:collector_mk1>);
-craftingTable.removeRecipe(<item:projecte:collector_mk2>);
-craftingTable.removeRecipe(<item:projecte:collector_mk3>);
-craftingTable.removeRecipe(<item:projecte:condenser_mk1>);
-craftingTable.removeRecipe(<item:projecte:condenser_mk2>);
-craftingTable.removeRecipe(<item:projecte:transmutation_table>);
-craftingTable.removeRecipe(<item:projecte:relay_mk1>);
-craftingTable.removeRecipe(<item:projecte:relay_mk2>);
-craftingTable.removeRecipe(<item:projecte:relay_mk3>);
-craftingTable.removeRecipe(<item:projecte:philosophers_stone>);
-craftingTable.removeRecipe(<item:projecte:klein_star_ein>);
-craftingTable.removeRecipe(<item:projecte:alchemical_coal>);
-craftingTable.removeRecipe(<item:projecte:low_covalence_dust>);
-craftingTable.removeRecipe(<item:projecte:medium_covalence_dust>);
-craftingTable.removeRecipe(<item:projecte:high_covalence_dust>);
-craftingTable.removeRecipe(<item:projecte:dark_matter>);
-craftingTable.removeRecipe(<item:projecte:red_matter>);
-craftingTable.removeRecipe(<item:projecte:watch_of_flowing_time>);
-craftingTable.removeRecipe(<item:projecte:transmutation_tablet>);
-craftingTable.removeRecipe(<item:projecte:repair_talisman>);
-craftingTable.removeRecipe(<item:itemcollectors:basic_collector>);
 craftingTable.removeByRegex(".*_gear.*");
 craftingTable.removeRecipeByInput(<item:immersiveengineering:hammer>);
 <recipetype:immersiveengineering:metal_press>.removeByRegex(".*plate_.*");
@@ -90,10 +39,6 @@ craftingTable.addShapeless("processor_binding", <item:refinedstorage:processor_b
 	[<item:botania:mana_powder>, <item:powah:dielectric_paste>, <item:minecraft:slime_ball>]);
 craftingTable.addShapeless("witherbone", <item:iceandfire:witherbone> *2,
 	[<item:minecraft:wither_skeleton_skull>]);
-craftingTable.addShaped("basic_collector", <item:itemcollectors:basic_collector>, [
-	[<item:minecraft:air>, <item:minecraft:ender_eye>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:hopper>, <item:minecraft:air>],
-	[<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]]);
 
 //create mod
 
@@ -147,11 +92,6 @@ craftingTable.addShapeless("vgearbox", <item:create:vertical_gearbox>,
 <recipetype:immersiveengineering:metal_press>.addRecipe("compressed_iron_gear", <item:pneumaticcraft:ingot_iron_compressed> *4, <item:immersiveengineering:mold_gear>, 1000, <item:pneumaticcraft:compressed_iron_gear>);
 <recipetype:immersiveengineering:crusher>.addRecipe("plastic_waste", <item:rats:plastic_waste>, 500, <item:industrialforegoing:dryrubber>, <item:industrialforegoing:dryrubber> %75);
 
-craftingTable.addShaped("blastbrick", <item:immersiveengineering:blastbrick> *6, [
-	[<item:minecraft:nether_brick>, <item:thermal:iron_plate>, <item:minecraft:nether_brick>],
-	[<item:thermal:iron_plate>, <item:minecraft:magma_block>, <item:thermal:iron_plate>],
-	[<item:minecraft:nether_brick>, <item:thermal:iron_plate>, <item:minecraft:nether_brick>]]);
-	
 //thermal mod
 
 <recipetype:thermal:press>.addRecipe("plate_steel", [<item:immersiveengineering:plate_steel> % 100], <fluid:minecraft:empty>, [<item:mekanism:ingot_steel>], 500);
@@ -165,16 +105,8 @@ craftingTable.addShaped("blastbrick", <item:immersiveengineering:blastbrick> *6,
 <recipetype:thermal:smelter>.addRecipe("steel_casing", [<item:mekanism:steel_casing> %100], [<item:mekanism:block_steel>, <item:thermal:machine_frame>, <item:industrialforegoing:plastic> *4], 25, 1000);
 <recipetype:thermal:smelter>.addRecipe("press_gear_die", [<item:thermal:press_gear_die> %100], [<item:thermal:diamond_gear>, <item:thermal:invar_plate> *4], 25, 1000);
 craftingTable.addShaped("thermal_machine_frame", <item:thermal:machine_frame>, [
-	[<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:sheetmetal_silver>, <item:immersiveengineering:sheetmetal_steel>],
-	[<item:immersiveengineering:sheetmetal_silver>, <item:minecraft:iron_block>, <item:immersiveengineering:sheetmetal_silver>],
-	[<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:sheetmetal_silver>, <item:immersiveengineering:sheetmetal_steel>]]);
 
 //industrial foregoing mod
-
-craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_frame_pity> *2, [
-	[<item:minecraft:oak_wood>, <item:thermal:iron_gear>, <item:minecraft:oak_wood>],
-	[<item:thermal:iron_gear>, <item:immersiveengineering:rs_engineering>, <item:thermal:iron_gear>],
-	[<item:minecraft:oak_wood>, <item:thermal:iron_gear>, <item:minecraft:oak_wood>]]);
 
 //mekanism mod
 
@@ -199,11 +131,6 @@ craftingTable.addShapedMirrored("cad_assembly_ivory_psimetal", <item:psi:cad_ass
 	[<item:psi:psigem>, <item:psi:ivory_psimetal>, <item:pneumaticcraft:pneumatic_cylinder>],
 	[<item:psi:ivory_psimetal>, <item:pneumaticcraft:advanced_pcb>, <item:minecraft:air>]]);
 
-craftingTable.addShaped("assembler", <item:psi:cad_assembler>, [
-	[<item:pneumaticcraft:air_canister>, <item:pneumaticcraft:capacitor>, <item:pneumaticcraft:air_canister>],
-	[<item:pneumaticcraft:ingot_iron_compressed>, <item:pneumaticcraft:compressed_iron_block>, <item:pneumaticcraft:ingot_iron_compressed>],
-	[<item:pneumaticcraft:ingot_iron_compressed>, <item:pneumaticcraft:ingot_iron_compressed>, <item:pneumaticcraft:ingot_iron_compressed>]]);
-	
 craftingTable.addShaped("programmer", <item:psi:programmer>, [
 	[<item:pneumaticcraft:network_node>, <item:pneumaticcraft:capacitor>, <item:pneumaticcraft:network_node>],
 	[<item:pneumaticcraft:network_node>, <item:pneumaticcraft:compressed_iron_block>, <item:pneumaticcraft:network_node>],
@@ -665,3 +592,5 @@ craftingTable.addShaped ("transmutation_tablet", <item:projecte:transmutation_ta
 [<item:projecte:dark_matter_block>, <item:botania:dragonstone_block>, <item:projecte:dark_matter_block>],
 [<item:botania:dragonstone_block>, <item:projecte:transmutation_table>, <item:botania:dragonstone_block>],
 [<item:projecte:dark_matter_block>, <item:botania:dragonstone_block>, <item:projecte:dark_matter_block>]]);
+
+//gobber
