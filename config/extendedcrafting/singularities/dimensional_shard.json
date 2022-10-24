@@ -1,0 +1,10 @@
+{
+  "name": "Dimensional Shard",
+  "colors": [
+    "6feaef",
+    "6feaef"
+  ],
+  "ingredient": {
+    "item": "rftoolsbase:dimensionalshard"
+  }
+}

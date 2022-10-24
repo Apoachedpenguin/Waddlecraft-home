@@ -1,0 +1,10 @@
+{
+  "name": "Ebony Substance",
+  "colors": [
+    "050505",
+    "4a4a4a"
+  ],
+  "ingredient": {
+    "item": "psi:ebony_substance"
+  }
+}

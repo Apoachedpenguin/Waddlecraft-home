@@ -24,7 +24,7 @@
 			enabled = true
 
 		[modules.agriculture.mob_duplicator]
-			enabled = true
+			enabled = false
 
 		[modules.agriculture.wither_builder]
 			enabled = true

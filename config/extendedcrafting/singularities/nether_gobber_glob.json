@@ -1,0 +1,10 @@
+{
+  "name": "Nether Glob",
+  "colors": [
+    "bf3f6c",
+    "853853"
+  ],
+  "ingredient": {
+    "item": "gobber2:gobber2_glob_nether"
+  }
+}

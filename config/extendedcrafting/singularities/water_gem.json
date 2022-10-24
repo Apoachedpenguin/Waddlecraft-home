@@ -1,0 +1,10 @@
+{
+  "name": "Water Gem",
+  "colors": [
+    "9cb9db",
+    "466e9c"
+  ],
+  "ingredient": {
+    "tag": "elementalcraft:gems/crude_water"
+  }
+}

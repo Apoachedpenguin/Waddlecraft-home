@@ -1,0 +1,10 @@
+{
+  "name": "Garbage",
+  "colors": [
+    "261313",
+    "382a2a"
+  ],
+  "ingredient": {
+    "item": "rats:garbage_pile"
+  }
+}

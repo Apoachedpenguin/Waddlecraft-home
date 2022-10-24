@@ -1,0 +1,10 @@
+{
+    "name": "Apatite",
+    "colors": [
+        "4accf0",
+        "6edfff"
+    ],
+    "ingredient": {
+        "item": "thermal:apatite"
+    }
+}

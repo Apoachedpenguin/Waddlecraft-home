@@ -246,5 +246,9 @@
    "block.resourcefulbees.lightning_dragonsteel_honeycomb_block": "Lightning Dragonsteel Honeycomb Block",
    "item.resourcefulbees.lightning_dragonsteel_honeycomb": "Lightning Dragonsteel Honeycomb",
    "item.resourcefulbees.lightning_dragonsteel_bee_spawn_egg": "Lightning Dragonsteel Bee Spawn Egg",
-   "entity.resourcefulbees.lightning_dragonsteel_bee": "Lightning Dragonsteel Bee"
+   "entity.resourcefulbees.lightning_dragonsteel_bee": "Lightning Dragonsteel Bee",
+   "block.resourcefulbees.yellorium_honeycomb_block": "Yellorium Honeycomb Block",
+   "item.resourcefulbees.yellorium_honeycomb": "Yellorium Honeycomb",
+   "item.resourcefulbees.yellorium_bee_spawn_egg": "Yellorium Bee Spawn Egg",
+   "entity.resourcefulbees.yellorium_bee": "Yellorium Bee"
 }

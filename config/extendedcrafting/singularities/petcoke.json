@@ -1,0 +1,10 @@
+{
+  "name": "Petcoke",
+  "colors": [
+    "333333",
+    "1a1919"
+  ],
+  "ingredient": {
+    "tag": "forge:coal_petcoke"
+  }
+}

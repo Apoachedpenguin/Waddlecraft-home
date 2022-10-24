@@ -39,10 +39,10 @@
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:nether",
-    "spawnWeight": 8,
+    "spawnWeight": 2,
     "minGroupSize": 1,
     "maxGroupSize": 1,
-    "maxYLevel": 45,
+    "maxYLevel": 25,
     "lightLevel": "NIGHT"
   },
   "BreedData": {

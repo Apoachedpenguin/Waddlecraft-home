@@ -1,0 +1,10 @@
+{
+  "name": "Aquamarine",
+  "colors": [
+    "307cab",
+    "0c4d75"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/aquamarine"
+  }
+}

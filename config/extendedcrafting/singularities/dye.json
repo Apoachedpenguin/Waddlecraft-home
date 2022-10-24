@@ -1,0 +1,10 @@
+{
+  "name": "Dye",
+  "colors": [
+    "000000",
+    "000000"
+  ],
+  "ingredient": {
+    "tag": "forge:dyes"
+  }
+}

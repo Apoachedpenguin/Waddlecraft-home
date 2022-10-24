@@ -1,0 +1,10 @@
+{
+  "name": "Ultimate Netherite",
+  "colors": [
+    "850009",
+    "1c1111"
+  ],
+  "ingredient": {
+    "item": "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+  }
+}

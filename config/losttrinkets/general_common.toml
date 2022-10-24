@@ -5,7 +5,7 @@ unlockEnabled = true
 unlockCooldown = 2400
 #List of banned trinkets eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will also be removed from players that already unlocked them.
-blackList = ["losttrinets:horseshoe", "losttrinket:rock_candy", "losttrinkets:magical_feathers", "losttrinkets:tha_cloud", "losttrinkets:turtle_shell", "losttrinkets:blaze_heart", "losttrinkets:tea_leaf", "losttrinkets:dark_egg", "losttrinkets:octopus_leg", "losttrinkets:magical_herbs", "losttrinkets:mad_aura", "losttrinkets:empty_amulet"]
+blackList = ["losttrinkets:starfish", "losttrinkets:golden_tooth", "losttrinkets:rock_candy", "losttrinkets:magical_feathers", "losttrinkets:tha_cloud", "losttrinkets:blaze_heart", "losttrinkets:tea_leaf", "losttrinkets:dark_egg", "losttrinkets:octopus_leg", "losttrinkets:magical_herbs", "losttrinkets:mad_aura", "losttrinkets:empty_amulet"]
 #List of trinkets that can't be unlocked randomly eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will not be removed from players that already unlocked them.
 nonRandom = []
@@ -13,16 +13,16 @@ nonRandom = []
 [Trinket_Slots]
 	#Amount of Xp levels added to the next unlocking cost.
 	#Range: 0 ~ 1000
-	slotUpFactor = 3
+	slotUpFactor = 5
 	#Maximum number of trinket slots the player can have (does not remove unlocked slots)
 	#Range: 1 ~ 40
-	maxSlots = 40
+	maxSlots = 20
 	#Numbers of trinket slots the player will start with (Only effect newer players!!).
 	#Range: 0 ~ 40
 	startSlots = 1
 	#Levels of xp needed to unlock a trinket slot.
 	#Range: 0 ~ 1000
-	slotCost = 15
+	slotCost = 20
 
 [Killing_Unlocks]
 	#Set to false to disable unlocking trinkets from killing non-Boss entities.

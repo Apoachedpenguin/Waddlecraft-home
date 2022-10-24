@@ -22,7 +22,7 @@
 },
 "BreedData": {  
 	"isBreedable": true,
-	"parent1": "Dielectric",
+	"parent1": "Fluorite",
 	"parent2": "Gold",
 	"feedItem": "psi:psimetal",
 	"feedAmount": 1}

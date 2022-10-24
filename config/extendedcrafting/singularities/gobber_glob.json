@@ -1,0 +1,10 @@
+{
+  "name": "Gobber Glob",
+  "colors": [
+    "383bff",
+    "4f67ff"
+  ],
+  "ingredient": {
+    "item": "gobber2:gobber2_glob"
+  }
+}

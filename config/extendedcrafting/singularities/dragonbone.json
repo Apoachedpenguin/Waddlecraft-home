@@ -1,0 +1,10 @@
+{
+  "name": "Dragonbone",
+  "colors": [
+    "bdbfbf",
+    "dff5f4"
+  ],
+  "ingredient": {
+    "item": "iceandfire:dragonbone"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Insightful",
+  "colors": [
+    "024501",
+    "010f01"
+  ],
+  "ingredient": {
+    "item": "thermal:xp_crystal"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Lonsdaleite",
+  "colors": [
+    "454f63",
+    "393f4d"
+  ],
+  "ingredient": {
+    "item": "envirocore:lonsdaleite_crystal"
+  }
+}

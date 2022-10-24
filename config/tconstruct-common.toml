@@ -6,7 +6,7 @@
 	#If true, tables such as the part builder and tinker station will show all variants. If false shows only a variant with a default texture.
 	showAllTableVariants = true
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = true
+	shouldSpawnWithTinkersBook = false
 	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
 	#If empty, all materials will show
 	showOnlyToolMaterial = ""
@@ -84,7 +84,7 @@
 		[worldgen.slime_islands.sky]
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 60
+			separation = 70
 			#If true, this island generates
 			generate = true
 
@@ -92,7 +92,7 @@
 		[worldgen.slime_islands.earth]
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 40
+			separation = 50
 			#If true, this island generates
 			generate = true
 
@@ -100,7 +100,7 @@
 		[worldgen.slime_islands.end]
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 40
+			separation = 36
 			#If true, this island generates
 			generate = true
 
@@ -108,7 +108,7 @@
 		[worldgen.slime_islands.blood]
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 20
+			separation = 23
 			#If true, this island generates
 			generate = true
 

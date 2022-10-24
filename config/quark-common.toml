@@ -25,15 +25,15 @@
 	"Interpret Shulker Box Like Blocks" = true
 
 [categories]
-	Building = false
-	Automation = false
+	Building = true
+	Automation = true
 	Oddities = false
 	Tweaks = true
 	Experimental = false
-	Mobs = false
-	Tools = false
+	Mobs = true
+	Tools = true
 	Management = true
-	World = false
+	World = true
 	Client = true
 
 [automation]

@@ -1,0 +1,10 @@
+{
+  "name": "Blaze",
+  "colors": [
+    "cf9845",
+    "cb9f5d"
+  ],
+  "ingredient": {
+    "item": "minecraft:blaze_rod"
+  }
+}

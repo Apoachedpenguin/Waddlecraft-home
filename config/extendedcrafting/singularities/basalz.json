@@ -1,0 +1,10 @@
+{
+  "name": "Basalz",
+  "colors": [
+    "d10000",
+    "140000"
+  ],
+  "ingredient": {
+    "item": "thermal:basalz_rod"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Blitz",
+  "colors": [
+    "ffe312",
+    "fff8c2"
+  ],
+  "ingredient": {
+    "item": "thermal:blitz_mole"
+  }
+}

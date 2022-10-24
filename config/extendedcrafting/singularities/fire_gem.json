@@ -1,0 +1,10 @@
+{
+  "name": "Fire Gem",
+  "colors": [
+    "a6050d",
+    "780208"
+  ],
+  "ingredient": {
+    "tag": "elementalcraft:gems/crude_fire"
+  }
+}

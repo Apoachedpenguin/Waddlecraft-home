@@ -1,0 +1,10 @@
+{
+  "name": "Chaos Shard",
+  "colors": [
+    "030303",
+    "000000"
+  ],
+  "ingredient": {
+    "item": "draconicevolution:medium_chaos_frag"
+  }
+}

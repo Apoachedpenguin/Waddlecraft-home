@@ -1,0 +1,10 @@
+{
+  "name": "Air Gem",
+  "colors": [
+    "fff9b5",
+    "b5b181"
+  ],
+  "ingredient": {
+    "tag": "elementalcraft:gems/crude_air"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Cobblestone",
+  "colors": [
+    "2b2a29",
+    "383736"
+  ],
+  "ingredient": {
+    "item": "compressium:cobblestone_2"
+  }
+}

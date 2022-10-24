@@ -1,0 +1,10 @@
+{
+  "name": "Ender Pearl",
+  "colors": [
+    "23594e",
+    "2f264f"
+  ],
+  "ingredient": {
+    "tag": "forge:ender_pearls"
+  }
+}

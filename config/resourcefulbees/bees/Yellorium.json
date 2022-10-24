@@ -1,0 +1,29 @@
+{"flower": "bigreactors:yellorium_block",
+	"maxTimeInHive": 1600,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
+	"apiaryOutputAmounts" : [2,4,2,4],
+"ColorData": {
+	"primaryColor": "#ebe85b",
+	"secondaryColor": "#5e5d1f",
+	"honeycombColor": "#ebe85b",
+	"isBeeColored": true,
+	"modelType": "/custom/bee"
+},
+"CentrifugeData": {  
+	"hasCentrifugeOutput": true,
+	"mainOutput":"bigreactors:yellorium_ingot",
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 3.00
+},
+"SpawnData": {  
+	"canSpawnInWorld": false,
+	"biomeWhitelist": ""
+},
+"BreedData": {  
+	"isBreedable": true, 
+	"parent1": "Uranium",
+	"parent2": "Lumium",
+	"feedItem": "bigreactors:yellorium_ingot",
+	"feedAmount": 1}
+}

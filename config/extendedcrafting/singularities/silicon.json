@@ -1,0 +1,10 @@
+{
+  "name": "Silicon",
+  "colors": [
+    "383838",
+    "4d4d4d"
+  ],
+  "ingredient": {
+    "tag": "forge:silicon"
+  }
+}

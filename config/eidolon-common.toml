@@ -3,10 +3,10 @@
 [mobs]
 	#Spawn weight for zombie brute entity. Set to zero to disable spawning.
 	#Range: 0 ~ 1000
-	zombieBruteSpawnWeight = 30
+	zombieBruteSpawnWeight = 40
 	#Spawn weight for wraith entity. Set to zero to disable spawning.
 	#Range: 0 ~ 1000
-	wraithSpawnWeight = 30
+	wraithSpawnWeight = 40
 
 #World generation settings
 [world]
@@ -33,10 +33,10 @@
 	strayTowerEnabled = true
 	#Maximum Y value for lead ore veins
 	#Range: 1 ~ 255
-	leadOreMaxY = 41
+	leadOreMaxY = 1
 	#Minimum Y value for lead ore veins
 	#Range: 0 ~ 254
-	leadOreMinY = 0
+	leadOreMinY = 2
 	#Whether the catacomb structure is enabled. Set to false to disable spawning.
 	catacombEnabled = true
 

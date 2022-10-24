@@ -1,0 +1,10 @@
+{
+  "name": "Dragonstone",
+  "colors": [
+    "782f5b",
+    "a6678d"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/dragonstone"
+  }
+}

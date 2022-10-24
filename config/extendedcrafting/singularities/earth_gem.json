@@ -1,0 +1,10 @@
+{
+  "name": "Earth Gem",
+  "colors": [
+    "1e6e18",
+    "2a6326"
+  ],
+  "ingredient": {
+    "tag": "elementalcraft:gems/crude_earth"
+  }
+}

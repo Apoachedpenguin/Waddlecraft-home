@@ -1,0 +1,10 @@
+{
+  "name": "End Gobber Glob",
+  "colors": [
+    "3299a8",
+    "206873"
+  ],
+  "ingredient": {
+    "item": "gobber2:gobber2_glob_end"
+  }
+}

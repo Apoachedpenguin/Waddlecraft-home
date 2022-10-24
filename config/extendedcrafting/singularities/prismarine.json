@@ -1,0 +1,10 @@
+{
+  "name": "Prismarine",
+  "colors": [
+    "28c7c2",
+    "51c9c6"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/prismarine"
+  }
+}

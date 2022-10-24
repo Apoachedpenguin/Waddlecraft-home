@@ -1,0 +1,10 @@
+{
+  "name": "Alfsteel",
+  "colors": [
+    "cf6700",
+    "8c4600"
+  ],
+  "ingredient": {
+    "item": "mythicbotany:alfsteel_ingot"
+  }
+}

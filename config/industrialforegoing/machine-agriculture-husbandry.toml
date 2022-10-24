@@ -35,11 +35,11 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 50000
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 62
+		maxProgress = 90
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 5000
+		powerPerOperation = 10000
 		#Essence needed to spawn [Mob health*EssenceNeeded] - Default: [12]
-		essenceNeeded = 12
+		essenceNeeded = 36
 		#Max Essence [mb] - Default: [8000 mb]
 		tankSize = 8000
 		#Exact Copy to spawn - Default: [false]

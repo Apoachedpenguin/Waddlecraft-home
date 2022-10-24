@@ -1,0 +1,10 @@
+{
+  "name": "Dragon Egg",
+  "colors": [
+    "64497a",
+    "160c1f"
+  ],
+  "ingredient": {
+    "item": "minecraft:dragon_egg"
+  }
+}

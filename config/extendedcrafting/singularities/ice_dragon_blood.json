@@ -1,0 +1,10 @@
+{
+  "name": "Ice Dragon Blood",
+  "colors": [
+    "2eb2ff",
+    "78cdff"
+  ],
+  "ingredient": {
+    "item": "iceandfire:ice_dragon_blood"
+  }
+}

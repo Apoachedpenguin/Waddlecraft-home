@@ -1,0 +1,10 @@
+{
+  "name": "Ghast Tear",
+  "colors": [
+    "dbdbdb",
+    "dbdbdb"
+  ],
+  "ingredient": {
+    "item": "minecraft:ghast_tear"
+  }
+}

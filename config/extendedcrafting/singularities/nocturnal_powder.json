@@ -1,0 +1,10 @@
+{
+  "name": "Nocturnal Powder",
+  "colors": [
+    "000000",
+    "16152b"
+  ],
+  "ingredient": {
+    "item": "astralsorcery:nocturnal_powder"
+  }
+}

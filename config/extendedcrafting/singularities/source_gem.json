@@ -1,0 +1,10 @@
+{
+  "name": "Source Gem",
+  "colors": [
+    "bd4be3",
+    "8f34ad"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/mana"
+  }
+}

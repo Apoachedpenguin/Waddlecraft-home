@@ -15,7 +15,7 @@
 		#Set false to disable enchantment
 		beekeeper = true
 		#Set false to disable enchantment
-		experience_boost = true
+		experience_boost = false
 		#Set false to disable Multi Jump enchantment
 		launch = true
 		#Set false to disable enchantment

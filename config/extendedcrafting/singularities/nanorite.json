@@ -1,0 +1,10 @@
+{
+  "name": "Nanorite",
+  "colors": [
+    "3f1547",
+    "16031a"
+  ],
+  "ingredient": {
+    "item": "envirocore:nanorite_crystal"
+  }
+}

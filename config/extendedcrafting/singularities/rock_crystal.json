@@ -1,0 +1,10 @@
+{
+  "name": "Rock Crystal",
+  "colors": [
+    "e9e8ff",
+    "bababa"
+  ],
+  "ingredient": {
+    "item": "astralsorcery:rock_crystal"
+  }
+}

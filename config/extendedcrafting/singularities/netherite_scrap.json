@@ -1,0 +1,10 @@
+{
+  "name": "Netherite Scrap",
+  "colors": [
+    "3b1411",
+    "240f0d"
+  ],
+  "ingredient": {
+    "item": "minecraft:netherite_scrap"
+  }
+}

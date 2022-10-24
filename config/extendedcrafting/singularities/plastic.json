@@ -1,0 +1,10 @@
+{
+  "name": "Plastic",
+  "colors": [
+    "999999",
+    "5c5c5c"
+  ],
+  "ingredient": {
+    "tag": "forge:plastic"
+  }
+}

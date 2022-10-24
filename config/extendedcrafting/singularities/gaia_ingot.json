@@ -1,0 +1,10 @@
+{
+  "name": "Gaia Spirit ingot",
+  "colors": [
+    "ddb8ff",
+    "c6ffad"
+  ],
+  "ingredient": {
+    "item": "botania:gaia_ingot"
+  }
+}

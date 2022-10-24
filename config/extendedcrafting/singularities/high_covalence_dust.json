@@ -1,0 +1,10 @@
+{
+  "name": "High Covalence Dust",
+  "colors": [
+    "040085",
+    "23209e"
+  ],
+  "ingredient": {
+    "item": "projecte:high_covalence_dust"
+  }
+}

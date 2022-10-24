@@ -1,0 +1,10 @@
+{
+  "name": "Honey",
+  "colors": [
+    "ffc363",
+    "dba042"
+  ],
+  "ingredient": {
+    "tag": "resourcefulbees:resourceful_honey_block"
+  }
+}

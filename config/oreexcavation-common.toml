@@ -19,14 +19,14 @@
 	Range = 16
 	#Amount of exhaustion per block excavated
 	#Range: 0.0 ~ 1.7976931348623157E308
-	Ehxaustion = 0.40000001192092893
+	Ehxaustion = 0.1
 	#Temporarily reduces excavation speed if TPS begins to slow down
 	"TPS Guard" = true
 	#Allows excavation undo function to work through liquids and other replaceable blocks
 	"Undo Replaceables " = true
 	#Experience cost per block excavated
 	#Range: > 0
-	Experience = 1
+	Experience = 0
 	#Allow players to use shape mining
 	"Allow Shapes" = true
 	#Allow excavation with an open hand
@@ -39,7 +39,7 @@
 	"Block Blacklist" = []
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
-	Limit = 32
+	Limit = 128
 	#How many excavations should be kept in undo history (may lead to exploits or instability)
 	#Range: > 0
 	"Max Undos" = 3

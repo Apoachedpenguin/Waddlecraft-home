@@ -832,16 +832,6 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.0d
-			id: "687622774653E7EC"
-			tasks: [{
-				id: "0D16A5BCF4F2851D"
-				type: "item"
-				item: "upgradednetherite_creative:creative_upgraded_netherite_chestplate"
-			}]
-		}
-		{
 			x: -5.5d
 			y: 0.0d
 			id: "4A1C74D6611DE740"
