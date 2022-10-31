@@ -1,15 +1,14 @@
-{"flower": "mekanism:block_osmium",
-	"maxTimeInHive": 1600,
-	"hasHoneycomb": true,
-	"sizeModifier": 1.0,
-	"apiaryOutputAmounts" : [2,4,2,4],
-"ColorData": {
-	"primaryColor": "#a4a9b0",
-	"secondaryColor": "#d1deed",
-	"honeycombColor": "#b1bbc7",
-	"isBeeColored": true,
-	"modelType": "/custom/bee"
-},
+{
+  "flower": "mekanism:block_osmium",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 1600,
+  "baseLayerTexture": "ores/osmium_bee",
+  "apiaryOutputAmounts": [2,4,2,4],
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#90a6b8",
+      "modelType": "ORE"
+  },
 "CentrifugeData": {  
 	"hasCentrifugeOutput": true,
 	"mainOutput":"mekanism:ingot_osmium",

@@ -1,0 +1,8 @@
+//thermalpulverizer.forEach(recipe => {
+// if(recipe.energy==null) {event.recipes.thermal.pulverizer(recipe.output, recipe.input)}
+ //   else {event.recipes.thermal.pulverizer(recipe.output, recipe.input).energy(recipe.energy)}    (if i want it to remove an extension entirely if its empty!)
+
+//})
+
+//thermalpulverizer.forEach(recipe => {
+//  event.recipes.thermal.pulverizer(recipe.output, recipe.input).energy(recipe.energy == null ? 2000 : recipe.energy) (to set my own energy)

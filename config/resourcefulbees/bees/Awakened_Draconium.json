@@ -1,14 +1,12 @@
-{"flower": "draconicevolution:awakened_crafting_injector",
-	"maxTimeInHive": 1600,
+{"flower": "draconicevolution:awakened_draconium_block",
 	"hasHoneycomb": true,
-	"sizeModifier": 1.0,
+	"maxTimeInHive": 1600,
+	"baseLayerTexture": "ores/awakened_draconium_bee",
 	"apiaryOutputAmounts" : [1,2,1,2],
 "ColorData": {
-	"primaryColor": "#cf7911",
-	"secondaryColor": "#b57e07",
+	"isBeeColored": false,
 	"honeycombColor": "#c77210",
-	"isBeeColored": true,
-	"modelType": "/custom/bee"
+	"modelType": "ORE"
 },
 "CentrifugeData": {  
 	"hasCentrifugeOutput": true,

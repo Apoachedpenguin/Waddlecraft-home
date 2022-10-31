@@ -1,9 +1,9 @@
 //priority: 0
 console.info('Hello, World! (You will see this line every time server resources reload)')
 onEvent('recipes', event => {
-
 	shapedRecipes.forEach(recipe => {
-		event.shaped(recipe.output, recipe.pattern, recipe.key)
+		if(recipe.id==null) {event.shaped(recipe.output, recipe.pattern, recipe.key)}
+		else {event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id)}
 	})
 	shapelessRecipes.forEach(recipe => {
 		event.shapeless(recipe.output, recipe.input)
@@ -40,11 +40,22 @@ onEvent('recipes', event => {
 		event.recipes.thermal.press(recipe.output, recipe.input, recipe.die)
 	})
 	MekanismCombiner.forEach(recipe => {
-	event.recipes.mekanismCombining(recipe.output, recipe.input1, recipe.input2)
+		event.recipes.mekanismCombining(recipe.output, recipe.input1, recipe.input2)
 	})
 	furnace.forEach(recipe => {
 		event.smelting(recipe.output, recipe.input)
 	})
+	thermalsmelting.forEach(recipe => {
+		event.recipes.thermal.smelter(recipe.output, recipe.input).energy(recipe.energy)
+	})
+    thermalpulverizer.forEach(recipe => {
+        if(recipe.energy==null) {event.recipes.thermal.pulverizer(recipe.output, recipe.input)}
+        else {event.recipes.thermal.pulverizer(recipe.output, recipe.input).energy(recipe.energy)}
+
+    })
+	//extra scripts i didn't have time nor care to seperate
+event.replaceInput({type: 'minecraft:crafting_shapeless'}, 'minecraft:honeycomb', '#resourcefulbees:resourceful_honeycomb')
+event.replaceOutput({}, 'minecraft:honeycomb', '#resourcefulbees:resourceful_honeycomb')
 })
 
 
@@ -55,4 +66,12 @@ onEvent('item.tags', event => {
 
 	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
 	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
+	const Validapiary = [
+		{ item: "glassential:glass_ethereal" },
+		{ item: "glassential:glass_dark_ethereal" }
+	]
+	Validapiary.forEach(block => {
+		event.get('resourcefulbees:valid_apiary').add(block.item)
+	})
+	event.get('forge:wires/gold').add("stevesicbm:gold_wire")
 })

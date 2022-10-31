@@ -41,7 +41,17 @@ global["unifyexcludegen"] = [
 let tags = new Set([
     "forge:plates/iron",
     "forge:gears/iron",
-    "forge:silicon"
+    "forge:silicon",
+    "forge:dusts/netherite",
+    "forge:dusts/diamond",
+    "forge:dusts/coal",
+    "forge:dusts/gold",
+    "forge:dusts/iron",
+    "forge:dusts/sulfur",
+    "forge:dusts/obsidian",
+    "forge:ingots/electrum",
+    "forge:wires/copper",
+    "forge:wires/gold"
 ])
 
 // A list of lists of items to unify. Each list will be turned into a tag and added to the list of tags to unify.

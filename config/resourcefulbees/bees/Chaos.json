@@ -1,4 +1,4 @@
-{"flower": "draconicevolution:chaotic_crafting_injector",
+{"flower": "kubejs:chaos_block",
 	"maxTimeInHive": 1600,
 	"hasHoneycomb": true,
 	"sizeModifier": 1.0,
@@ -14,7 +14,7 @@
 	"hasCentrifugeOutput": true,
 	"mainOutput":"draconicevolution:small_chaos_frag",
 	"mainOutputWeight": 1.00,
-	"mainOutputCount": 5.00
+	"mainOutputCount": 4.00
 },
 "SpawnData": {  
 	"canSpawnInWorld": false,

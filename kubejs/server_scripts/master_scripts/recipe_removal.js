@@ -73,7 +73,9 @@ const removeRecipes = [
     'gobber2:gobber2_seed_nether',
     'gobber2:gobber2_seed_end',
     'enchantinginfuser:enchanting_infuser',
-    'enchantinginfuser:advanced_enchanting_infuser'
+    'enchantinginfuser:advanced_enchanting_infuser',
+    'cyclic:battery',
+    'stevesicbm:gold_wire'
 ]
 
 //Remove any recipe USING an item (all)

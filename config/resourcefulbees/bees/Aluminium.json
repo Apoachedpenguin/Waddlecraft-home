@@ -1,14 +1,12 @@
 {"flower": "immersiveengineering:storage_aluminum",
-	"maxTimeInHive": 1600,
 	"hasHoneycomb": true,
-	"sizeModifier": 1.0,
+	"maxTimeInHive": 1600,
+	"baseLayerTexture": "ores/aluminium_bee",
 	"apiaryOutputAmounts" : [2,4,2,4],
 "ColorData": {
-	"primaryColor": "#c3c7e0",
-	"secondaryColor": "#cccdcf",
+	"isBeeColored": false,
 	"honeycombColor": "#cccdcf",
-	"isBeeColored": true,
-	"modelType": "/custom/bee"
+	"modelType": "ORE"
 },
 "CentrifugeData": {  
 	"hasCentrifugeOutput": true,

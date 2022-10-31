@@ -1,0 +1,11 @@
+{
+  "name": "Ultimate Honeycomb",
+  "colors": [
+    "ffffff",
+    "000000"
+  ],
+  "ingredient": {
+    "item": "kubejs:ultimate_honeycomb"
+  },
+  "inUltimateSingularity": false
+}

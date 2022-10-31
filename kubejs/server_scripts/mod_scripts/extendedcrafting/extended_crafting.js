@@ -379,5 +379,19 @@ const extendedshapelessrecipes = [
             'gobber2:gobber2_ingot', 'gobber2:gobber2_ingot_nether', 'gobber2:gobber2_ingot_end', 'upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot', 'mana-and-artifice:superheated_vinteum_ingot', 'mana-and-artifice:purified_vinteum_ingot', 'mana-and-artifice:superheated_purified_vinteum_ingot', 'silentgear:crimson_iron_ingot', 'silentgear:crimson_steel_ingot',
             'silentgear:blaze_gold_ingot', 'silentgear:azure_silver_ingot', 'silentgear:azure_electrum_ingot', 'silentgear:tyrian_steel_ingot', 'bigreactors:yellorium_ingot', 'bigreactors:cyanite_ingot', 'bigreactors:inanite_ingot', 'bigreactors:magentite_ingot', 'tconstruct:rose_gold_ingot'
         ]
+    },
+    {
+        output: 'kubejs:ultimate_honeycomb',
+        input: [
+            'resourcefulbees:catnip_honeycomb','resourcefulbees:starry_honeycomb','resourcefulbees:alfsteel_honeycomb','resourcefulbees:aluminium_honeycomb','resourcefulbees:aquamarine_honeycomb','resourcefulbees:awakened_draconium_honeycomb','resourcefulbees:beelitz_honeycomb','resourcefulbees:beelizz_honeycomb','resourcefulbees:beesalz_honeycomb',
+            'resourcefulbees:black_iron_honeycomb','resourcefulbees:blaze_honeycomb','resourcefulbees:blazing_honeycomb','resourcefulbees:brass_honeycomb','resourcefulbees:bronze_honeycomb','resourcefulbees:chaos_honeycomb','resourcefulbees:cheesy_honeycomb','resourcefulbees:coal_honeycomb','resourcefulbees:constantan_honeycomb',
+            'resourcefulbees:copper_honeycomb','resourcefulbees:creeper_honeycomb','resourcefulbees:diamond_honeycomb','resourcefulbees:dielectric_honeycomb','resourcefulbees:draconium_honeycomb','resourcefulbees:dragon_honeycomb','resourcefulbees:electrum_honeycomb','resourcefulbees:elementium_honeycomb','resourcefulbees:emerald_honeycomb',
+            'resourcefulbees:ender_honeycomb','resourcefulbees:enderium_honeycomb','resourcefulbees:end_stone_honeycomb','resourcefulbees:energized_steel_honeycomb','resourcefulbees:fire_dragonsteel_honeycomb','resourcefulbees:fluorite_honeycomb','resourcefulbees:gaia_honeycomb','resourcefulbees:ghast_honeycomb','resourcefulbees:gold_honeycomb',
+            'resourcefulbees:gravel_honeycomb','resourcefulbees:ice_dragonsteel_honeycomb','resourcefulbees:icy_honeycomb','resourcefulbees:invar_honeycomb','resourcefulbees:iron_honeycomb','resourcefulbees:lapis_honeycomb','resourcefulbees:lead_honeycomb','resourcefulbees:lightning_dragonsteel_honeycomb','resourcefulbees:lumium_honeycomb',
+            'resourcefulbees:manasteel_honeycomb','resourcefulbees:netherite_honeycomb','resourcefulbees:netherrack_honeycomb','resourcefulbees:nether_quartz_honeycomb','resourcefulbees:nickel_honeycomb','resourcefulbees:niotic_honeycomb','resourcefulbees:obsidian_honeycomb','resourcefulbees:osmium_honeycomb','resourcefulbees:pigman_honeycomb',
+            'resourcefulbees:psimetal_honeycomb','resourcefulbees:quartz_iron_honeycomb','resourcefulbees:rainbow_glass_honeycomb','resourcefulbees:redstone_honeycomb','resourcefulbees:rgbee_honeycomb','resourcefulbees:signalum_honeycomb','resourcefulbees:silicon_honeycomb','resourcefulbees:silver_honeycomb','resourcefulbees:skeleton_honeycomb',
+            'resourcefulbees:slimy_honeycomb','resourcefulbees:snow_honeycomb','resourcefulbees:spirited_honeycomb','resourcefulbees:starmetal_honeycomb','resourcefulbees:steel_honeycomb','resourcefulbees:stone_honeycomb','resourcefulbees:sulfur_honeycomb','resourcefulbees:terrasteel_honeycomb','resourcefulbees:tin_honeycomb',
+            'resourcefulbees:uraninite_honeycomb','resourcefulbees:uranium_honeycomb','resourcefulbees:water_honeycomb','resourcefulbees:wither_honeycomb','resourcefulbees:wood_honeycomb','resourcefulbees:yellorium_honeycomb','resourcefulbees:zinc_honeycomb','resourcefulbees:zombie_honeycomb','resourcefulbees:nitro_honeycomb'
+        ]
     }
 ]

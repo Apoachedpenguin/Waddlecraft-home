@@ -1,7 +1,7 @@
 {"flower": "tag:forge:storage_blocks/coal",
   "maxTimeInHive": 1600,
   "hasHoneycomb": true,
-  "baseLayerTexture": "ores/coal/coal_bee",
+  "baseLayerTexture":"ores/coal/coal_bee",
   "apiaryOutputAmounts" : [2,4,2,4],
   "ColorData": {
     "isBeeColored": false,

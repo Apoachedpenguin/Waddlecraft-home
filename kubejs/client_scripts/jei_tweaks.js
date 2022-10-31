@@ -95,8 +95,6 @@ const hideItems = [
     'create:copper_ore',
     'mekanism:copper_ore',
     'iceandfire:copper_ore',
-    // hide all quark's items
-
     // you can also .forEach in this way instead of calling the array seperately
 ].forEach(item => {
     onEvent('jei.hide.items', jei => {
@@ -108,4 +106,5 @@ const hideItems = [
 // JEI information
 onEvent('jei.information', event => {
     event.add('rats:rat_whistle', ['disabled due to crashing, sorry!'])
+    event.add('resourcefulbees:cheesy_bee_spawn_egg')
 })

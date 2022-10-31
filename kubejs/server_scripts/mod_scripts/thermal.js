@@ -30,8 +30,28 @@ const thermalpressing = [
         die: 'thermal:press_gear_die'
     },
 ]
-
-onEvent('recipes', event => {
-event.recipes.thermal.pulverizer(Item.of('industrialforegoing:dryrubber').withChance(2.5), 'rats:plastic_waste').energy(3000)
-event.recipes.thermal.pulverizer(Item.of('mekanism:dust_fluorite').withChance(1), 'mekanism:fluorite_gem').energy(4000)
-})
+//reminders for self Item.of items DO NOT REQUIRE QUOTES. even in an array ['item1', item.of('item2').withChance(~)]
+const thermalsmelting = [ 
+    {
+        input: ['thermal:machine_frame', 'mekanism:block_steel', 'industrialforegoing:plastic'],
+        output: 'mekanism:steel_casing',
+        energy: '1000'
+    },
+    {
+        input: ['thermal:diamond_gear','4x thermal:invar_ingot'],
+        output: 'thermal:press_gear_die',
+        energy: '2000'
+    }
+]
+const thermalpulverizer = [
+    {
+        output: Item.of('mekanism:dust_fluorite').withChance(1),
+        input: 'mekanism:fluorite_gem',
+        energy: '3000'
+    },
+    {
+        output: Item.of('industrialforegoing:dryrubber').withChance(2.5),
+        input: 'rats:plastic_waste',
+        energy: '4000'
+    }
+]

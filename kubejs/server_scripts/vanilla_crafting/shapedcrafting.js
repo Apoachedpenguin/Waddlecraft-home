@@ -109,6 +109,18 @@ const shapedRecipes = [
 			C: 'envirocore:xerothium_crystal'
 		}
 	},
+	{
+		output: 'kubejs:chaos_block',
+		pattern: [
+			'ABA',
+			'BBB',
+			'ABA'
+		],
+		key: {
+			A: 'draconicevolution:chaos_shard',
+			B: 'compressium:obsidian_3'
+		}
+	},
 	//PSI
 	{
 		output: 'psi:cad_assembly_iron',
@@ -901,6 +913,134 @@ const shapedRecipes = [
 			B: 'minecraft:red_carpet'
 
 		}
-	}
+	},
+	//bees and centrifuge! (see resourceful bees for more!)
+	{
+		output: 'resourcefulbees:t1_beehive',
+		pattern: [
+			'ABA',
+			'DCD',
+			'ABA'
+		],
+		key: {
+			A: 'minecraft:iron_ingot',
+			B: '#minecraft:planks',
+			C: 'minecraft:beehive',
+			D: '#resourcefulbees:resourceful_honeycomb'
+		}
+	},
+	{
+		output: 'ctiers:centrifuge_casing_tier_creative',
+		pattern: [
+			'ABA',
+			'CDE',
+			'AFA'
+		],
+		key: {
+			A: 'extendedcrafting:the_ultimate_ingot',
+			B: 'compressium:netherite_4',
+			C: 'compressium:diamond_4',
+			D: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:ultimate_honeycomb"}'),
+			E: 'compressium:emerald_4',
+			F: 'compressium:gold_4'
+		}
+	},
+	{
+		output: 'ctiers:centrifuge_controller_tier_creative',
+		pattern: [
+			'ABA',
+			'CDC',
+			'AEA'
+		],
+		key: {
+			A: 'extendedcrafting:ultimate_singularity',
+			B: 'ctiers:centrifuge_casing_tier_creative',
+			C: 'minecraft:ender_eye',
+			D: 'ctiers:centrifuge_controller_tier_5',
+			E: 'minecraft:ender_pearl',
+		}
+	},
+	{
+		output: 'cyclic:battery',
+		pattern: [
+			'ABA',
+			'CDC',
+			'ABA'
+		],
+		key: {
+			A: '#minecraft:planks',
+			B: 'mekanism:ingot_steel',
+			C: 'minecraft:redstone',
+			D: 'immersiveengineering:coil_lv'
 
+		},
+		id: 'cyclic:battery'
+	},
+	{
+		output: 'mekanismgenerators:heat_generator',
+		pattern: [
+			'BBB',
+			'ACA',
+			'ADA'
+		],
+		key: {
+			A: 'mekanism:ingot_steel',
+			B: 'minecraft:iron_ingot',
+			C: 'mekanism:ingot_osmium',
+			D: 'minecraft:blast_furnace'
+
+		},
+		id: 'mekanismgenerators:generator/heat'
+	},
+	{
+		output: 'mekanism:jetpack_armored',
+		pattern: [
+			'ABA',
+			'DED',
+			'C C'
+		],
+		key: {
+			A: 'thermal:netherite_plate',
+			B: 'mekanism:jetpack',
+			C: 'thermal:bronze_ingot',
+			D: 'mekanism:elite_chemical_tank',
+			E: 'immersiveengineering:armor_steel_chest'
+
+		},
+		id: 'mekanism:jetpack_armored'
+	},
+	{
+		output: 'mekanism:jetpack',
+		pattern: [
+			'EDE',
+			'ACA',
+			'B B'
+		],
+		key: {
+			A: 'mekanism:basic_chemical_tank',
+			B: 'thermal:bronze_ingot',
+			C: 'quark:rope',
+			D: 'mekanism:alloy_reinforced',
+			E: 'immersiveengineering:component_steel'
+
+		},
+		id: 'mekanism:jetpack'
+	},
+	{
+		output: 'mekanism:electrolytic_core',
+		pattern: [
+			'ABA',
+			'CDE',
+			'ABA'
+		],
+		key: {
+			A: 'immersiveengineering:wirecoil_electrum',
+			B: 'mekanism:dust_osmium',
+			C: 'thermal:iron_dust',
+			D: 'mekanism:alloy_reinforced',
+			E: 'thermal:gold_dust'
+
+		},
+		id: 'mekanism:jetpack'
+	}
 ]

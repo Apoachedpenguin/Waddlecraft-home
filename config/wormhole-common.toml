@@ -78,13 +78,13 @@
 [Generators]
     # How much energy does the coal generator generate per tick?
     # Allowed range: 1 ~ 1000000 - Default: 10
-    coalGeneratorPower = 10
+    coalGeneratorPower = 4
 
     # How much energy can the coal generator store?
     # Allowed range: 1 ~ 1000000 - Default: 5000
-    coalGeneratorCapacity = 5000
+    coalGeneratorCapacity = 2500
 
     # In what area (coalGeneratorRange^3) should the coal generator send energy?
     # Allowed range: 1 ~ 4 - Default: 2
-    coalGeneratorRange = 2
+    coalGeneratorRange = 1
 

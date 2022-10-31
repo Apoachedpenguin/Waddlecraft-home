@@ -1,14 +1,13 @@
 {"flower": "extendedcrafting:black_iron_block",
-	"maxTimeInHive": 1600,
 	"hasHoneycomb": true,
-	"sizeModifier": 1.0,
+	"maxTimeInHive": 1600,
+	"baseLayerTexture": "ores/black_iron_bee",
 	"apiaryOutputAmounts" : [2,4,2,4],
 "ColorData": {
-	"primaryColor": "#000000",
-	"secondaryColor": "#8f8f8f",
+	"isBeeColored": false,
 	"honeycombColor": "#404040",
 	"isBeeColored": true,
-	"modelType": "/custom/bee"
+	"modelType": "ORE"
 },
 "CentrifugeData": {  
 	"hasCentrifugeOutput": true,

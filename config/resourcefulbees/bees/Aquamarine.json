@@ -1,14 +1,12 @@
 {"flower": "astralsorcery:infused_wood_enriched",
-	"maxTimeInHive": 1600,
 	"hasHoneycomb": true,
-	"sizeModifier": 1.0,
+	"maxTimeInHive": 1600,
+	"baseLayerTexture": "ores/aquamarine_bee",
 	"apiaryOutputAmounts" : [2,4,2,4],
 "ColorData": {
-	"primaryColor": "#7385ff",
-	"secondaryColor": "#546bff",
+	"isBeeColored": false,
 	"honeycombColor": "#687bf7",
-	"isBeeColored": true,
-	"modelType": "/custom/bee"
+	"modelType": "ORE"
 },
 "CentrifugeData": {  
 	"hasCentrifugeOutput": true,

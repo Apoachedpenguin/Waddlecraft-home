@@ -6,5 +6,6 @@
   ],
   "ingredient": {
     "tag": "resourcefulbees:resourceful_honey_block"
-  }
+  },
+  "inUltimateSingularity": false
 }
