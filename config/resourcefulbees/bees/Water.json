@@ -14,15 +14,15 @@
 	"honeycombColor": "#00758c",
         "isBeeColored": true
     },
-    "CentrifugeData": {  
-        "hasCentrifugeOutput": true,
-		"mainOutput":"minecraft:prismarine",
-	"mainOutputWeight": 1.00,
-	"mainOutputCount": 5.00
-    },
+"CentrifugeData": {  
+  "hasCentrifugeOutput": true,  
+  "mainOutput": "minecraft:water",  
+  "mainOutputCount": 5000,  
+  "hasFluidOutput": true  
+},
     "SpawnData": {  
         "canSpawnInWorld": true,
-		"biomeWhitelist": "TAG:ocean, river"
+		"biomeWhitelist": "TAG:ocean, river, water"
     },
     "BreedData": {  
         "isBreedable": true,

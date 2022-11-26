@@ -1,0 +1,10 @@
+{
+    "name": "Draconic",
+    "colors": [
+        "700f70",
+        "4f004f"
+    ],
+    "ingredient": {
+        "item": "draconicevolution:draconium_core"
+    }
+}

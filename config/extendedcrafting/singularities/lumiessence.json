@@ -1,0 +1,10 @@
+{
+  "name": "lumiessence",
+  "colors": [
+    "ffed29",
+    "fff263"
+  ],
+  "ingredient": {
+    "item":"extendedcrafting:luminessence"
+  }
+}

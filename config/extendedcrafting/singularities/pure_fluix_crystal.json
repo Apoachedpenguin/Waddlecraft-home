@@ -1,0 +1,10 @@
+{
+  "name": "Pure Fluix Crystal",
+  "colors": [
+    "78508c",
+    "bba9c4"
+  ],
+  "ingredient": {
+    "item": "appliedenergistics2:purified_fluix_crystal"
+  }
+}

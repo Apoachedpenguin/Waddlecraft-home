@@ -1,0 +1,10 @@
+{
+  "name": "Refined Uranium",
+  "colors": [
+    "46800d",
+    "f5ee93"
+  ],
+  "ingredient": {
+    "item": "mekanism:yellow_cake_uranium"
+  }
+}

@@ -7,7 +7,7 @@
 	"Piston Push Limit" = 12
 	#Set to true to make the quark big worldgen features such as stone clusters or underground biomes generate as spheres rather than unique shapes. It's faster, but won't look as cool
 	"Use Fast Worldgen" = false
-	"Enable 'q' Button" = false
+	"Enable 'q' Button" = true
 	#A list of screens that don't play well with quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
 	"Ignored Screens" = []
 	"Use Anti Overlap" = true
@@ -27,9 +27,9 @@
 [categories]
 	Building = true
 	Automation = true
-	Oddities = false
+	Oddities = true
 	Tweaks = true
-	Experimental = false
+	Experimental = true
 	Mobs = true
 	Tools = true
 	Management = true
@@ -231,10 +231,10 @@
 	"Chests In Boats" = true
 	"Inventory Sorting" = true
 	"Shulker Box Right Click" = true
-	"Hotbar Changer" = false
+	"Hotbar Changer" = true
 	"Item Sharing" = true
 	"Right Click Armor" = true
-	"Easy Transfering" = false
+	"Easy Transfering" = true
 
 	[management.inventory_sorting]
 		#Play a click when sorting inventories using keybindings
@@ -387,7 +387,7 @@
 	"Better Elytra Rocket" = true
 
 	[tweaks.sign_editing]
-		"Requires Empty Hand" = true
+		"Requires Empty Hand" = false
 
 	[tweaks.pat_the_dogs]
 		#How many ticks it takes for a dog to want affection after being pet/tamed; leave -1 to disable
@@ -450,9 +450,9 @@
 	[tweaks.improved_sleeping]
 		"Enable Afk" = true
 		#Allowed values: (0,)
-		"Afk Time" = 1200
+		"Afk Time" = 2400
 		#Allowed values: (0,1]
-		"Percent Req" = 0.3
+		"Percent Req" = 1.0
 
 	[tweaks.emotes]
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.
@@ -1889,7 +1889,7 @@
 	"Improved Mount Hud" = true
 	"Usage Ticker" = true
 	"Auto Walk Keybind" = true
-	"Chest Searching" = false
+	"Chest Searching" = true
 
 	[client.usage_ticker]
 		#Switch the armor display to the off hand side and the hand display to the main hand side
@@ -2057,7 +2057,7 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = false
+		"Nerf Mending" = true
 		#Makes Iron Golems not drop Iron Ingots
 		"Disable Iron Farms" = true
 		#Makes Sheep not drop Wool when killed

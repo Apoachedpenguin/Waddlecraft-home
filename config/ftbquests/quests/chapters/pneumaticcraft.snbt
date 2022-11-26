@@ -1,0 +1,1114 @@
+{
+	id: "016BC639C70FAF7E"
+	group: ""
+	order_index: 8
+	filename: "pneumaticcraft"
+	title: "Pneumaticcraft"
+	icon: "pneumaticcraft:pressure_gauge"
+	subtitle: ["can you handle the pressure?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "same iron volume, less iron surface area!"
+			description: [
+				"Compressed iron is the base of pneumaticcraft,  and required for starting! to get compressed iron, simply throw some iron on the ground and BLOW IT UP! (any basic explosion will do!)"
+				"caution, you will lose some iron in the process."
+			]
+			dependencies: ["3FE9469D0A9C4E2C"]
+			id: "28B8246491EBA640"
+			tasks: [{
+				id: "54B99EE3774DB729"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 10L
+			}]
+			rewards: [{
+				id: "47B130A2E9365560"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "Torque it baby."
+			description: ["The pneumaticcraft wrench, for automatically destroying and rotating Pneumaticcraft items. can be found in special village houses!"]
+			dependencies: ["28B8246491EBA640"]
+			id: "609F5E1D7C69E5BC"
+			tasks: [{
+				id: "490CBB9F19C47ECB"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_wrench"
+			}]
+			rewards: [{
+				id: "110C0FD95E1A1D55"
+				type: "item"
+				item: "pneumaticcraft:air_canister"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			subtitle: "totally tubular."
+			description: [
+				"Can hold Pressurized air. tubes that do not connect to a machine or another tube will leak air, However, they can be closed with a pneumatic wrench. Transfers air to all connect machines."
+				"Can handle up to 5 bars of pressure."
+			]
+			dependencies: ["3F26C233E781249D"]
+			id: "5BD136C6AA3BBDC0"
+			tasks: [{
+				id: "7AB3F707D0A466C4"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+			rewards: [{
+				id: "20298990D6F91D2C"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+				count: 6
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			subtitle: "remember, people go on the OUTSIDE."
+			description: [
+				"The pressure chamber is a multiblock with a hollow center, the Resources you have crafted will be enough for the largest one! the largest pressure chamber requires a 5x5x5 hollow cube, with 1 pressure valve, and 2 interfaces (one facing in, one facing out, make sure there is one blue circle side, and one orange circle side on both the inside and outside of the pressure chamber), every other block can be either pressure chamber walls, or glass, as you see fit."
+				"The valve can take pressure from a pipe or machine, filling the pressure chamber, items can be piped into, and out of the interfaces. there is no way to manually place items inside, except by breaking the multiblock). "
+			]
+			dependencies: ["21D5689718D2DE27"]
+			id: "0267C95DCFD84EDF"
+			tasks: [
+				{
+					id: "6A8C24F9FD5A847B"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "4D2AE6889554E02C"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 48L
+				}
+				{
+					id: "641ED563D2744A3C"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					count: 2L
+				}
+				{
+					id: "40060A37B303DFDC"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					count: 48L
+				}
+			]
+			rewards: [{
+				id: "54F62AD3F63962A7"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			subtitle: "works for usb, or wall chargers! (does not support Orange brand products)"
+			description: ["Charges pressurized items, can also be used to apply upgrades to available equipment (such as the pneumatic armor)."]
+			dependencies: ["03F02F989C5F95E2"]
+			id: "407851D1744CC234"
+			tasks: [{
+				id: "78A4E2E5DCE03BA8"
+				type: "item"
+				item: "pneumaticcraft:charging_station"
+			}]
+			rewards: [{
+				id: "535DBA01C4EC5DE9"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 3
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			subtitle: "can handle pressurized air, peer pressure though, Thats another thing."
+			description: [
+				"transfers high capacities of pressurized air, holding up to 20 bars of pressure! be wary attaching to lower pressure capable machines."
+				"(remember to read the manual, just incase there is something NOT mentioned here.)"
+			]
+			dependencies: ["3F26C233E781249D"]
+			id: "282A741F8FC6B5C9"
+			tasks: [{
+				id: "7BADA2B8E2C6BAD3"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+			}]
+			rewards: [{
+				id: "5376C464CD9C8B5C"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				count: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			subtitle: "$5.99 For amadron prime, FREE Shipping! (just pay the money directly to poachedpenguin the modpack creator)"
+			description: ["Global trade network of amadron, used to buy highly complex items you can not craft. Shift right click a chest to set your drone drop off spot, place emeralds into the chest, then open your amadron (after charging it with air, a charging pad is an early way to do this), right clicking will add items to your cart, left clicking will remove. Then, press place order!"]
+			dependencies: ["21D5689718D2DE27"]
+			id: "7F7639F9AAA6738E"
+			tasks: [{
+				id: "44D0E2C212953E2E"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+			rewards: [{
+				id: "4FCF07E8F457D440"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 6
+			}]
+		}
+		{
+			x: -2.5d
+			y: 11.0d
+			subtitle: "so many possiblities! how will YOU Assemble it!"
+			description: ["take an unassembled PCB and craft it into a printed circuit board. a crafting component to higher tier pneumaticcraft items!"]
+			dependencies: ["3C4877EC2E32B6F7"]
+			id: "3D90E681F96C5FBF"
+			tasks: [{
+				id: "67BE58B38376DCE4"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+			rewards: [{
+				id: "7E954D9A991EE8A9"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.0d
+			subtitle: "truely an advanced peanut butter, cucumber burrito. Delicious."
+			description: ["the advanced PCB can be placed onto certain pneumaticcraft items and machines to upgrade them. However, for progression, you will need to use them to craft Higher tier PSI cads."]
+			dependencies: ["3D90E681F96C5FBF"]
+			id: "7EAC03E3C8F7C635"
+			tasks: [{
+				id: "7EE92D3D31D1A7B6"
+				type: "item"
+				item: "pneumaticcraft:advanced_pcb"
+			}]
+			rewards: [{
+				id: "5EB3A5A2D64F3037"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 9.5d
+			subtitle: "better than an etch-a-sketch."
+			description: [
+				"Place empty PCBs exposed to UV light (the longer its exposed the better) into the etching chamber with etching liquid, This will start processing empty pcbs to unassembled pcbs. "
+				"The etching tank does NOT require pressure OR heat, and will not consume etching liquid, heat can be (optionally) applied to the etching tank to speed it up, but this consumes etching acid slowly."
+			]
+			dependencies: [
+				"1394DB21E908AB6A"
+				"1158DC2B4031DE28"
+			]
+			id: "3C4877EC2E32B6F7"
+			tasks: [{
+				id: "061D165DDF3FA111"
+				type: "item"
+				item: "pneumaticcraft:etching_tank"
+			}]
+			rewards: [{
+				id: "3903144DAA23299F"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			subtitle: "Assemblers, ASSEMBLE!"
+			description: ["allows for precision item crafting. can be used to assemble PCBs without UV light or etching, and craft tubes and other items. (can be automated). Place the assembly platform in the center, Place the laser, drill, and import and output ports on the sides, and place the interface in one of the corners. pressurize the system through the interface, place in an assembly program (see the next quest) and place a chest next to the import and export arms. The import chest will take items out and place them, and export will take that item and place it into its chest."]
+			dependencies: ["03F02F989C5F95E2"]
+			id: "293DFA4D2FB29BA8"
+			tasks: [
+				{
+					id: "0DF5F96061C3B378"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+				{
+					id: "420D23B4D76EB11E"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "1F855305F5265467"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "1CAB62F76A33C0AB"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+				{
+					id: "2BBEF4E8BCB88E44"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "7FD37EF56821DCA5"
+					type: "item"
+					item: "pneumaticcraft:assembly_controller"
+				}
+			]
+			rewards: [{
+				id: "553EFCC972E9E7B5"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 5
+			}]
+		}
+		{
+			title: "Pneumatic suit"
+			x: -7.5d
+			y: 1.0d
+			subtitle: "I am PneumaticMan!"
+			description: [
+				"A highly configurable set of armor, which can get extremely powerful. Place into a charging station to pressurize, clicking the arrow button above the item will show you all available upgrades and how many you can apply. This allows for awesome effects such as seeing and tracking entities, launching items out of your hand, Night vision, Flight, Speed, and tons of other fun upgrades."
+				"will lose air gradually, but connected to an aerial interface will charge it from your pressure network from anywhere!"
+			]
+			dependencies: ["407851D1744CC234"]
+			id: "2EC05CC7B2255B25"
+			tasks: [
+				{
+					id: "6391FDB90CF65289"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "08992E9DBC21916C"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DFCF70C24669F4C"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C51B757643CB764"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1C85D25E23976C60"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 15
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			subtitle: "it makes more air per air!"
+			description: ["burns furnace fuels and transfers compressed air out of the back, connect pipes to harness it. can handle up to 5 bars of pressure."]
+			dependencies: ["786BA16B27669842"]
+			id: "5D211B1C0BA6727A"
+			tasks: [{
+				id: "656E8759BECCE375"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+			rewards: [{
+				id: "4C422A0CDFE480BF"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			subtitle: "keeps hot stuff hot, cold stuff cold, hot stuff cold, and cold stuff hot.  "
+			description: ["accepts pressurized air and separates it into heat and cooling on opposite sides, (heat = red, Cold = blue). place the side you want onto a machine or block to transfer heat or cold to it. using or moving the heat or cold from the unused side will increase efficiency."]
+			dependencies: ["03F02F989C5F95E2"]
+			id: "1840A2BC0BA20BE0"
+			tasks: [{
+				id: "21E1B3646EC37A3E"
+				type: "item"
+				item: "pneumaticcraft:vortex_tube"
+			}]
+			rewards: [{
+				id: "69A5D139BF83FA0E"
+				type: "item"
+				item: "pneumaticcraft:compressed_iron_block"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "When you don't wanna program it yourself (or litterally are incapable)"
+			description: ["can be placed into an assembly to tell it which program you want it to do. drill program only requires the drill in assembly, the laser requires only the laser, and drill and laser, requires both (shocker). Different recipes require different programs."]
+			dependencies: ["293DFA4D2FB29BA8"]
+			id: "2CDCE3A0FD1E1E01"
+			tasks: [
+				{
+					id: "13B20E485435528A"
+					type: "item"
+					item: "pneumaticcraft:assembly_program_laser"
+				}
+				{
+					id: "218520A3B933598E"
+					type: "item"
+					item: "pneumaticcraft:assembly_program_drill_laser"
+				}
+				{
+					id: "20EC10B1933BB6B2"
+					type: "item"
+					item: "pneumaticcraft:assembly_program_drill"
+				}
+			]
+			rewards: [{
+				id: "0864293C9E14268D"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			title: "temperature management"
+			x: -4.5d
+			y: 2.5d
+			subtitle: "keeps hot food hot and cold food cold. if food is highly potentially dangerous pressurized equipment."
+			description: [
+				"heat sinks will disperse heat into the air. (an air grate can help greatly increase the cooling effect, Check the tubes quest section)"
+				"compressed iron blocks can help to equalize adjacent block temperatures, and can help to warm up extremely cold blocks."
+				"heat pipe will Transfer heat without losing temperature to nearby air blocks, more compact than compressed iron blocks."
+				"( i do want to quickly note mekanism has temperature pipes, these DO NOT WORK with pneumaticcraft temperature.)"
+			]
+			dependencies: ["03F02F989C5F95E2"]
+			id: "0BF0E84C3BFA493F"
+			tasks: [
+				{
+					id: "2E4BEE708154AB5A"
+					type: "item"
+					item: "pneumaticcraft:heat_sink"
+				}
+				{
+					id: "58D613967F45BA5A"
+					type: "item"
+					item: "pneumaticcraft:compressed_iron_block"
+				}
+				{
+					id: "7DE4F452CA4ABFB9"
+					type: "item"
+					item: "pneumaticcraft:heat_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "6ACF00A28C3C87AB"
+					type: "item"
+					item: "pneumaticcraft:heat_sink"
+				}
+				{
+					id: "2904774E264ECB90"
+					type: "item"
+					item: "pneumaticcraft:compressed_iron_block"
+				}
+				{
+					id: "46E021865F1783AC"
+					type: "item"
+					item: "pneumaticcraft:heat_pipe"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			subtitle: "BEHOLD, MY REGULATOR, IT WILL MAKE EVERYONE IN THE TRISTATE AREA LATE, ON THE REGULAR!"
+			description: [
+				"Will regulate the air going into a tube. place onto a un regulated tube, then connect tubes to this item. This will limit the pressure going into the new tubes to 4.9 bars. allowing for a low pressure system to be connected to a high pressure system. Air can ALWAYS travel from the low pressure to the high pressure system."
+				"an advanced PCB can be added to this to precisely configure the regulated air limit."
+			]
+			dependencies: ["3F26C233E781249D"]
+			id: "624C417E5048CD5B"
+			tasks: [{
+				id: "6B7A9DD2D77F977A"
+				type: "item"
+				item: "pneumaticcraft:regulator_tube_module"
+			}]
+			rewards: [{
+				id: "7029F44A4663C63E"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+				count: 10
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			subtitle: "lets just say this is like \"more sophisticated plastic\" and some items just REFUSE the primitive other plastics."
+			description: ["with the creation of plastic, pneumaticcraft opens up significantly, and this is one of the highest bars set by this mod."]
+			dependencies: ["35928AD16BAE7192"]
+			id: "26DCD64FA175CEB2"
+			tasks: [{
+				id: "4B3D77A909B2E8BE"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+			rewards: [{
+				id: "3754C932A5F20E59"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+				count: 3
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			subtitle: "only shows up while flying."
+			description: ["can be used to interact with the players inventory wirelessly. can be used to hopper or pipe items into your inventory. Also can be used to pressurize items in your inventory! face a charging module into the aerial interface to automatically charge inventory items."]
+			dependencies: ["3F26C233E781249D"]
+			id: "14265173FB0862D3"
+			tasks: [{
+				id: "7FAC1AF3B445D649"
+				type: "item"
+				item: "pneumaticcraft:aerial_interface"
+			}]
+			rewards: [{
+				id: "3ACD41AC01C89E20"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				count: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.0d
+			subtitle: "Tanning bed for pcbs"
+			description: ["exposes empty PCBS to uv light in a high pressure environment, preparing it to be etched into an unassembled PCB. The longer it is exposed, the higher the chance it will succeed in being etched!"]
+			dependencies: ["7F7639F9AAA6738E"]
+			id: "1394DB21E908AB6A"
+			tasks: [{
+				id: "42C945011F0C3C8F"
+				type: "item"
+				item: "pneumaticcraft:uv_light_box"
+			}]
+			rewards: [{
+				id: "50D9035427F957FE"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			subtitle: "Heat+ pressure = stuff."
+			description: [
+				"Can be used to mix fluids and items with heat and pressure. While it has many recipes, a few notable ones are;"
+				"water + mushrooms of any kind = yeast culture (can then be duplicated in world)"
+				"No liquid + vegetables or seeds = vegetable oil."
+				"yeast culture + potatos/poisoned potatos/sweet berries/apples/sugar = ethanol."
+				"Biodiesel or LPG + charcoal = molten plastic"
+			]
+			dependencies: ["03F02F989C5F95E2"]
+			id: "3D87C71E99DDE147"
+			tasks: [{
+				id: "4A0B684CBB7CD26A"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+			rewards: [{
+				id: "6E726F1847B2526F"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			subtitle: "ahh. IC2 refineries in tekkit classic. those were the days. (but man FTB is so much better)"
+			description: ["seperates crude oil into refined fuels. place the controller, and then the four outputs behind it. apply heat, and it will seperate crude oil inside the machine into diesel, kerosine, gasoline, and lpg. Great for creating plastic or power!"]
+			dependencies: ["03F02F989C5F95E2"]
+			id: "30D160623338338D"
+			tasks: [
+				{
+					id: "029D5104528688CC"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+				{
+					id: "4E3792CC23D6FA45"
+					type: "item"
+					item: "pneumaticcraft:refinery_output"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "78ACEAF99D5564FF"
+				type: "item"
+				item: "pneumaticcraft:oil_bucket"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			subtitle: "2 recipes. yep. thats it."
+			description: ["can be used to mix fluids, Either lava and water = obsidian, or ethanol + vegetable oil to make bio diesel."]
+			dependencies: ["03F02F989C5F95E2"]
+			id: "48009CDBE0BE294A"
+			tasks: [{
+				id: "488F2835ECC48E66"
+				type: "item"
+				item: "pneumaticcraft:fluid_mixer"
+			}]
+			rewards: [
+				{
+					id: "7D05E23651E272B0"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "1CE209E6A99F7F41"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			subtitle: "can drink a 44oz Drink from 7/11 in like, 26 seconds flat."
+			description: ["burns liquid fuels to produce pressurized air. Different fuels work to different degrees. Check the list inside the GUI for a full list of available fuels. can hold up to 5 bars of pressure."]
+			dependencies: ["786BA16B27669842"]
+			id: "5B0040A8DC7B59F6"
+			tasks: [{
+				id: "4D9DE5D502484128"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+			rewards: [{
+				id: "68E784B986D214B0"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			subtitle: "the energy electrifies the air , resulting in heat and vibration, the vibration causes quantu- ok i have no idea what im talking about."
+			description: ["takes energy and converts it to pressurized air, most mod energies SHOULD work. (if not, please let me know!). can handle up to 20 bars of pressure."]
+			dependencies: ["786BA16B27669842"]
+			id: "4D795EC2B86E6CBE"
+			tasks: [{
+				id: "1092D31204E63624"
+				type: "item"
+				item: "pneumaticcraft:flux_compressor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "ICY HOT. helps with pressure."
+			description: [
+				"converts temperature Differentials into pressurized air, place hot items (lava, torches, or heat from other machines) on one side, and cold items (ice, water, snow, cooled items from other machines) on the other. The difference will result in pressurized air from the top. (green side connects to green, red side connects to red."
+				"some items will eventually change temperature like lava to obsidian, or water evaporating. so find what works best for you!"
+			]
+			dependencies: ["786BA16B27669842"]
+			id: "0B3013EF3EAF3A1E"
+			tasks: [{
+				id: "3742F94FACAA6EBD"
+				type: "item"
+				item: "pneumaticcraft:thermal_compressor"
+			}]
+			rewards: [
+				{
+					id: "1BEADCA4E529A197"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "5BC6ED1E1ECB56E4"
+					type: "item"
+					item: "minecraft:ice"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			subtitle: "ITS ALIVE! and generating air!"
+			description: [
+				"When struck by lightning, this compressor will generator large amounts of compressed air, Iron bars placed below will ground this and disperse excess energy. iron bars above will improve the odds of a strike happening. can handle up to 20 bars of pressure."
+				""
+				"(IMPORTANT: The mod author disabled the ability to generate air off \"vanilla\" lightning strikes. instead, This block works on lightning it generates ITSELF, so that items that create lightning cannot be abused.)"
+			]
+			dependencies: ["786BA16B27669842"]
+			id: "04AA31965E5E0D06"
+			tasks: [{
+				id: "3ECDC6832FBE54BF"
+				type: "item"
+				item: "pneumaticcraft:electrostatic_compressor"
+			}]
+			rewards: [{
+				id: "635A1427BD285AE4"
+				type: "item"
+				item: "thermal:lightning_charge"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			subtitle: "Can drink a whole bottle of ketchup in 17.53 seconds! (that is a REAL record, set by a human!)"
+			description: ["Can generate pressurized air much quicker than a normal liquid compressor, However, generates heat, (remember to check the GUI for all available liquid fuels). Goes up to 20 bars of pressure."]
+			dependencies: ["786BA16B27669842"]
+			id: "38C012B2169750B5"
+			tasks: [{
+				id: "5D195BAE03B2A0E7"
+				type: "item"
+				item: "pneumaticcraft:advanced_liquid_compressor"
+			}]
+			rewards: [{
+				id: "18B228A69DE5DE1C"
+				type: "item"
+				item: "pneumaticcraft:kerosene_bucket"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			subtitle: "even more more air per more air!"
+			description: ["burns furnace fuels to produce compressed air out of the back, more efficient, and quicker than a regular air compressor, but produces heat. can go up to 20 bars of pressure!"]
+			dependencies: ["786BA16B27669842"]
+			id: "2AE2BE9AB71BDBAC"
+			tasks: [{
+				id: "756BA2A92B983D86"
+				type: "item"
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+			rewards: [{
+				id: "51F6B70D741668D2"
+				type: "item"
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "SAFETY TUBE, SCARES THE PRESSURE AWAY!"
+			description: [
+				"place onto a tube containing pressure, when the safety module sees the tube is filled over its max capacity it will release some air to lower the pressure."
+				"can be upgraded with an advanced PCB to allow for precisely configurable thresholds."
+			]
+			dependencies: ["3F26C233E781249D"]
+			id: "0726EF43B735F3D8"
+			tasks: [{
+				id: "4CB9A4621AD0B231"
+				type: "item"
+				item: "pneumaticcraft:safety_tube_module"
+			}]
+			rewards: [{
+				id: "7E0D316F88D6B8BB"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+				count: 5
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			subtitle: "It's great at what it does."
+			description: [
+				"blows pressurized air out of a tube. this will push (or pull if negative pressure) entities infront of it. Can be used to cool heat vents!"
+				"An advanced PCB can be added to this to configure which entities this can push or pull. (@player will exclude the player)"
+			]
+			dependencies: ["3F26C233E781249D"]
+			id: "57AC2370B58F6615"
+			tasks: [{
+				id: "23C4E4F4ACAA81E2"
+				type: "item"
+				item: "pneumaticcraft:air_grate_module"
+			}]
+			rewards: [{
+				id: "38A1DC47CF4CF189"
+				type: "item"
+				item: "pneumaticcraft:air_grate_module"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			subtitle: "CHARGE, MEN! CHARGE... your wrenches so we can get this project done."
+			description: [
+				"Will charge or discharge items in an inventory infront of it (also applies to aerial interface). Place onto a tube containing pressurized air, pointing at a chest, and then any items MORE pressurized than the tube will LOSE pressure. any items LESS pressurized than the tube will GAIN pressure."
+				"can be upgraded by using an advanced PCB. allowing for faster pressure transfer rates."
+			]
+			dependencies: ["3F26C233E781249D"]
+			id: "45B0947EC7776880"
+			tasks: [{
+				id: "06542D98750BF0DC"
+				type: "item"
+				item: "pneumaticcraft:charging_module"
+			}]
+			rewards: [{
+				id: "4568AD1AC51F1AD4"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			subtitle: "great for making rainbow pants and shirts!"
+			description: ["Used in the etching tank to create unassembled pcbs."]
+			hide_dependency_lines: true
+			dependencies: ["21D5689718D2DE27"]
+			id: "1158DC2B4031DE28"
+			tasks: [{
+				id: "0C395548AEE881FD"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+			rewards: [{
+				id: "1C79C31FE2BE373D"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			subtitle: "The thing that is lifting you off the ground! (if you have a height adjustable chair)"
+			description: ["Just a crafting component."]
+			dependencies: ["0267C95DCFD84EDF"]
+			id: "6DA1A5C751150E1A"
+			tasks: [{
+				id: "4AE1DCD09A9E74F0"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_cylinder"
+			}]
+			rewards: [{
+				id: "6213775E2339AE18"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_cylinder"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			subtitle: "isn't there another type of plastic in this mod? yes? can i use it? No? WHY isnt it possible? (its just not)"
+			description: ["get a bucket of molten plastic by refining other liquids and items in the mixer and thermopneumatic processing plant."]
+			dependencies: ["3D87C71E99DDE147"]
+			id: "35928AD16BAE7192"
+			tasks: [{
+				id: "7B8CBBFAAD6C561E"
+				type: "item"
+				item: "pneumaticcraft:plastic_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			subtitle: "You met my trans brother, But have you met my trans-sistor, Laura?\" - (someone who is trans told me this joke, this is entirely meant to be friendly and wholesome!)"
+			description: ["Just a crafting component."]
+			dependencies: ["0267C95DCFD84EDF"]
+			id: "1BBDAAD5FA75CB17"
+			tasks: [{
+				id: "1A986C8D94A7A1D1"
+				type: "item"
+				item: "pneumaticcraft:transistor"
+			}]
+			rewards: [{
+				id: "0AB2952A319230F7"
+				type: "item"
+				item: "pneumaticcraft:transistor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			subtitle: "acitor... No cap"
+			description: ["just a crafting component"]
+			dependencies: ["0267C95DCFD84EDF"]
+			id: "2F67538E64022697"
+			tasks: [{
+				id: "5A21D4A77D677CCD"
+				type: "item"
+				item: "pneumaticcraft:capacitor"
+			}]
+			rewards: [{
+				id: "6DEF6B2F10E434D0"
+				type: "item"
+				item: "pneumaticcraft:capacitor"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			subtitle: "network is your net worth. (god i heard that SO much at an old job)"
+			description: [
+				"used in pneumaticcraft security systems, or, crafting!"
+				"Used in the PSI spell programmer, giving it the ability to manipulate the complex PSI spell network."
+			]
+			dependencies: ["1BBDAAD5FA75CB17"]
+			id: "02E27D43F51F4094"
+			tasks: [{
+				id: "235B1D11E39F84D1"
+				type: "item"
+				item: "pneumaticcraft:network_node"
+			}]
+			rewards: [{
+				id: "7A7C190F968B27C9"
+				type: "item"
+				item: "pneumaticcraft:transistor"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			subtitle: "O'hare air!"
+			description: [
+				"the air canister is primarily a crafting ingredient, it can be filled with compressed air, and any item crafted with that air canister will retain the pressurized air inside the canister."
+				"These CAN be found inside of special village houses! (theft is the real MVP here)"
+			]
+			dependencies: ["21D5689718D2DE27"]
+			id: "3AE075A2E6FEEAAB"
+			tasks: [{
+				id: "22BC186ED0F77A82"
+				type: "item"
+				item: "pneumaticcraft:air_canister"
+			}]
+			rewards: [{
+				id: "521115D1C21267BD"
+				type: "item"
+				item: "pneumaticcraft:air_canister"
+			}]
+		}
+		{
+			title: "air compressors"
+			x: 0.0d
+			y: -4.0d
+			subtitle: "its not just an air, ITS A COMPRESSED AIR!"
+			description: ["these are the ways that can be used to create pressure inside tubes and pneumaticcraft machines! connecting these up to pipes and machines creates a pressure network between them all."]
+			dependencies: ["28B8246491EBA640"]
+			size: 1.3d
+			id: "786BA16B27669842"
+			tasks: [{
+				id: "143DE72BB46A669C"
+				type: "checkmark"
+				title: "Compressors"
+			}]
+		}
+		{
+			title: "pneumatic machines"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Yes, i am pressuring you into doing more than you want to! "
+			description: ["Awesome and useful machines used inside of pneumaticcraft, However, many of these items are required for progression."]
+			dependencies: ["28B8246491EBA640"]
+			size: 1.3d
+			id: "03F02F989C5F95E2"
+			tasks: [{
+				id: "263B91BAC9415389"
+				type: "checkmark"
+				title: "Pneumatic machines"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Yes, i lied, this ISN'T all the progression you NEED for pneumaticcraft."
+			description: ["The progression related items in pneumaticcraft, however, This is not all you will need! you will need to create plastic, Check the pneumatic machines for how to!"]
+			dependencies: ["28B8246491EBA640"]
+			size: 1.3d
+			id: "21D5689718D2DE27"
+			tasks: [{
+				id: "266B39396A3300B6"
+				type: "checkmark"
+				title: "progression"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "more pressure than a bad influence."
+			description: ["These are the ways to transport, and manipulate, pressure!"]
+			dependencies: ["28B8246491EBA640"]
+			size: 1.3d
+			id: "3F26C233E781249D"
+			tasks: [{
+				id: "6CB766BE2E8E2D23"
+				type: "checkmark"
+				title: "Pressure transportation"
+			}]
+		}
+		{
+			icon: "psi:programmer"
+			x: 0.0d
+			y: 10.0d
+			subtitle: "When spells meet code!"
+			description: ["with the network node, and capacitor, The spell programmer is now available to be crafted! (PSI requirement 1/3)"]
+			dependencies: [
+				"02E27D43F51F4094"
+				"2F67538E64022697"
+			]
+			id: "191503F59876CB13"
+			tasks: [{
+				id: "2053B7FA45A31A61"
+				type: "checkmark"
+				title: "spell programmer"
+			}]
+		}
+		{
+			title: "Cad assembler"
+			icon: "psi:cad_assembler"
+			x: 1.0d
+			y: 10.0d
+			subtitle: "Assembles cats!! .. cads! CADS!"
+			description: ["with the creation of a capacitor a cad programmer is now craftable! (psi requirement 1/3)"]
+			dependencies: ["2F67538E64022697"]
+			id: "47FBA4A6240FE82B"
+			tasks: [{
+				id: "738082E5EA862C38"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Iron cad assembly"
+			icon: "psi:cad_assembly_iron"
+			x: 2.0d
+			y: 10.0d
+			subtitle: "ITS A MAGIC GUN!"
+			description: ["With the creation (or finding) of an air canister, you are now capable of crafting iron or gold Cad assemblies! (psi requirement 1/3)"]
+			dependencies: [
+				"3AE075A2E6FEEAAB"
+				"7C0A27807DEF0893"
+			]
+			id: "1AD2D92198FF0B0A"
+			tasks: [{
+				id: "13B2E7E3968550D9"
+				type: "checkmark"
+				title: "iron cad"
+			}]
+		}
+		{
+			icon: "psi:cad_assembly_iron"
+			x: 1.0d
+			y: 11.5d
+			shape: "gear"
+			subtitle: "3 in 1! annoying!"
+			description: [
+				"With the requirements for creating a cad assembler, spell programmer, and a basic iron or gold cad, you now have the ability to start PSI!"
+				"However, This is not all! while you can START psi, to get the highest tier of PSI casting devices, youll need to progress further in Pneumaticcraft."
+			]
+			dependencies: [
+				"191503F59876CB13"
+				"47FBA4A6240FE82B"
+				"1AD2D92198FF0B0A"
+			]
+			size: 1.3d
+			id: "127FE90A79747BFA"
+			tasks: [{
+				id: "65CC6BD7F6491DD7"
+				type: "checkmark"
+				title: "Psi requirement complete!"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.0d
+			subtitle: "one of the three trick or treaters, Barrel! be careful of oogy boogy."
+			description: ["crafting component."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7DF219D001D3CF41"
+				"21D5689718D2DE27"
+			]
+			id: "7C0A27807DEF0893"
+			tasks: [{
+				id: "05A1AD7EAF3B273C"
+				type: "item"
+				item: "immersiveengineering:gunpart_barrel"
+			}]
+			rewards: [{
+				id: "20412B0BAFDE70E8"
+				type: "item"
+				item: "immersiveengineering:gunpart_barrel"
+			}]
+		}
+		{
+			icon: "psi:cad_assembly_psimetal"
+			x: -2.5d
+			y: 12.5d
+			shape: "gear"
+			subtitle: "2 of 3! almost there!"
+			description: ["With the creation of a printed circuit board, you can made the PSI cad!"]
+			dependencies: ["3D90E681F96C5FBF"]
+			size: 1.3d
+			id: "12E5FC0F599B85B8"
+			tasks: [{
+				id: "62AF1D9C6E4B7390"
+				type: "checkmark"
+				title: "PSI requirement 2 complete!"
+			}]
+		}
+		{
+			icon: "psi:cad_assembly_ivory_psimetal"
+			x: -1.0d
+			y: 12.5d
+			shape: "gear"
+			subtitle: "3/3! i promise i won't pull a fast one on you."
+			description: ["With the creation of an advanced PCB you can create ebony and ivory cad assemblies! the highest tier!"]
+			dependencies: ["7EAC03E3C8F7C635"]
+			size: 1.3d
+			id: "3D86806DB21BDEA2"
+			tasks: [{
+				id: "364DDE242C01BE57"
+				type: "checkmark"
+				title: "PSI requirement 3 complete!"
+			}]
+		}
+	]
+}

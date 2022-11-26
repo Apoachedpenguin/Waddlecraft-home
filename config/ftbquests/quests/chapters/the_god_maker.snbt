@@ -1,0 +1,29 @@
+{
+	id: "48D127CE4C713D73"
+	group: ""
+	order_index: 10
+	filename: "the_god_maker"
+	title: "The god maker"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		subtitle: "no dependencies here!.... totally"
+		description: ["so this is here as a... end goal.. this may not even be possible yet! to get the penguin spawn egg you need to make and utilize the god maker. but its... quite the recipe. i added this here as an end game... nudge? see if you can complete it! like i said, might not yet be possible! i will slowly make it more and more possible."]
+		id: "767A80E0CB9B63B9"
+		tasks: [{
+			id: "2245E8A6289A416F"
+			type: "item"
+			item: "waddles:adelie_penguin_spawn_egg"
+		}]
+		rewards: [{
+			id: "66FCCD8A3A44541E"
+			type: "command"
+			title: "The god"
+			icon: "waddles:adelie_penguin_spawn_egg"
+			command: "/give @p waddles:adelie_penguin_spawn_egg{EntityTag:{id:\"<mob>\",Invulnerable:1b}}"
+			player_command: true
+		}]
+	}]
+}

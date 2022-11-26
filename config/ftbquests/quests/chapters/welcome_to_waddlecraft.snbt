@@ -70,15 +70,16 @@
 			}]
 		}
 		{
-			x: -1.3d
-			y: 0.0d
-			subtitle: "quests are HARRRD"
+			title: "READ ME I AM IMPORTANT!"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "this is the WORST part of this entire thing"
 			description: [
-				"back again at 1.1.5! Thanks so much for coming here! alot of progression has taken place since the last time this was updated but Oh my lord are quests a PAIN. Thanks so much yall for being awesome! Please let me know if there are any bugs or issues on curseforge or discord, Thanks!"
+				"1.2.4! woo! these are back! this questbook is currently not being worked on, instead of making quests im going to make the things the quests will be build off of! until the modpack is much more complete these likely won't get too much love. i might add some extra progression steps at some point but i don't know."
 				""
 			]
 			dependencies: ["3D1B51B3D9410A69"]
-			size: 1.3d
+			size: 3.0d
 			id: "79F0F9C6783CF42B"
 			tasks: [{
 				id: "5DF33AA948D2A3C3"
@@ -87,13 +88,32 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.0d
-			id: "048C044E5705BE8B"
+			icon: "masterfulmachinery:psi_reactor_controller"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "use JEI \"uses\" (press u while in inventory) to see custom machinery!"
+			description: [
+				"custom machines are a bit wonky and really hard to find how to make unless you use a quest or a book. seeing as i haven't made a book yet... Have a quest! Press u on this blueprint reward to see how to build custom multiblocks!"
+				""
+				""
+				"PSI notes: outer blocks are the controller, item input, output, and energy input, with white flowplates and dark flowplates. Inside is psi gem blocks, aswell as ebony and ivory psimetal blocks."
+				""
+				"Waddle god maker: every block is either dark matter blocks or quartz blocks, other than the fluid inputs/item input and output/energy input/and controller."
+				""
+				"see @masterful machinery in JEI to see how to craft all the multiblock pieces, only the craftable ones are used!"
+			]
+			dependencies: ["3D1B51B3D9410A69"]
+			size: 2.0d
+			id: "4E779D6A954DF791"
 			tasks: [{
-				id: "1BD889EEB35174A9"
+				id: "483A3CD7A781B382"
 				type: "checkmark"
-				title: "Remember to have fun, the quests are there to guide and give you tips to awesome things, But if you know what you are doing and want to branch off, remember to be yourself, and enjoy every moment you can!"
+				title: "Custom multiblocks"
+			}]
+			rewards: [{
+				id: "0293A5D2B1F485DB"
+				type: "item"
+				item: "masterfulmachinery:blueprint"
 			}]
 		}
 	]

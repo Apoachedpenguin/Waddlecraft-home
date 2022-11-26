@@ -1,0 +1,10 @@
+{
+  "name": "Rose Gem",
+  "colors": [
+    "c76781",
+    "eb678b"
+  ],
+  "ingredient": {
+    "item": "create:polished_rose_quartz"
+  }
+}

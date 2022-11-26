@@ -1,0 +1,26 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:kyronite_interconnect"
+  },
+  "bottom": {
+    "raw:item_tag": "forge:storage_blocks/redstone"
+  },
+  "left": {
+    "raw:item": "envirocore:lonsdaleite_crystal"
+  },
+  "right": {
+    "raw:item": "envirocore:lonsdaleite_crystal"
+  },
+  "center": {
+    "raw:item": "waddlecraft:fe_input_node"
+  },
+  "output": {
+    "raw:itemstack": "envirocore:fe_input",
+    "nbt": "{tier:3,energy:{capacity:65536}}"
+  },
+  "merge_center_nbt": false
+}

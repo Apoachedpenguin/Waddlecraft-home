@@ -1,0 +1,10 @@
+{
+  "name": "Crystallized Obsidian",
+  "colors": [
+    "421e3a",
+    "3b2a37"
+  ],
+  "ingredient": {
+    "item":"cyclic:gem_obsidian"
+  }
+}

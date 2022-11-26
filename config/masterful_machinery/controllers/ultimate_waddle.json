@@ -1,0 +1,40 @@
+{
+  "controllerId": "waddle_ultima",
+  "name": "Ultima waddle",
+  "textureOverride": "projecte:block/dark_matter_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "the end egg",
+      "id": "the_god_creator",
+      "data": {
+        "rows": 12,
+        "columns": 12
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "UltimaNRG",
+      "id": "reactor_go_brrrr",
+      "data": {
+        "capacity": 999999999
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Slurpy_pengu",
+      "id": "big",
+      "data": {
+        "capacity": 999999999
+      }
+    },
+    {
+      "type": "masterfulmachinery:mekanism_gas",
+      "name": "Burp",
+      "id": "burp",
+      "data": {
+        "capacity": 999999999
+      }
+    }
+  ]
+}

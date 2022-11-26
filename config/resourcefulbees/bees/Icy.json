@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:ice",
+  "flower": "minecraft:packed_ice",
   "hasHoneycomb": true,
   "traits": ["can_swim"],
   "apiaryOutputAmounts" : [2,4,2,4],

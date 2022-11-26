@@ -1,0 +1,10 @@
+{
+  "name": "Dark Star",
+  "colors": [
+    "082b1c",
+    "d9d9d9"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:ender_star"
+  }
+}

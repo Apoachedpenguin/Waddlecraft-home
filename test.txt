@@ -1,0 +1,82 @@
+{
+  "version": "2.1.0",
+  "mc_version": "1.16.5",
+  "name": "Copy 8",
+  "author": "Apoachedpenguin",
+  "bounding_box": {
+    "min_x": 0,
+    "min_y": 0,
+    "min_z": 0,
+    "max_x": 14,
+    "max_y": 17,
+    "max_z": 14
+  },
+  "material_list": {
+    "root_type": "buildinggadgets:entries",
+    "root_entry": [
+      {
+        "item_type": "buildinggadgets:simple_item",
+        "count": 5,
+        "item": {
+          "id": "mekanismgenerators:electromagnetic_coil"
+        }
+      },
+      {
+        "item_type": "buildinggadgets:simple_item",
+        "count": 168,
+        "item": {
+          "id": "mekanism:pressure_disperser"
+        }
+      },
+      {
+        "item_type": "buildinggadgets:simple_item",
+        "count": 1,
+        "item": {
+          "id": "mekanismgenerators:rotational_complex"
+        }
+      },
+      {
+        "item_type": "buildinggadgets:simple_item",
+        "count": 441,
+        "item": {
+          "id": "mekanismgenerators:saturating_condenser"
+        }
+      },
+      {
+        "item_type": "buildinggadgets:simple_item",
+        "count": 516,
+        "item": {
+          "id": "mekanism:structural_glass"
+        }
+      },
+      {
+        "item_type": "buildinggadgets:simple_item",
+        "count": 344,
+        "item": {
+          "id": "mekanismgenerators:turbine_casing"
+        }
+      },
+      {
+        "item_type": "buildinggadgets:simple_item",
+        "count": 10,
+        "item": {
+          "id": "mekanismgenerators:turbine_rotor"
+        }
+      },
+      {
+        "item_type": "buildinggadgets:simple_item",
+        "count": 4,
+        "item": {
+          "id": "mekanismgenerators:turbine_valve"
+        }
+      },
+      {
+        "item_type": "buildinggadgets:simple_item",
+        "count": 480,
+        "item": {
+          "id": "mekanismgenerators:turbine_vent"
+        }
+      }
+    ]
+  }
+}

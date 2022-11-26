@@ -14,12 +14,12 @@
 	"honeycombColor": "#ff8133",
         "isBeeColored": true
     },
-    "CentrifugeData": {  
-        "hasCentrifugeOutput": true,
-		"mainOutput":"minecraft:magma_block",
-	"mainOutputWeight": 1.00,
-	"mainOutputCount": 4.00
-    },
+"CentrifugeData": {  
+  "hasCentrifugeOutput": true,  
+  "mainOutput": "minecraft:lava",  
+  "mainOutputCount": 4000,  
+  "hasFluidOutput": true  
+},
     "SpawnData": {  
         "canSpawnInWorld": true,
 		"biomeWhitelist": "TAG:nether"

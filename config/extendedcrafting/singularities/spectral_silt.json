@@ -1,0 +1,10 @@
+{
+  "name": "Spectral Silt",
+  "colors": [
+    "8f6d3b",
+    "c74ab4"
+  ],
+  "ingredient": {
+     "item": "bountifulbaubles:spectral_silt"
+  }
+}

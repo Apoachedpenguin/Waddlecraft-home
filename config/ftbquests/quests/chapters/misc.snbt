@@ -1,0 +1,687 @@
+{
+	id: "3082C65B729A3166"
+	group: ""
+	order_index: 2
+	filename: "misc"
+	title: "Misc"
+	icon: "minecraft:bedrock"
+	subtitle: ["A mishmash of random but highly useful items! Messy!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 8.0d
+			y: -4.0d
+			subtitle: "mmmm early piping.. delicious."
+			description: ["transfers items between containers, can be upgrade with pipe upgrades, use a pipe wrench to configure."]
+			id: "06D86C45CF43FB90"
+			tasks: [{
+				id: "3C67C02CAB48D7AD"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+			rewards: [{
+				id: "323467537CD75565"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			subtitle: "more efficient than a crazy straw."
+			description: ["Moves fluids between containers. can be upgrade with pipe upgrades and can be configured with a pipe wrench."]
+			id: "696B615DE659D9C0"
+			tasks: [{
+				id: "4F52EBFB0F386326"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			rewards: [{
+				id: "551AFBB7D923570B"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			subtitle: "won't shock you. Shocker."
+			description: ["transfers energy between energy suppliers and energy consumers, can be upgrade with pipe upgrades. Configurable with a pipe wrench."]
+			id: "6CCA1E97B5633CA6"
+			tasks: [{
+				id: "2B8FF0BA8FD43417"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			rewards: [{
+				id: "687365FD57A33D2F"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			subtitle: "Exclusively used for steamy boys."
+			description: ["can transfer gas between containers, can be upgraded with pipe upgrades. configurable with a pipe wrench."]
+			id: "242EE365AB36E4BA"
+			tasks: [{
+				id: "3B8AA4624B53F2B1"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+			rewards: [{
+				id: "357D13E1B53AAA29"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "so much fun to put a thing in a thing!"
+			description: ["can transfer items, liquids, gasses, and energy. upgradable with pipe upgrades and configurable with a pipe wrench. can move multiple types of things at a time."]
+			dependencies: [
+				"06D86C45CF43FB90"
+				"696B615DE659D9C0"
+				"6CCA1E97B5633CA6"
+				"242EE365AB36E4BA"
+			]
+			id: "33BA8B6C1550DD5B"
+			tasks: [{
+				id: "23015E434D3D743E"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+			rewards: [{
+				id: "5C29A16B6AA33038"
+				type: "item"
+				item: "pipez:universal_pipe"
+				count: 10
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			subtitle: "where... where do you use this? how do you use this? theres NOTHING ON THE PIPES TO USE THIS ON!!"
+			description: ["Configures Pipez brand pipes! right click the end of a pipe to set it to pull things out of a container, do it again to disconnect it. can be used to disconnect two pipe pieces, just right click inbetween the pipes twice. Pipe ends that are set to pull things out of a container can have upgrades placed into them!"]
+			id: "667F01BEAF10F5F5"
+			tasks: [{
+				id: "25252A918804BC57"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+			rewards: [{
+				id: "66CA60FF97879838"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			subtitle: "Buys pumpkin spice lattes and wears uggs."
+			description: ["increases Piping speed and enables redstone control."]
+			dependencies: ["667F01BEAF10F5F5"]
+			id: "2959694264689F72"
+			tasks: [{
+				id: "5C0363E00687D4FF"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [{
+				id: "11022985D0C149D8"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			subtitle: "lies about his coffee preference.  says he loves it Black but really enjoys creamer."
+			description: ["greatly improves piping speed. enables redstone control and allows changing of distribution methods. "]
+			dependencies: ["2959694264689F72"]
+			id: "591617113E07B365"
+			tasks: [{
+				id: "1CF20E71D07A5767"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			rewards: [{
+				id: "71FE61797787B06E"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			subtitle: "drinks a coke a day, he says it keeps the doctor away. I don't quite think thats how it works."
+			description: ["tremendously increases piping speed, adds redstone control, distribution modes, and allows filtering of items! use a destination tool to set destination. (right clicking a block with the destination tool will set its side, make sure the pipe goes into that side, then when setting a filter, set the item, and place the filter destination tool to force it to go into that side, destination tool is not required if you don't want specific items going specific places)"]
+			dependencies: ["591617113E07B365"]
+			id: "7C7578450C87E6F7"
+			tasks: [
+				{
+					id: "3E459DFF2BF0F540"
+					type: "item"
+					item: "pipez:advanced_upgrade"
+				}
+				{
+					id: "0994A4EBEC84AD8B"
+					type: "item"
+					item: "pipez:filter_destination_tool"
+				}
+			]
+			rewards: [{
+				id: "43A5215DA8FFBFAD"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "has transcended the mortal coil, Drinks DIET COLA! (mmm tasty)"
+			description: ["ludicrous piping speed increase. has redstone control, distribution control, and filters!"]
+			dependencies: ["7C7578450C87E6F7"]
+			id: "6E547A1505D2E4F5"
+			tasks: [{
+				id: "6F24D9FCAE7AEE11"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [{
+				id: "0452FBE8F4ECDE5A"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			subtitle: "GREAT FOR BEES. seriously!"
+			description: ["Ethereal glass can allow certain entities through, but not others! Regular ethereal glass will allow players to pass, Where as reversed will be solid to ONLY players."]
+			id: "03DF37E5999385A2"
+			tasks: [
+				{
+					id: "21D647A54B75CD08"
+					type: "item"
+					item: "glassential:glass_ethereal"
+				}
+				{
+					id: "277919A85B5CBDED"
+					type: "item"
+					item: "glassential:glass_ethereal_reverse"
+				}
+			]
+			rewards: [{
+				id: "0B9DC2B3638C2003"
+				type: "item"
+				item: "glassential:glass_ethereal"
+				count: 10
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			subtitle: "darth glassius."
+			description: ["dark ethereal glass blocks light from passing through. regular ethereal dark glass will allow players to pass, but no other entities. reversed ethereal glass will prevent the player from passing through, but all other entities will be allowed through."]
+			id: "005591A329E28B27"
+			tasks: [
+				{
+					id: "56A69881EA8C2836"
+					type: "item"
+					item: "glassential:glass_dark_ethereal"
+				}
+				{
+					id: "0343D0B144AE737C"
+					type: "item"
+					item: "glassential:glass_dark_ethereal_reverse"
+				}
+			]
+			rewards: [{
+				id: "3E85045ECCCE66B3"
+				type: "item"
+				item: "glassential:glass_dark_ethereal"
+				count: 10
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "at what point is it no longer glass?"
+			description: [
+				"Luminous glass emits light."
+				"Ghostly glass is not solid to any entities."
+				"redstone glass emits redstone signal."
+			]
+			id: "4F413C92A28839B8"
+			tasks: [
+				{
+					id: "468791F5B818A4CF"
+					type: "item"
+					item: "glassential:glass_light"
+				}
+				{
+					id: "473D7AD3DD4549AF"
+					type: "item"
+					item: "glassential:glass_ghostly"
+				}
+				{
+					id: "1C672DE6A5D317D4"
+					type: "item"
+					item: "glassential:glass_redstone"
+				}
+			]
+			rewards: [
+				{
+					id: "01EB545F1896EAB0"
+					type: "item"
+					item: "glassential:glass_light"
+					count: 4
+				}
+				{
+					id: "3368DFC3B506A3DB"
+					type: "item"
+					item: "glassential:glass_ghostly"
+					count: 4
+				}
+				{
+					id: "28D3AAFB5DF3FD1B"
+					type: "item"
+					item: "glassential:glass_redstone"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			subtitle: "Truly, you are doing something marvelous. SLEEPING DURING THE DAY!"
+			description: ["can be hung off nails and rope. works opposite of a bed, sleep during the day to get to night time! (nails and rope must be 2 blocks apart, allowing two empty blocks inbetween to place the hammock)"]
+			id: "2E534C6EBE17C8E5"
+			tasks: [
+				{
+					id: "0A12C637FD0DA598"
+					type: "item"
+					item: "comforts:hammock_white"
+				}
+				{
+					id: "0AFF5413FCE28F78"
+					type: "item"
+					item: "comforts:rope_and_nail"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "56F05480C7E2740B"
+				type: "item"
+				item: "comforts:hammock_white"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			subtitle: "camping, without the camp!"
+			description: ["can be used to sleep through the night without setting your spawn point (endlessly reusable)"]
+			id: "1740C6C84BD4962A"
+			tasks: [{
+				id: "11BE333BDB652E82"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+			rewards: [{
+				id: "23F2FB58598D8ECD"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+		}
+		{
+			title: "Building gadgets"
+			x: 5.0d
+			y: -4.0d
+			subtitle: "a better builder than you!"
+			description: [
+				"building gadgets are useful building...gadgets. press G by default (note, conflicts overwrite this, so you have to clear that up) to open the menu, for ALL building gadgets. notable things are Range, Undo button, and modes! !!!!CAUTION: WHEN USED ON CERTAIN BLOCKS (pipes/machines/multiblocks) IT CAN CRASH AND DESTROY YOUR WORLD. HANDLE HEAVILY WITH CAUTION!!! (backups are automatically taken so your world isnt lost, either look up how to load backups, or ask me, i will help if i can)"
+				""
+				"Building gadget: Builds a selected block in certain patterns. Shift right click a block to select the block you want to place, have that block in your inventory (or a sophisticated backpack) and right click to place!"
+				""
+				"Exchanging gadget: takes the block you scan with Shift right click, then exchanges it for any blocks you right click."
+				""
+				"copypaste gadget: in copy mode, Right click and shift right click will select the first and second points, once both are selected it copies the ENTIRE area. In the menu, you can check the required materials to paste what you copied! (in paste mode right clicking will paste your structure)."
+				""
+				"the destruction tool can be used to destroy massive chunks of area instantly! (does NOT Give you the destroyed blocks, if you mess up use the undo function)."
+			]
+			id: "23519026BFF0998E"
+			tasks: [
+				{
+					id: "2BDD978BF74BF941"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_building"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "69AF83717F6EEC9B"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_exchanging"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "7059063B39DB4515"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_copy_paste"
+						Count: 1b
+						tag: {
+							mode: 0b
+							template_id: [I;
+								-229431405
+								-117487456
+								-2018861019
+								-159260554
+							]
+						}
+					}
+				}
+				{
+					id: "3BCF4270DEA40825"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_destruction"
+						Count: 1b
+						tag: {
+							overlay: 1b
+							fuzzy: 1b
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2CD56A7DADAB6077"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			subtitle: "MOM THE TRASH TOOK MY *insert item here* AND WON'T GIVE IT BACK!"
+			description: ["Trash void will instantly destroy any items or fluids piped into it. handle with caution, once something goes it, it never comes out."]
+			id: "1314C8E2A5AC0A7E"
+			tasks: [{
+				id: "5B1205BDE427A217"
+				type: "item"
+				item: "cyclic:trash"
+			}]
+			rewards: [{
+				id: "548A6B03319DC46D"
+				type: "item"
+				item: "cyclic:trash"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "call of the void, its really clean!"
+			description: ["a dimension containing nothing, and endless daylight! perfect if the overworld just has too much...stuff, watch your step!"]
+			id: "5905B3BBFB1D1F2C"
+			tasks: [{
+				id: "2385D0750EFA857C"
+				type: "item"
+				item: "javd:portal_block"
+			}]
+			rewards: [{
+				id: "29037D26F169AD6D"
+				type: "item"
+				item: "minecraft:black_concrete"
+				count: 10
+			}]
+		}
+		{
+			title: "Cyclic stuff."
+			x: 3.5d
+			y: 0.0d
+			subtitle: "DON'T JUST CLICK IT BECAUSE ITS A CHECKMARK KRONK! (my buddy who REALLY likes to click checkmarks without reading them)"
+			description: ["Yes, an entire mod is in the misc tab. Cyclic is a jack of all trades mods with alot of useful items. Has ALOT of really useful items, but there is almost always something that does the same thing as a cyclic item, but better. Check out @cyclic in JEI to see all cyclic items, Theres bound to be a few items that you would really enjoy."]
+			id: "6C47124DC7E4006D"
+			tasks: [{
+				id: "5AE4C1026D3BEF92"
+				type: "checkmark"
+				title: "Cyclic"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			subtitle: "Drawers! DRAWERS! Floors? no!"
+			description: [
+				"Holds ALOT of a single item. can be upgraded with drawer upgrades."
+				"There are MANY types of drawers, look up @drawers to see them all in JEI. "
+			]
+			id: "246D86F74E4DB661"
+			tasks: [{
+				id: "4E8A93BA0F12D53A"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [{
+				id: "2F20ABD395611507"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			subtitle: "SQUEEZE DAMN YOU SQUEEZE!"
+			description: ["Pipe or place an item in and it will automatically compact it. nuggets compact to ingots, which compact to blocks. Will automatically Compact up two steps (nuggets will auto compress to blocks)"]
+			dependencies: ["246D86F74E4DB661"]
+			id: "531724CC2C31CA75"
+			tasks: [{
+				id: "5A168F35163B86CA"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [{
+				id: "651282FC83585C61"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			subtitle: "Many thousands of items WOO"
+			description: [
+				"some useful drawer upgrades, Stack upgrade increases the amount a single drawer can hold, void upgrade will destroy any items that exceed the drawers item cap, and the redstone will emit signal based on the amount of items in a drawer."
+				"while useful, these are NOT the only drawer upgrades! look up @drawers in jei to see them all."
+			]
+			dependencies: ["246D86F74E4DB661"]
+			id: "0C0BC89DC846F0D9"
+			tasks: [
+				{
+					id: "63C76C7E9688A4E8"
+					type: "item"
+					item: "storagedrawers:emerald_storage_upgrade"
+				}
+				{
+					id: "12B80B0054F24756"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+				}
+				{
+					id: "5FD521E84A6CC662"
+					type: "item"
+					item: "storagedrawers:redstone_upgrade"
+				}
+			]
+			rewards: [{
+				id: "718D578FE62933C5"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "the sub and dom of drawer world!"
+			description: ["Controls connected drawers, allows interaction with many drawers from a single block (great for external storage bus from refined storage!)"]
+			dependencies: ["246D86F74E4DB661"]
+			id: "11E82FC74879C609"
+			tasks: [
+				{
+					id: "6F4BAEE0EADCB104"
+					type: "item"
+					item: "storagedrawers:controller_slave"
+				}
+				{
+					id: "30C49BA1B6173BBF"
+					type: "item"
+					item: "storagedrawers:controller"
+				}
+			]
+			rewards: [{
+				id: "6AAD98FE340EF379"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			id: "06995CC6F74C7014"
+			tasks: [{
+				id: "6F11604B6F4C8DF1"
+				type: "item"
+				item: "chunkloaders:basic_chunk_loader"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			id: "0285D99AF3BF47CD"
+			tasks: [{
+				id: "0152840DF719AAF9"
+				type: "item"
+				item: "darkutils:blank_plate"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			id: "4C96D7B6EA2E274D"
+			tasks: [{
+				id: "779C1C31BE5AB3D1"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			id: "66FA08C3A5E9DE25"
+			tasks: [{
+				id: "171C54C194B95EB0"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			id: "5E873BD71C568ADD"
+			tasks: [{
+				id: "161762E9A0516E31"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			id: "69A6B879409FC34A"
+			tasks: [{
+				id: "30B5125FFBB1477D"
+				type: "item"
+				item: "mcwbridges:oak_log_bridge_middle"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			id: "441796D62ABCCCCA"
+			tasks: [{
+				id: "11F52478E437CB0F"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			id: "422A3BD4D44F0024"
+			tasks: [{
+				id: "3D5E2EB72CD426B0"
+				type: "item"
+				item: "xreliquary:infernal_chalice"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			id: "577B24E0D2A6BE06"
+			tasks: [{
+				id: "034EAC9F156C917F"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			id: "3055D6D88C3773E6"
+			tasks: [{
+				id: "657EB5D1F3027E91"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+		}
+	]
+}

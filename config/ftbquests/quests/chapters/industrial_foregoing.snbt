@@ -1,0 +1,1428 @@
+{
+	id: "388FB693A44C6BD2"
+	group: ""
+	order_index: 5
+	filename: "industrial_foregoing"
+	title: "Industrial Foregoing"
+	icon: "industrialforegoing:dissolution_chamber"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: 1.0d
+			subtitle: "warning: does not dip animals in ranch!"
+			description: ["Used to automatically collect resources from passive mobs."]
+			dependencies: ["06FE2DC1296E7851"]
+			id: "6195F3B0F1F6F647"
+			tasks: [{
+				id: "472C49C3B1365C5C"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+			rewards: [{
+				id: "090437A42727E828"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 6
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			subtitle: "smells like almonds."
+			description: ["Can be used to make potions! fill it once with water, put glass bottles in it, And then put the recipe for the potion you want in order (splash potion of strength is netherwart first slot, Blaze powder second slot, gunpowder third slot)."]
+			dependencies: ["12846BC119FA27B8"]
+			id: "32988D473A300A59"
+			tasks: [{
+				id: "279AD0D24BFF234A"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+			rewards: [
+				{
+					id: "122FCB91CD469173"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 6
+				}
+				{
+					id: "45907B8F3217BBB5"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 6
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -1.5d
+			subtitle: "makes mobs into fanta orange soda. (not sponsored but like, Hit me up fanta.)"
+			description: ["kills mobs, but instead of grinding them into paste, like the mob grinder, it causes them to drop EXP and their items!"]
+			dependencies: ["12846BC119FA27B8"]
+			id: "5E49F2EC66E9646B"
+			tasks: [{
+				id: "65C4907B71709300"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [
+				{
+					id: "4006A1A19FA02515"
+					type: "item"
+					item: "minecraft:book"
+					count: 2
+				}
+				{
+					id: "61CCABC03CBEDB83"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			subtitle: "works on lambs! infact, works on all baby mobs!"
+			description: ["Grinds mobs into Pink slime and liquid meat."]
+			dependencies: ["06FE2DC1296E7851"]
+			id: "0DB3769C95B57524"
+			tasks: [{
+				id: "069D55F3377B72B8"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [{
+				id: "639607E01EEF708C"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			subtitle: "machine go.... Slightly more efficient!"
+			description: ["increases efficiency of industrial foregoing machines (which, in some machines, just makes them faster)."]
+			dependencies: ["2A66E80EA4436392"]
+			id: "10027DB01A078336"
+			tasks: [{
+				id: "42B9B314637EB577"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EBDA14376977156"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			subtitle: "Its like sonic. but worse."
+			description: ["Increases the speed of industrial foregoing machines."]
+			dependencies: ["2A66E80EA4436392"]
+			id: "15DF4DE7A3B2072F"
+			tasks: [{
+				id: "446968527613EED3"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5AA695D7A83C316A"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			subtitle: "tier 2? why no tier 10???"
+			description: ["Im not sure exactly why. but high range upgrades seem bugged. as of last i checked, range upgrade 2 seems to be the highest i can get to work. Increases range of certain industrial foregoing machines."]
+			dependencies: ["2A66E80EA4436392"]
+			id: "70BB572152CFEBA4"
+			tasks: [{
+				id: "34BB095CF01E8297"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 1.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "120C0D79397AB2AC"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 2
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.0d
+			subtitle: "IM FIRING MY LAZER. NYERRRRRRRRRRRRRRRRRRRRRRRR"
+			description: ["uses lasers to mine ores. lens change which ores are more likely. laser drills all surround the base in a plus shape. (see diagram for fluid laser base for an example)."]
+			dependencies: ["12846BC119FA27B8"]
+			id: "62AA1E4943B0DF05"
+			tasks: [
+				{
+					id: "02952F4D2D58A396"
+					type: "item"
+					item: "industrialforegoing:ore_laser_base"
+				}
+				{
+					id: "6CECE37A72EB490B"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0BC16CAA1713F170"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "52ED43115ABC0D41"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 0.5d
+			subtitle: "i'd like a drink of wither juice please!"
+			description: [
+				"Can be used to collect fluids., also, can be used to \"mine\" a wither for ether gas! "
+				""
+				"{image:kubejs:textures/2022-09-13_19.12.20.png width:250 height:250 align:1}"
+				"Place the lasers on the outside of the fluid laser base, as shown in the picture. Power them (in my picture i use a flux network, but any power will do). and then Pipe the liquid out the top with any liquid pipe into a tank."
+				"with the stasis chamber powered under the wither, you will be able to collect ether gas safely! however. i can recommend you put wither proof blocks (like tempered dark glass) around the setup... just incase"
+			]
+			dependencies: ["12846BC119FA27B8"]
+			id: "651BAF706828E632"
+			tasks: [
+				{
+					id: "1A180E5780EDD6B3"
+					type: "item"
+					item: "industrialforegoing:fluid_laser_base"
+				}
+				{
+					id: "32A0F025590FD26F"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "67658592F14DF58C"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "25A288B6492E3D26"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			subtitle: "plastic, its fantastic!"
+			description: ["used in many industrial foregoing recipes, also required for steel casing from mekanism!"]
+			dependencies: ["3D27D1CDE2F20983"]
+			id: "7752226D9E088DF8"
+			tasks: [{
+				id: "15E26B60BB08583A"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+			rewards: [{
+				id: "1CF803338FCE6620"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			subtitle: "this works alot better for making stuff than wet rubber does."
+			description: ["smelt this into plastic!"]
+			dependencies: [
+				"417C2B24506ACFB3"
+				"652E4CABA2FB113D"
+				"4CAC3FCE258A33DD"
+			]
+			id: "3D27D1CDE2F20983"
+			tasks: [{
+				id: "3C1F3F72B1F61E5D"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+			}]
+			rewards: [{
+				id: "3F98327F411D8456"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+				count: 4
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			subtitle: "Dis IS the solution."
+			description: ["Uses energy to process up to 8 materials and 1 fluid to create complex items."]
+			dependencies: ["06FE2DC1296E7851"]
+			id: "7F79CFE952765185"
+			tasks: [{
+				id: "24E881E280E3A34B"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "568D37226752764F"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			subtitle: "slurps blocks."
+			description: ["This extracts fluids from blocks! the big one you will want is latex,  extracted from wood. check recipes to see a full list."]
+			dependencies: ["5F7156473E54B9FD"]
+			id: "652E4CABA2FB113D"
+			tasks: [{
+				id: "01A266BBE4273B92"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [{
+				id: "1E483DC10198D298"
+				type: "item"
+				item: "minecraft:acacia_log"
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			subtitle: "Theres alot of uses for latex.... Plastic is one of those! is that how that works?"
+			description: ["this turns liquid latex, extracted from wood,  and turns it into Small chunks of rubber. These can be combined to form Dry rubber, then smelted into plastic!"]
+			dependencies: ["5F7156473E54B9FD"]
+			id: "4CAC3FCE258A33DD"
+			tasks: [{
+				id: "0F8C2D04B8C1F70B"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+			rewards: [{
+				id: "2B8B072B96D9883D"
+				type: "item"
+				item: "industrialforegoing:tinydryrubber"
+				count: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			subtitle: "on the 16th day of christmas, my true love gave to me! 16 buckets of water. it sucked."
+			description: ["Can hold 16 buckets of any liquid!"]
+			dependencies: ["06FE2DC1296E7851"]
+			id: "138673EC08E18CA3"
+			tasks: [{
+				id: "40C78BAFA2631EF2"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+			rewards: [{
+				id: "631789EACA43C918"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			subtitle: "pitiful mortal."
+			description: ["Can hold 64 buckets of any liquid!"]
+			dependencies: ["06FE2DC1296E7851"]
+			id: "514403AC92CFD3A5"
+			tasks: [{
+				id: "0DEB96C429E03137"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+			rewards: [{
+				id: "2FA23309186FF212"
+				type: "item"
+				item: "minecraft:bucket"
+				count: 2
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			subtitle: "I'm a simple man Jennay."
+			description: ["Can hold 1,024 buckets of liquid!"]
+			dependencies: ["1AE0FDA1D8534706"]
+			id: "06AF2A6C4C28E77D"
+			tasks: [{
+				id: "0D8E8A6B025CF9A3"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+			rewards: [{
+				id: "2CE8556D8DD9970C"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.5d
+			subtitle: "size doesn't matter. Unless you are a black hole tank."
+			description: ["can hold 65,536 buckets of liquid!"]
+			dependencies: ["12846BC119FA27B8"]
+			id: "39EAE1F02E59E5FD"
+			tasks: [{
+				id: "46F3AF2FBB408929"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+			rewards: [{
+				id: "6EF6C168DB3D0DAB"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 2
+			}]
+		}
+		{
+			x: -15.0d
+			y: 1.5d
+			subtitle: "its not for soup! its SUPerior!. but it can hold soup. if soup was a valid liquid."
+			description: ["can hold a massive 2,147,483 buckets of liquid."]
+			dependencies: ["3ABE2481C188C314"]
+			id: "4DA98AB4254A14F8"
+			tasks: [{
+				id: "4C08D181B168B92C"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "0DC7AF56496A94E4"
+					type: "item"
+					item: "industrialforegoing:machine_frame_advanced"
+				}
+				{
+					id: "28ABFF02F4871CCF"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 0.0d
+			subtitle: "Not your typical clothing brand! because its not a clothing brand here."
+			description: ["makes the highest tier of industrial foregoing machines! "]
+			dependencies: ["6CEB76CA3900C135"]
+			id: "3ABE2481C188C314"
+			tasks: [{
+				id: "4B96E879D43A7706"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [{
+				id: "10094F542F4267D8"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			subtitle: "Truly advanced beyond its years. aka 4 seconds since you made it."
+			description: ["used in high tier industrial foregoing recipes."]
+			dependencies: ["1AE0FDA1D8534706"]
+			id: "12846BC119FA27B8"
+			tasks: [{
+				id: "144F43EC56876DF4"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [{
+				id: "033B0EF43EF5E6DA"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "Simple, rustic! YES GOOD!"
+			description: ["used in industrial foregoing medium tier machines."]
+			dependencies: ["7F79CFE952765185"]
+			id: "1AE0FDA1D8534706"
+			tasks: [{
+				id: "3624B7686D51E4A3"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "disgraceful item frame! truly."
+			description: ["used in many of industrial foregoings early machines!"]
+			dependencies: ["21458DCD1F216727"]
+			id: "6CACB26BFA2040AA"
+			tasks: [{
+				id: "1FB4207B60E48C8C"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [{
+				id: "3377E558F35D399D"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -0.5d
+			subtitle: "real annoying to stand on."
+			description: ["stops things above it from moving, or acting in any way. as long as it remains powered!"]
+			dependencies: ["12846BC119FA27B8"]
+			id: "1B1DC2FA99BF828E"
+			tasks: [{
+				id: "3641B219EA440A3D"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+			rewards: [{
+				id: "36C6C47FF74AFC3C"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 2
+			}]
+		}
+		{
+			x: -13.5d
+			y: 0.0d
+			subtitle: "ether bucket will do."
+			description: ["obtained with a laser drill over a wither! check the laser ore quest for instructions."]
+			dependencies: [
+				"1B1DC2FA99BF828E"
+				"651BAF706828E632"
+			]
+			id: "6CEB76CA3900C135"
+			tasks: [{
+				id: "2484B58CBE973EB9"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+			rewards: [{
+				id: "5877F82410CF4D11"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			subtitle: "cleaning up the world, 1 block of garbage you made at a time!"
+			description: ["this is an alternate way of obtaining dry rubber, throw items into a rats garbage can to get garbage, Break those to get plastic waste (works like gravel and flint). after you obtain plastic waste, throw it into a crusher from immersive engineering, or pulverizer from thermal. "]
+			hide_dependency_lines: true
+			dependencies: ["5F7156473E54B9FD"]
+			id: "417C2B24506ACFB3"
+			tasks: [{
+				id: "7D1D7328CEC77CE6"
+				type: "item"
+				item: "rats:plastic_waste"
+			}]
+			rewards: [{
+				id: "34D286B8C7EEBCB5"
+				type: "item"
+				item: "rats:plastic_waste"
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			subtitle: "gotta catch em all, Pok- i mean cows.."
+			dependencies: ["2A66E80EA4436392"]
+			id: "5C1D3E3EA78262D0"
+			tasks: [{
+				id: "04DA7021FA7606EF"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+			rewards: [{
+				id: "5CBDDEE983AD9679"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			subtitle: "2048, the emc in gold! wait this ain't tekkit."
+			description: ["can hold 2048 of a single item."]
+			dependencies: ["06FE2DC1296E7851"]
+			id: "15CDAE6148DE0A43"
+			tasks: [{
+				id: "56AE861ED52D7E50"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+			rewards: [{
+				id: "78646EBF689C8F69"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 6
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			subtitle: "for when you need exactly 16384 wooden pickaxes."
+			description: ["holds 16384 of a single item."]
+			dependencies: ["06FE2DC1296E7851"]
+			id: "288140C285BD2D74"
+			tasks: [{
+				id: "24394E46A883EEFE"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_unit"
+			}]
+			rewards: [{
+				id: "0A35D547711A5A60"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			subtitle: "it can hold like. 3 raw cod."
+			description: ["can hold 524,288 of a single item!"]
+			dependencies: ["1AE0FDA1D8534706"]
+			id: "4504E00D7FE753B7"
+			tasks: [{
+				id: "2A1777DEB7B8FA20"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+			rewards: [{
+				id: "74B626D916FB6110"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 2
+			}]
+		}
+		{
+			x: -10.0d
+			y: -2.5d
+			subtitle: "names cake, Pan cake. Holder. cuz i can hold pancakes. if there were pancakes."
+			description: ["can hold 67,108,864 of a single item!"]
+			dependencies: ["12846BC119FA27B8"]
+			id: "39F6FB38B8819AD3"
+			tasks: [{
+				id: "6F8C432F039B4C0F"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_unit"
+			}]
+			rewards: [{
+				id: "1146EFBF77B958FA"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 2
+			}]
+		}
+		{
+			x: -15.0d
+			y: -1.5d
+			subtitle: "iz big, really, I checked!"
+			description: ["can hold 2,147,483,647 of a single item."]
+			dependencies: ["3ABE2481C188C314"]
+			id: "70A0B615D6130FDB"
+			tasks: [{
+				id: "7A980E481D2BCA2B"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "01B968597CBD318C"
+					type: "item"
+					item: "industrialforegoing:machine_frame_advanced"
+				}
+				{
+					id: "65ED002D3A6BBFF3"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "MMM rubber/latex/plastic. 100% the same thing."
+			description: ["The progression through industrial foregoing."]
+			dependencies: ["6CACB26BFA2040AA"]
+			size: 1.3d
+			id: "5F7156473E54B9FD"
+			tasks: [{
+				id: "44FD97A5777AF001"
+				type: "checkmark"
+				title: "Progression"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			subtitle: "Don't chew on it! its not that kinda trident!"
+			description: ["attacks in an aoe. Higher charge gives this trident higher levels of loyalty, riptide, and channeling automatically!"]
+			dependencies: ["2A66E80EA4436392"]
+			id: "18E44E74AF884FEC"
+			tasks: [{
+				id: "5F78BFD9D3204D2B"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4038D677D26CD759"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			subtitle: "Yes drill sarg. infinity pushups, right away!"
+			description: ["works like a pickaxe and shovel! higher energy levels increases the size of the area it mines!"]
+			dependencies: ["2A66E80EA4436392"]
+			id: "22B37E396992ED24"
+			tasks: [{
+				id: "1477ABDD4A66EC9B"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "597A1DA34CABC89B"
+				type: "item"
+				item: "minecraft:diamond_block"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			subtitle: "Thwang."
+			description: ["can be used to launch mob imprisonment at a range!"]
+			dependencies: ["2A66E80EA4436392"]
+			id: "1F14E1E05182C674"
+			tasks: [{
+				id: "04BDD2A0F6B9571A"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_launcher"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Plunger: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63EA78F7492ADB01"
+				type: "item"
+				item: "minecraft:diamond_block"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			subtitle: "EXPLOSION!"
+			description: ["the infinity nuke can be placed down and lit with a flint and steel to detonate. the higher the charge (and biofuel level) the bigger the explosion. Be careful!"]
+			dependencies: ["2A66E80EA4436392"]
+			id: "2983DE14BF416173"
+			tasks: [{
+				id: "622543F547ABC1E0"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_nuke"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "12757BFBE7915BBE"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "can hold the state of texas, as long as texas can fit in a backpack."
+			description: ["can hold large amounts of items! increases storage with more energy."]
+			dependencies: ["2A66E80EA4436392"]
+			id: "4192FE9CB0BE6E4C"
+			tasks: [{
+				id: "722B601F0D81D012"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+			rewards: [{
+				id: "14AA07FFFE18EC31"
+				type: "item"
+				item: "thermal:gold_gear"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			subtitle: "i didn't see this coming, But i saw it!"
+			description: [
+				"Breaks wooden blocks very quickly, Great for taking down large trees as it will break from the top of trees if used on the same block."
+				""
+			]
+			dependencies: ["2A66E80EA4436392"]
+			id: "7915D9F810F39537"
+			tasks: [{
+				id: "6D5D418D799FA422"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "79C7BE4C0FC9D9C9"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			subtitle: "Hammer, oh dear sweet hammer, Why does thou head hurt?"
+			description: ["massive sweeping weapon, increases sweep and adds beheading with higher energy. (right click to do a ground pound attack)"]
+			dependencies: ["2A66E80EA4436392"]
+			id: "6DFA1C557D05FBDF"
+			tasks: [{
+				id: "66E577A2361AC868"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "09747F4AD3F20322"
+				type: "item"
+				item: "minecraft:diamond_block"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "oooooh toys."
+			description: ["alot of useful machines for industrial foregoing."]
+			dependencies: ["6CACB26BFA2040AA"]
+			size: 1.3d
+			id: "06FE2DC1296E7851"
+			tasks: [{
+				id: "3EB0666079665BA0"
+				type: "checkmark"
+				title: "other useful machines."
+			}]
+		}
+		{
+			title: "Power generation"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Which generation are we on now?"
+			description: ["generators of industrial craft! incase you needed MORE ways to make power!"]
+			dependencies: ["6CACB26BFA2040AA"]
+			size: 1.3d
+			id: "510544173BB77398"
+			tasks: [{
+				id: "1ADC6F7EBD97124E"
+				type: "checkmark"
+				title: "Infinity tools"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "to infinity and beyond! once you go beyond infinity turn right for upgrades."
+			description: ["awesome upgrades for machines, and industrial foregoings interesting infinity tools! (infinity tools grow in strength as their energy goes up, energy is used with tool use, however, biofuel can be placed into it to prevent energy from being used! (not required)"]
+			dependencies: ["6CACB26BFA2040AA"]
+			size: 1.3d
+			id: "2A66E80EA4436392"
+			tasks: [{
+				id: "769D44391360A9FC"
+				type: "checkmark"
+				title: "Useful upgrades and tools"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			subtitle: "its like a furnace! except doesnt cook things!"
+			description: ["Turns furnace fuels into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "5D2F2E321EC8067A"
+			tasks: [{
+				id: "672595CB22CB981B"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [{
+				id: "514D99CE7396D704"
+				type: "item"
+				item: "minecraft:coal"
+				count: 10
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			subtitle: "GET OUT OF HERE SLIMER!"
+			description: ["Turns slime into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "37A29B6073A41AD2"
+			tasks: [{
+				id: "20F7204096A52BCA"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+			rewards: [{
+				id: "585F5C13B17C551B"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			subtitle: "I'm on a seafood diet. I see food and i eat it."
+			description: ["Turns food into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "26AC40582E2FF556"
+			tasks: [{
+				id: "694200B8ECAF3E44"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+			rewards: [{
+				id: "0D0F025192581D07"
+				type: "item"
+				item: "minecraft:cooked_beef"
+				count: 10
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			subtitle: "CHUG, CHUG, CHUG!"
+			description: ["Turns potions into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "4EDCCA8F3D689687"
+			tasks: [{
+				id: "0F4A12DB5084BA3C"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+			rewards: [
+				{
+					id: "39D7E6F28829FA8C"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+				{
+					id: "1AE3D2AC3D774828"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+				}
+				{
+					id: "4D9D39A504F0C766"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			subtitle: "Its watching me..."
+			description: ["Turns enderpearls into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "7090500B0EF8630D"
+			tasks: [{
+				id: "745C2C80EB3B8011"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+			rewards: [{
+				id: "5A2434F2C42E91E8"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 3
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			subtitle: "This requires Knowleeedge."
+			description: ["Turns enchanted books into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "2680459F390E2B94"
+			tasks: [{
+				id: "7107F123CE1768F3"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+			rewards: [
+				{
+					id: "1910967FB7B304BD"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "4E6C85CFEE0F1830"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:thorns"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			subtitle: "Boom, BABY!"
+			description: ["turns tnt explosions into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "0C91942B33BCC434"
+			tasks: [{
+				id: "62B91FAC06C4605B"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+			rewards: [{
+				id: "5E42E37D4C777FBF"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			subtitle: "Frosty the snowman, worth exactly 1200 energy!"
+			description: ["Turns cold items into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "7EF22EA56544CFF6"
+			tasks: [{
+				id: "177CF7A56B9B36F8"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+			rewards: [{
+				id: "79D807A3B407E2A2"
+				type: "item"
+				item: "minecraft:snowball"
+				count: 10
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			subtitle: "Gross."
+			description: ["Turns dragons breath into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "1048DB811EA26068"
+			tasks: [{
+				id: "005413EAEEE9A3BA"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+			rewards: [{
+				id: "6650C58E453BEFD8"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			subtitle: "It's MELTTTING.....into energy."
+			description: ["Turns lava into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "1BCDE444CB4375C5"
+			tasks: [{
+				id: "06CBDEE9008D011E"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+			rewards: [{
+				id: "53DEDFE83968E858"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			subtitle: "pretty in pink!"
+			description: ["Turns pink items into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "0E1D45423972A126"
+			tasks: [{
+				id: "389D0444A5A2F3A9"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+			rewards: [{
+				id: "28D3BE4517552DD7"
+				type: "item"
+				item: "minecraft:pink_wool"
+				count: 10
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			subtitle: "is ESPENSIV."
+			description: ["Turns netherstars to energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "0D041411B88AA04D"
+			tasks: [{
+				id: "5637978DB26591DE"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+			rewards: [{
+				id: "527EE6C996A98C4A"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			subtitle: "The reaper comes for us all! but even more so the goodies in here."
+			description: ["Turns certain mob drops into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "03351AF294E409BD"
+			tasks: [{
+				id: "0919397FE85A0369"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+			rewards: [{
+				id: "33D660869821F337"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			subtitle: "only useful on the fourth of july."
+			description: ["Turns fireworks into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "136001A597CC181F"
+			tasks: [{
+				id: "6DC4940E627DA65C"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+			rewards: [{
+				id: "3A44949B41D38C80"
+				type: "item"
+				item: "minecraft:firework_rocket"
+				count: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			subtitle: "I was thinking to myself \"you have to like, rob a bank to get energy from this one?\""
+			description: ["turns warped or crimson items into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "597EEED48DC4D9B3"
+			tasks: [{
+				id: "0C062003B6CEE56D"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+			rewards: [
+				{
+					id: "2C9190CF6205A9A9"
+					type: "item"
+					item: "minecraft:warped_planks"
+					count: 10
+				}
+				{
+					id: "7D83B5D027B8BB79"
+					type: "item"
+					item: "minecraft:crimson_planks"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			subtitle: "want a meat metal smoothie? comes in pork!"
+			description: ["Turns liquid meat and metal into energy!"]
+			dependencies: ["510544173BB77398"]
+			id: "76186BC349958C08"
+			tasks: [{
+				id: "492357C1D75EE817"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+			rewards: [
+				{
+					id: "2B2572C220BA1904"
+					type: "item"
+					item: "industrialforegoing:meat_bucket"
+				}
+				{
+					id: "4E9076F3EF5444AA"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "ULTIMATE.... POWWWAAAAAAAAAAAAH"
+			description: ["if all other mycelial generators are running, this generates incredible power!"]
+			dependencies: ["510544173BB77398"]
+			id: "1F677C8F96A834AF"
+			tasks: [{
+				id: "4D3B18F1273904E3"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+			rewards: [{
+				id: "50D00E0B5C0FA4CB"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 10
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.0d
+			subtitle: "Here Fishy fishy fishy."
+			description: ["Uses energy to automatically fish a 3x3 zone. should be aprrox. 1 block higher than the fishing area."]
+			dependencies: ["1AE0FDA1D8534706"]
+			id: "6211790D8EC91D52"
+			tasks: [{
+				id: "0EA2A0A964468B68"
+				type: "item"
+				item: "industrialforegoing:marine_fisher"
+			}]
+			rewards: [{
+				id: "55541E08CCA791E7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			subtitle: "Mob detected, deploying tnt. please evacuate your base."
+			description: ["detects when a mob is in its range!"]
+			dependencies: ["1AE0FDA1D8534706"]
+			id: "659FF29177C4C6CD"
+			tasks: [{
+				id: "4A23652B059C32B3"
+				type: "item"
+				item: "industrialforegoing:mob_detector"
+			}]
+			rewards: [{
+				id: "2BE414FAE9EF9955"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+		}
+		{
+			icon: "mekanism:configurator"
+			x: 0.0d
+			y: 10.5d
+			shape: "gear"
+			subtitle: "With the creation of plastics, you now have the ingredients to make"
+			description: ["With the creation of plastic, You now have what you need to make mekanism steel casing! however, it can only be made in an induction furnace from thermal."]
+			dependencies: ["7752226D9E088DF8"]
+			size: 1.3d
+			id: "45B1D7AB539C1D49"
+			tasks: [{
+				id: "3CCE1D385DAB83E9"
+				type: "checkmark"
+				title: "Mekanism requirement 1/2 met!"
+			}]
+		}
+	]
+}

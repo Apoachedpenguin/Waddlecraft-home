@@ -376,12 +376,12 @@ const extendedshapelessrecipes = [
             'extendedcrafting:crystaltine_ingot', 'pneumaticcraft:ingot_iron_compressed', 'psi:psimetal', 'psi:ebony_psimetal', 'psi:ivory_psimetal', 'mythicbotany:alfsteel_ingot', 'iceandfire:dragonsteel_fire_ingot', 'iceandfire:dragonsteel_ice_ingot', 'iceandfire:dragonsteel_lightning_ingot',
             'iceandfire:ghost_ingot', 'eidolon:pewter_ingot', 'eidolon:arcane_gold_ingot', 'materialis:fairy_ingot', 'tconstruct:cobalt_ingot', 'tconstruct:slimesteel_ingot', 'tconstruct:queens_slime_ingot', 'tconstruct:manyullyn_ingot', 'tconstruct:hepatizon_ingot',
             'cagedmobs:star_infused_netherite_ingot', 'elementalcraft:swift_alloy_ingot', 'elementalcraft:drenched_iron_ingot', 'elementalcraft:fireite_ingot', 'gildedingot:gilded_ingot', 'enigmaticlegacy:etherium_ingot', 'tconstruct:pig_iron_ingot', 'woot:si_ingot', 'mana-and-artifice:vinteum_ingot',
-            'gobber2:gobber2_ingot', 'gobber2:gobber2_ingot_nether', 'gobber2:gobber2_ingot_end', 'upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot', 'mana-and-artifice:superheated_vinteum_ingot', 'mana-and-artifice:purified_vinteum_ingot', 'mana-and-artifice:superheated_purified_vinteum_ingot', 'silentgear:crimson_iron_ingot', 'silentgear:crimson_steel_ingot',
-            'silentgear:blaze_gold_ingot', 'silentgear:azure_silver_ingot', 'silentgear:azure_electrum_ingot', 'silentgear:tyrian_steel_ingot', 'bigreactors:yellorium_ingot', 'bigreactors:cyanite_ingot', 'bigreactors:inanite_ingot', 'bigreactors:magentite_ingot', 'tconstruct:rose_gold_ingot'
+            'gobber2:gobber2_ingot', 'gobber2:gobber2_ingot_nether', 'gobber2:gobber2_ingot_end', 'upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot', 'mana-and-artifice:superheated_vinteum_ingot', 'mana-and-artifice:purified_vinteum_ingot', 'mana-and-artifice:superheated_purified_vinteum_ingot', 'lazierae2:fluix_steel_ingot', 'silentgear:crimson_steel_ingot',
+            'projectred-core:red_ingot', 'silentgear:azure_silver_ingot', 'silentgear:azure_electrum_ingot', Item.of('silentgear:tyrian_steel_ingot').enchant('silentgear:star_charged', 3), 'bigreactors:yellorium_ingot', 'bigreactors:cyanite_ingot', 'bigreactors:inanite_ingot', 'bigreactors:magentite_ingot', 'tconstruct:rose_gold_ingot'
         ]
     },
     {
-        output: 'kubejs:ultimate_honeycomb',
+        output: 'waddlecraft:ultimate_honeycomb',
         input: [
             'resourcefulbees:catnip_honeycomb','resourcefulbees:starry_honeycomb','resourcefulbees:alfsteel_honeycomb','resourcefulbees:aluminium_honeycomb','resourcefulbees:aquamarine_honeycomb','resourcefulbees:awakened_draconium_honeycomb','resourcefulbees:beelitz_honeycomb','resourcefulbees:beelizz_honeycomb','resourcefulbees:beesalz_honeycomb',
             'resourcefulbees:black_iron_honeycomb','resourcefulbees:blaze_honeycomb','resourcefulbees:blazing_honeycomb','resourcefulbees:brass_honeycomb','resourcefulbees:bronze_honeycomb','resourcefulbees:chaos_honeycomb','resourcefulbees:cheesy_honeycomb','resourcefulbees:coal_honeycomb','resourcefulbees:constantan_honeycomb',

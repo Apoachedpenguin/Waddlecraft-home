@@ -1,0 +1,10 @@
+{
+  "name": "Slime Crystal",
+  "colors": [
+    "00b506",
+    "06a10c"
+  ],
+  "ingredient": {
+    "item": "tconstruct:earth_slime_crystal"
+  }
+}

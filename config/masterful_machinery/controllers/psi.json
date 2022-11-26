@@ -1,0 +1,24 @@
+{
+  "controllerId": "psi_reactor",
+  "name": "Psi Reactor",
+  "textureOverride": "psi:blocks/psimetal_plate_white_light",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Reactor",
+      "id": "rl",
+      "data": {
+        "rows": 3,
+        "columns": 9
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Reactor Energy",
+      "id": "b",
+      "data": {
+        "capacity": 400000
+      }
+    }
+  ]
+}

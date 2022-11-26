@@ -1,0 +1,10 @@
+{
+  "name": "experience",
+  "colors": [
+    "024501",
+    "010f01"
+  ],
+  "ingredient": {
+    "item": "woot:xpshard"
+  }
+}

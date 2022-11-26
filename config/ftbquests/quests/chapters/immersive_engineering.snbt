@@ -1,0 +1,1306 @@
+{
+	id: "127EFEA2D7A3EECA"
+	group: ""
+	order_index: 4
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Crusher"
+			icon: "immersiveengineering:crusher"
+			x: -4.0d
+			y: 2.5d
+			subtitle: "i don't like you... i LIKE like you.."
+			description: ["doubles ores by turning them into dusts! (can also be used to make dusts needed for crafting)"]
+			dependencies: ["66B284E6AD4CBE6E"]
+			id: "792C4AA8F9157F53"
+			tasks: [
+				{
+					id: "4B4496C9E81D1E07"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "15922693922207AD"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "791CBBB0CB2D1551"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "757979E449CBA912"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "7D4C0B39E64BA8A1"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "5A13F220689E3E1B"
+				type: "item"
+				item: "thermal:iron_dust"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "I CAN SEE EVERYTHING!"
+			description: ["The projector is a tool used to automatically show you the location of blocks used in immersive engineering (and immersive petroleum) multiblocks. This way you don't have to look up how everything is built all the time!"]
+			dependencies: ["4B76E41354C56168"]
+			id: "0EB5F3DC4B87BCBF"
+			tasks: [{
+				id: "759C98B32F7AB4B5"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+		}
+		{
+			icon: "immersiveengineering:alloy_smelter"
+			x: 2.5d
+			y: 4.0d
+			subtitle: "whats better than one type of metal? TWO TYPES OF METAL."
+			description: ["The kiln is used to make metal alloys, Bronze, Constantan, electrum, etc. there are other and better ways, but this is one of the first."]
+			dependencies: ["52A6D69A3C81D683"]
+			id: "5A61836F359D3278"
+			tasks: [{
+				id: "2CF55E05C042F879"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+		}
+		{
+			title: "Improved blast furnace"
+			icon: "immersiveengineering:advanced_blast_furnace"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "HARDER, BETTER, FASTER, STRONGER. Donger."
+			description: ["makes steel faster than the blast furnace. preheaters use power to greater increase speed. this one has one more major advantage however. it can automate steel!"]
+			dependencies: ["66B284E6AD4CBE6E"]
+			id: "46AECF6ED814E64B"
+			tasks: [
+				{
+					id: "1D2A41C6ADB907E3"
+					type: "item"
+					item: "immersiveengineering:blastfurnace_preheater"
+					count: 2L
+				}
+				{
+					id: "1450CBBA97244645"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "504A1F1D2E18AB64"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+			rewards: [{
+				id: "03A50AAD628A1D94"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 3
+			}]
+		}
+		{
+			title: "Coker"
+			icon: "immersivepetroleum:cokerunit"
+			x: -6.0d
+			y: -4.0d
+			subtitle: "I prefer this to the \"pepsier\""
+			description: ["Yes, everything in the list is correct. this is a BIG multiblock (note the scaffolding slabs have to be the ones on the quest again) converts bitumen to petcoke! yay! it is MASSIVE. remember to use the projector!"]
+			dependencies: ["17638EDAAB623410"]
+			id: "014F5BA4F2513AE1"
+			tasks: [
+				{
+					id: "570170434C425930"
+					type: "item"
+					item: "immersiveengineering:concrete"
+					count: 12L
+				}
+				{
+					id: "17886F66E15EB261"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 64L
+				}
+				{
+					id: "090B28CFD1C4636B"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 34L
+				}
+				{
+					id: "594F32777914F7A8"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "5ACA1931C0D19238"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+				}
+				{
+					id: "048AAFC837C8313B"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 5L
+				}
+				{
+					id: "04073A148156D8C5"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "19C45DFA00AB66D8"
+					type: "item"
+					item: "immersiveengineering:concrete_tile"
+					count: 45L
+				}
+				{
+					id: "6E3DA570F37CD186"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 64L
+				}
+				{
+					id: "7E32DF0E36C089B3"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 24L
+				}
+				{
+					id: "6D70F1C58B696CBA"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 64L
+				}
+				{
+					id: "51DC348CEC07C722"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 64L
+				}
+				{
+					id: "56B13C4B3D55904C"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 34L
+				}
+				{
+					id: "2438151A408EED2C"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 47L
+				}
+				{
+					id: "1461CCE35415945A"
+					type: "item"
+					item: "immersiveengineering:steel_slope"
+					count: 3L
+				}
+				{
+					id: "0970EDA726BEA468"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
+					count: 46L
+				}
+			]
+			rewards: [{
+				id: "2066D6E3E8D2D80E"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+		}
+		{
+			title: "pumpjack"
+			icon: "immersivepetroleum:pumpjack"
+			x: -5.0d
+			y: -3.0d
+			subtitle: "pump it up jack!"
+			description: ["Find a chunk with oil in it using the core sample drill. Then, set up the pumpjack, power it, and it will pump that oil to the surface!"]
+			dependencies: [
+				"3A318050FB3A6CDE"
+				"66B284E6AD4CBE6E"
+			]
+			id: "15CF8B80B813E688"
+			tasks: [
+				{
+					id: "6EFF79ABE876537D"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					count: 11L
+				}
+				{
+					id: "36A005EA26FA9C53"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "5E50812ABC0F2B28"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 6L
+				}
+				{
+					id: "7E3FD332BE10B719"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "582C9E0F12738439"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "6852E54955D0A65B"
+					type: "item"
+					item: "mekanism:block_steel"
+					count: 2L
+				}
+				{
+					id: "726FAE89EA8285B1"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 4L
+				}
+				{
+					id: "5DBD6D5D5CCF4238"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "7CF32731EC78B796"
+				type: "item"
+				item: "immersivepetroleum:oil_bucket"
+			}]
+		}
+		{
+			icon: "immersivepetroleum:hydrotreater"
+			x: -4.0d
+			y: -4.0d
+			subtitle: "definitely a multiblock, i promise."
+			description: ["this removes sulfur from sulfurized diesel, giving \"clean\" useful diesel, and sulfur dust!"]
+			dependencies: ["17638EDAAB623410"]
+			id: "59A6780D462D6BD0"
+			tasks: [
+				{
+					id: "2F2FD1C6C32968E5"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "32E2BB71AD9662A2"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "000F11B30931515E"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 15L
+				}
+				{
+					id: "4AB428420CD9F3D9"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "11966F62F9588124"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "1F3C71BC60D8A8B0"
+				type: "item"
+				item: "thermal:sulfur_dust"
+				count: 5
+			}]
+		}
+		{
+			title: "Coke oven"
+			icon: "immersiveengineering:coke_oven"
+			x: -2.5d
+			y: 4.0d
+			subtitle: "This is the GOOD stuff. not that cheap knock off."
+			description: ["Turns coal into Coal Coke! while coal coke is a useful fuel for the blast furnace, The part you need for progression is the creosote bi-product to make treated planks."]
+			dependencies: ["52A6D69A3C81D683"]
+			id: "5506C06EA7785F7F"
+			tasks: [{
+				id: "6A8ACC56F0B16420"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "033330F7BE45E178"
+				type: "item"
+				item: "thermal:coal_coke"
+			}]
+		}
+		{
+			title: "Arc furnace"
+			icon: "immersiveengineering:arc_furnace"
+			x: -6.0d
+			y: 1.0d
+			subtitle: "hey! i found the lost arc!"
+			description: ["works to double some ores, Smelt dusts, make steel ingots, and recycle old equipment!"]
+			dependencies: [
+				"66B284E6AD4CBE6E"
+				"795A06B998168CBA"
+			]
+			id: "0212FAB847A928E0"
+			tasks: [
+				{
+					id: "02661097E71C406A"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "33B222F1D464970D"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "01AED1BB4ABCD3EB"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "355A33814F1F5E3C"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "6BE8F68A8581B722"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "2323C548857251E0"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "2D5A4A149C64C852"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "240DF47A8AD4A3E3"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+			]
+			rewards: [{
+				id: "54406DCCDB29E761"
+				type: "item"
+				item: "mekanism:block_steel"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			subtitle: "This is where id put my mystical agriculture seed... IF I HAD ONE!!!!"
+			description: ["used to quickly grow many crops, and can automate the process entirely. makes farming a breeze."]
+			dependencies: ["66B284E6AD4CBE6E"]
+			id: "170DBD8617292C39"
+			tasks: [{
+				id: "028886D13FBA95C8"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "302DD8A2943D5D05"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+		}
+		{
+			title: "Distillation tower"
+			icon: "immersivepetroleum:distillationtower"
+			x: -5.0d
+			y: -4.0d
+			subtitle: "don't fall, Or do, I'm not your dad."
+			description: [
+				"This will turn oil mined with a pump jack into usable resources! check the engineers handbook for the exact method for doing so. (do note, there are two types of steel scaffolding slabs, the one listed in this questbook is the correct kind, the other scaffolding slab WILL NOT work! i don't know why this is exactly, but keep that in mind.)"
+				"remember to use the projector!"
+			]
+			dependencies: ["15CF8B80B813E688"]
+			id: "17638EDAAB623410"
+			tasks: [
+				{
+					id: "62995087703F29C5"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 25L
+				}
+				{
+					id: "27F1163975CE9F2A"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "0036BC716BE37D95"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "4D9CCADC1B685CCF"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 60L
+				}
+				{
+					id: "752E7DC08660AA2A"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
+					count: 30L
+				}
+				{
+					id: "6217ACB51CAC32F2"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 17L
+				}
+			]
+			rewards: [{
+				id: "54918B66633437B7"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 3
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			subtitle: "why is this better than a regular workbench? because you TREATED IT RIGHT."
+			description: ["Can be used in conjunction with blueprints to make more complex mechanical items and components."]
+			dependencies: ["5506C06EA7785F7F"]
+			id: "79773CD8A17F0F92"
+			tasks: [{
+				id: "460E5E29514B08B9"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "energy in a can! well not a can but you get the idea."
+			dependencies: ["3E7361A703DAB44D"]
+			id: "4F835DE2BAC6AF71"
+			tasks: [{
+				id: "1B71735B472E7DFF"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [{
+				id: "7595F63BAC0F16A4"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			subtitle: "will you at least, uh, deposit my candy into my candy account?"
+			description: ["An upgrade to the puny storage capacity of RF in the LV capacitor."]
+			dependencies: ["3E7361A703DAB44D"]
+			id: "3EFC7D52BBA74B4E"
+			tasks: [{
+				id: "219FE13DA61B2BEE"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			rewards: [{
+				id: "341E1CB5F271CDDA"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			subtitle: "IT'S BIGGER ON THE INSIDE???"
+			description: ["much more storage for RF, more than MV capacitor. nuff said."]
+			dependencies: ["3E7361A703DAB44D"]
+			id: "7E1C149BD12C4253"
+			tasks: [{
+				id: "2DF8A5392282F40D"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [{
+				id: "7DA34D1B2A2945CB"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 5
+			}]
+		}
+		{
+			title: "low voltage energy transfer"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "copper noodle. tastes spicy"
+			description: ["LV version of energy transfer! set up connectors to your energy output sources, and to the machines you want to imput energy, and connect them with wire! wire can be connected to relays to split the power, or move it further than a single wire can go."]
+			dependencies: ["3E7361A703DAB44D"]
+			id: "7B726425197FEBFA"
+			tasks: [
+				{
+					id: "6E09918FE9960B63"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+				{
+					id: "1F89BD95383691B8"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+				{
+					id: "7590D8BDF29CF63F"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+			]
+			rewards: [{
+				id: "094E0C4B37300ADD"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+				count: 3
+			}]
+		}
+		{
+			title: "MV energy transfer"
+			x: 6.0d
+			y: 1.0d
+			subtitle: "hurts about as much as getting buzzed on operation."
+			description: ["this allows for higher amounts of energy transfer than the low voltage power transfer."]
+			dependencies: ["3E7361A703DAB44D"]
+			id: "295FB850BE2E7002"
+			tasks: [
+				{
+					id: "361BC94184BF8B6C"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+				}
+				{
+					id: "50B68E46A562DC3B"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+				{
+					id: "747360238C38D78A"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+			]
+			rewards: [{
+				id: "23DBCACE9DEACD5F"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			subtitle: "Tis but a flesh wound! BZZZT."
+			description: ["transfers high amounts of energy! careful, IT STINGS."]
+			dependencies: ["3E7361A703DAB44D"]
+			id: "65E3A356562C22FA"
+			tasks: [
+				{
+					id: "408ACFFB61590628"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+				}
+				{
+					id: "7038CF6B8C3DF395"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+				}
+				{
+					id: "7A7760383C7FB31A"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+				}
+			]
+			rewards: [{
+				id: "592F5C222612E501"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			subtitle: "perfect for making sure your ben and jerrys \"core\" icecream has a core."
+			description: ["place this into a chunk, give it power, and let it go! it will give you a Core sample that you can use to determine what is inside the chunk! useful for finding immersive engineering oil."]
+			dependencies: ["66B284E6AD4CBE6E"]
+			id: "3A318050FB3A6CDE"
+			tasks: [{
+				id: "11E98FE35ABF228C"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [{
+				id: "05A5E9AFA71FDC43"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				count: 3
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			subtitle: "READY MEN??? CHARRRRGE!"
+			description: ["used to charge equipment that uses power."]
+			dependencies: ["66B284E6AD4CBE6E"]
+			id: "6D6219B95E0EA212"
+			tasks: [{
+				id: "59901410648BE7CB"
+				type: "item"
+				item: "immersiveengineering:charging_station"
+			}]
+			rewards: [{
+				id: "333294A05BD40ABE"
+				type: "item"
+				item: "minecraft:coal"
+				count: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			subtitle: "hot and spicy? cool and minty?"
+			description: ["place hot items/blocks to one side, and cold items/blocks to the other. That makes power!"]
+			dependencies: ["7B122E2C3BF5579E"]
+			id: "7F01A9B94B88E256"
+			tasks: [{
+				id: "43403019565EEBC0"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [
+				{
+					id: "294F598884ECF04C"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "0B14F7501123EE68"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+		{
+			title: "Metal press molds"
+			x: 0.0d
+			y: 7.0d
+			subtitle: "i found these on my bread the other day."
+			dependencies: [
+				"3153728338D1A45A"
+				"6893F49C405D286A"
+			]
+			id: "4DCA6DF8C704E066"
+			tasks: [
+				{
+					id: "50258F8721EE311F"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "37304A5FE4BE71D6"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "46996566E2DF87A8"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+				{
+					id: "0CCD7F9499D33FE8"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+			]
+			rewards: [{
+				id: "7D2F90BFDEB037DB"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			subtitle: "I love your enthusiasm, but i said bluePRINTS not bluePRINCE. Now rinse the prince off!"
+			description: ["click the blue prints to see the recipes, You need the \"metal press molds\" blue print, and the \"crafting component\" blueprints. they are different recipes, and the ones shown in the quest are correct."]
+			dependencies: ["79773CD8A17F0F92"]
+			id: "6893F49C405D286A"
+			tasks: [
+				{
+					id: "44ED9DC7F36370DF"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "components"
+						}
+					}
+				}
+				{
+					id: "62A76D822398E32A"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "molds"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7328F480297B792C"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			subtitle: "You spin me right round baby right round! like a windmill baby!"
+			description: ["Connect this to the black dot on a kinetic dynamo, add windmill sails to increase speed and power generation. they can be stacked vertically or side to side, but if infront of eachother they will lower RF/tick output. ( they must be far enough away if directly infront of eachother.)"]
+			dependencies: ["7E53E62AADFD0A00"]
+			id: "250873060E4B2AF0"
+			tasks: [
+				{
+					id: "3F54A4C05EF228F8"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+				{
+					id: "52E2A8C797EB529E"
+					type: "item"
+					item: "immersiveengineering:windmill_sail"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "DYNAMAX TIME. eh."
+			description: ["this connects to either water mills or wind mills, Place the kinetic dynamo FIRST. with the black circle side TOWARDS where you want to put your water wheel or wind mill. Then place the water or wind mill ONTO the dynamo directly on the black dot side. Then it will create energy when they start moving!"]
+			dependencies: ["7B122E2C3BF5579E"]
+			id: "7E53E62AADFD0A00"
+			tasks: [{
+				id: "3114A64079FE1E8E"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "1C994DB341F4CD34"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			subtitle: "water goes in, energy comes out. how hard can it be?"
+			description: [
+				"water flows around this to cause it to spin. when connected to a kinetic dynamo it can create power! you can stack 3 waterwheels on a single kinetic dynamo."
+				"{image:kubejs:textures/2022-09-10_21.23.00.png width:230 height:200 align:1}"
+				"This is the most efficient setup,  the top right flows TOWARDS the water wheel, the bottom left flows AWAY from the water wheel."
+				"the stone is to show where the main water source cut off from the extra 2 blocks."
+				"remember that there are THREE waterwheels stacked here."
+			]
+			dependencies: ["7E53E62AADFD0A00"]
+			id: "7C1B7225C8E331FB"
+			tasks: [{
+				id: "36FBBF48B062C248"
+				type: "item"
+				item: "immersiveengineering:watermill"
+				count: 3L
+			}]
+			rewards: [{
+				id: "177EB384C69E2BDC"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "use this to post on twitter."
+			description: ["keep your wires clean and well maintained by placing relays onto these, 4 blocks tall to ensure you don't Zap yourself walking under the wires."]
+			dependencies: ["3E7361A703DAB44D"]
+			id: "71EBBABAB3DA31F8"
+			tasks: [{
+				id: "67FBA8713777BD31"
+				type: "item"
+				item: "immersiveengineering:treated_post"
+			}]
+			rewards: [{
+				id: "0FEE8CE2EC9C66B5"
+				type: "item"
+				item: "immersiveengineering:treated_post"
+			}]
+		}
+		{
+			title: "Diesel generator"
+			icon: "immersiveengineering:diesel_generator"
+			x: -2.5d
+			y: -4.0d
+			subtitle: "\"diesel generator. What does that mean?\" - my mother when asked to make a pun off diesel generator."
+			description: ["input diesel or biodiesel to create power! there is no gui, just put diesel into the sides and energy comes out the top (if it has somewhere to go)"]
+			dependencies: [
+				"7B122E2C3BF5579E"
+				"59A6780D462D6BD0"
+			]
+			id: "5737D7955C8AD81B"
+			tasks: [
+				{
+					id: "3038418A25BDB610"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "402EECF3B9B3F7EA"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "093EB70364942628"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "63A8B1D76E8808B8"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "1DB3E8C7431AF99A"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "4904FAE93FE16B8D"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "3E0379FF5564E0FD"
+				type: "item"
+				item: "immersivepetroleum:diesel_bucket"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			subtitle: "Jump, Jump, Jump around!"
+			description: ["used to make graphite electrodes."]
+			dependencies: ["5333019EEBFEE0C5"]
+			id: "3BE5A98CF3CE6CE0"
+			tasks: [{
+				id: "2DAD814814E29273"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+			}]
+			rewards: [{
+				id: "3B397230A241441D"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+			}]
+		}
+		{
+			icon: "immersiveengineering:blast_furnace"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "steel steals my heart."
+			description: [
+				"the blast furnace is used for making steel! steel can be used in many of immersive engineering multiblocks. but even better, will be useful for pretty much your entire Waddlecraft journey! 3x3x3 multiblock."
+				"Make an engineers hammer (below this) to make this multiblock into a blast furnace. and i highly recommend the projector (also below) for an easier time making other more complex multiblocks!"
+			]
+			dependencies: ["1155D72338C83A00"]
+			id: "4B76E41354C56168"
+			tasks: [{
+				id: "081B6538EFD56FD0"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "4442DCE7B968E561"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "its like a bowl of cereal without the cereal and milk and instead makes power."
+			dependencies: ["4B76E41354C56168"]
+			size: 1.3d
+			id: "7B122E2C3BF5579E"
+			tasks: [{
+				id: "19F01A3A4FCE2292"
+				type: "checkmark"
+				title: "RF generation"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Mmm, Gimme the electric noodle."
+			description: ["the tools needed to store RF and transfer it. "]
+			dependencies: ["4B76E41354C56168"]
+			size: 1.3d
+			id: "3E7361A703DAB44D"
+			tasks: [{
+				id: "0EBF006B85E2A253"
+				type: "checkmark"
+				title: "Power storage and movement"
+			}]
+		}
+		{
+			title: "Other creations"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "So.. many.. MULTIBLOCKS!"
+			description: ["Fun or challenging immersive engineering structures! strap in."]
+			dependencies: ["4B76E41354C56168"]
+			size: 1.3d
+			id: "66B284E6AD4CBE6E"
+			tasks: [{
+				id: "4AC8160E0622C91A"
+				type: "checkmark"
+				title: "fun machines"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Gotta do it if you want your dessert!"
+			description: ["not much is actually NEEDED in immersive engineering, but its a fun time exploring all the other things in this mod."]
+			dependencies: ["4B76E41354C56168"]
+			size: 1.3d
+			id: "52A6D69A3C81D683"
+			tasks: [{
+				id: "1C0E9D2D59465033"
+				type: "checkmark"
+				title: "progression"
+			}]
+		}
+		{
+			title: "make an engineer's hammer"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Stop! its hamm-.... we've done this."
+			description: ["you can use this to smack your multiblocks into existance. right clicking on a completed multiblock with the hammer will transform it from a bunch of blocks into a machine! (check the engineers handbook for information on WHERE to use the hammer)"]
+			dependencies: ["4B76E41354C56168"]
+			id: "53651C3C932C9D26"
+			tasks: [{
+				id: "1536BDA836AE3A38"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Metal press"
+			icon: "immersiveengineering:metal_press"
+			x: 2.5d
+			y: 7.0d
+			subtitle: "1 GRILLED CHEESE, HOT OFF THE PRESS!"
+			description: ["Much quicker pressing of plates, and can be used to make gears, rods, and wiring. (requires molds however)"]
+			dependencies: ["5A61836F359D3278"]
+			id: "3153728338D1A45A"
+			tasks: [
+				{
+					id: "1B077BBE7FDBE871"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "37B9EDA95A53BB53"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+				{
+					id: "7B01FF782B517792"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "06252CAD45BD443A"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "56FDB1CFF1A03F69"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+			]
+			rewards: [{
+				id: "67DB6D60E274135C"
+				type: "item"
+				item: "thermal:iron_plate"
+				count: 3
+			}]
+		}
+		{
+			title: "Thermal requirement met!"
+			icon: "thermal:machine_smelter"
+			x: -1.3d
+			y: 8.450000000000001d
+			shape: "gear"
+			subtitle: "its getting HOT up in here!"
+			description: ["With the completion of the mold for plates, you can make steel plates and proceed to thermal! congrats."]
+			dependencies: ["4DCA6DF8C704E066"]
+			size: 1.3d
+			id: "32FEE621E7F27CED"
+			tasks: [{
+				id: "52DE994BC1E28851"
+				type: "checkmark"
+				title: "Progression: thermal!"
+			}]
+		}
+		{
+			icon: "industrialforegoing:dissolution_chamber"
+			x: 1.3d
+			y: 8.450000000000001d
+			shape: "gear"
+			subtitle: "i am all foregoing to the industrial market."
+			description: ["with the mold for gears made, you can now progress to thermal by pressing 4 iron into iron gears for a petty machine frame, Congrats!"]
+			dependencies: ["4DCA6DF8C704E066"]
+			size: 1.3d
+			id: "3AFA90DAB55A43FD"
+			tasks: [{
+				id: "6F45B36C09C52B1C"
+				type: "checkmark"
+				title: "Industrial Foregoing requirement met!"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "This is for posting on facebook"
+			description: ["like the wooden post, but aluminum! "]
+			dependencies: ["3E7361A703DAB44D"]
+			id: "004A124C9450D114"
+			tasks: [{
+				id: "3FBA814BB20ED6F8"
+				type: "item"
+				item: "immersiveengineering:alu_post"
+			}]
+			rewards: [{
+				id: "0C3473DC82D10C70"
+				type: "item"
+				item: "immersiveengineering:alu_post"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "you NEED one of these to post on instagram."
+			dependencies: ["3E7361A703DAB44D"]
+			id: "0CAAB29011C8A827"
+			tasks: [{
+				id: "05334FC2BF4A3195"
+				type: "item"
+				item: "immersiveengineering:steel_post"
+			}]
+			rewards: [{
+				id: "1B044F553F93A057"
+				type: "item"
+				item: "immersiveengineering:steel_post"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			subtitle: "its ok Cokey, You go whenever you want to."
+			dependencies: ["014F5BA4F2513AE1"]
+			id: "2F0A52ABDC75CB78"
+			tasks: [{
+				id: "5805B26AC2135011"
+				type: "item"
+				item: "immersivepetroleum:petcoke"
+				count: 32L
+			}]
+			rewards: [{
+				id: "06F4A17886B1742C"
+				type: "item"
+				item: "immersivepetroleum:petcoke"
+				count: 16
+			}]
+		}
+		{
+			title: "squeezer"
+			icon: "immersiveengineering:squeezer"
+			x: -6.0d
+			y: -2.0d
+			subtitle: "give it a pinch, give it a squeeze! "
+			description: ["Squeezes things, the main thing youll want from it here is to turn petcoke into hop graphite dust!"]
+			dependencies: ["2F0A52ABDC75CB78"]
+			id: "5333019EEBFEE0C5"
+			tasks: [
+				{
+					id: "0869B708A22F1F91"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "4EAA935C1BBDD162"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "66549971CE9326BC"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "261E4A70FEFA5B9A"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "24612F4C44906FCF"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "2831F052A260F553"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "6BB47106340FEB7B"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "7251A190999582C9"
+				type: "item"
+				item: "immersivepetroleum:petcoke"
+				count: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			subtitle: "its like a tootsie roll but grotey"
+			description: ["you can make these via metal press with a rod mold OR via the engineers workbench, with an arc electrode blueprint. the ones made via metal press will be HALF durability. (This quest requires a full one, made in the workbench)"]
+			dependencies: ["3BE5A98CF3CE6CE0"]
+			id: "795A06B998168CBA"
+			tasks: [{
+				id: "344C4006616A6778"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "760D001D54739533"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+				count: 2
+			}]
+		}
+		{
+			title: "PSI: part 1/4!"
+			icon: "psi:cad_assembly_psimetal"
+			x: -1.3d
+			y: -1.3d
+			shape: "gear"
+			subtitle: "honestly wasn't gonna add this because i forgot psi requires steel. but not too far in so HERE YA GO!"
+			description: ["With production of steel you can make a barrel, which is used in PSI cads. The rest of PSI requirements are in \"pneumaticcraft\". go there to see what else you need to progress!"]
+			dependencies: ["4B76E41354C56168"]
+			size: 1.3d
+			id: "7DF219D001D3CF41"
+			tasks: [{
+				id: "380EFCB3CAA0B4FB"
+				type: "checkmark"
+				title: "PSI requirement met!"
+			}]
+		}
+	]
+}

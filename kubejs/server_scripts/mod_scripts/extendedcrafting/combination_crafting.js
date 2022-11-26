@@ -2,7 +2,7 @@ onEvent('recipes', event => {
     event.custom({
         "type": "extendedcrafting:combination",
         "powerCost": 2000000,
-        "input": { "item": "cagedmobs:star_infused_netherite_ingot" },
+        "input": { "item": "elementalcraft:fireite_ingot" },
         "ingredients": [
             { "item": "upgradednetherite:gold_upgraded_netherite_ingot" },
             { "item": "upgradednetherite:fire_upgraded_netherite_ingot" },
@@ -12,7 +12,8 @@ onEvent('recipes', event => {
             { "item": "upgradednetherite:poison_upgraded_netherite_ingot" },
             { "item": "upgradednetherite:phantom_upgraded_netherite_ingot" },
             { "item": "upgradednetherite:feather_upgraded_netherite_ingot" },
-            { "item": "upgradednetherite:corrupt_upgraded_netherite_ingot" }
+            { "item": "upgradednetherite:corrupt_upgraded_netherite_ingot" },
+            { "item": "cagedmobs:star_infused_netherite_ingot"}
         ],
         "result": { "item": "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot" }
     })

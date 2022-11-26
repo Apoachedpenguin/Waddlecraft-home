@@ -1,5 +1,5 @@
 {
-  "flower": "cyclic:eye_teleport",
+  "flower": "waddlecraft:ender_pearl_block",
   "hasHoneycomb": true,
   "traits": ["ender"],
   "maxTimeInHive": 1600,
@@ -24,7 +24,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"feedItem": "minecraft:ender_pearl",
+	"feedItem": "xreliquary:nebulous_heart",
 	"parent1": "End_stone",
 	"parent2": "Zombie",
 	"feedAmount": 1

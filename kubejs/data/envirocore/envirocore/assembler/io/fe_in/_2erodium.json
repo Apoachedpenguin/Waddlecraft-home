@@ -1,0 +1,26 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:erodium_interconnect"
+  },
+  "bottom": {
+    "raw:item_tag": "forge:storage_blocks/redstone"
+  },
+  "left": {
+    "raw:item_tag": "forge:ingots/iron"
+  },
+  "right": {
+    "raw:item_tag": "forge:ingots/iron"
+  },
+  "center": {
+    "raw:item": "waddlecraft:fe_input_node"
+  },
+  "output": {
+    "raw:itemstack": "envirocore:fe_input",
+    "nbt": "{tier:2,energy:{capacity:8192}}"
+  },
+  "merge_center_nbt": false
+}

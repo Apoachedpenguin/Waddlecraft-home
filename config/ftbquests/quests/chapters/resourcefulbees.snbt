@@ -1,0 +1,2211 @@
+{
+	id: "2F67A77ABB5F584A"
+	group: ""
+	order_index: 7
+	filename: "resourcefulbees"
+	title: "resourcefulbees!"
+	icon: "minecraft:bee_nest"
+	subtitle: ["Mmm. honey. and honeycomb! and...rocks?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "big bee, small jar."
+			description: ["These can ..BEE.. used to capture wild bees! simply hold the jar and right click a bee in the wild."]
+			dependencies: ["0DE15D2E3E055B26"]
+			id: "051642E48275B28E"
+			tasks: [{
+				id: "4C2C09769EC08075"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+				count: 8L
+			}]
+			rewards: [{
+				id: "48D3E141568AD1CF"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			subtitle: "can also remove ice from windows! if... windows got icy in minecraft... "
+			description: [
+				"this can be used to remove the combs from a hive! once a hive is FULL of honey (must be full) simply use the scraper to take one off at a time! these are indestructable. (shears can be used to instantly get ALL the comb, but that has durability)."
+				""
+				"careful, however, Bees do get a bit... angry, when you take their combs! use a smoker to calm them before hand!"
+			]
+			dependencies: ["72BC326BB0B9691A"]
+			id: "622F4114C686597E"
+			tasks: [{
+				id: "2D5E32A882EAEDB5"
+				type: "item"
+				item: "resourcefulbees:scraper"
+			}]
+			rewards: [{
+				id: "57D312B1DE16C98F"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			subtitle: "warning: may cause lung problems in bees."
+			description: [
+				"smoking a hive can be done in two ways, this smoker, or, a campfire placed under a hive! smoked hives can be scraped for honeycomb without the bees getting upset and attacking you!"
+				""
+				"Bees don't hurt all that much when they attack you. However, bees will lose their stinger upon attacking, and will quickly die without it. so make sure to be VERY careful around bees to not anger them."
+				"an apiary does not need to be smoked."
+			]
+			dependencies: ["72BC326BB0B9691A"]
+			id: "02A31D9003288157"
+			tasks: [{
+				id: "5AA961E1E689ED1C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:smoker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "60EEA67590BCFEBA"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 10
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			subtitle: "bee goes in, combs come out, time to get my hair looking nice!"
+			description: [
+				"This is the first of the bee boxes that you will be using in resourceful bees! it holds 4 bees and can hold 5 combs! a bee in jar placed near one of these will automatically make it its home, and will venture out in search of its flower to pollinate and get its honey!"
+				""
+				"breaking a bees hive will cause it to get angry and attack! make sure there aren't bees around when you steal their home."
+			]
+			dependencies: ["5674F2BD3DC69187"]
+			id: "4B7DEE8AE96767EA"
+			tasks: [{
+				id: "722FE33ED7362D1D"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+			rewards: [{
+				id: "210620DAAC44FB72"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			subtitle: "powering up! tier two, online."
+			description: [
+				"can hold 6 bees and 8 honeycomb, and decreases the time a bee spends doing nothing in the hive by 10%"
+				""
+				"this can be made ONLY with tier one beehives! bees and jei have an issue, causing this recipe to look like it can be made with ANY hive, But only a tier 1 beehive will work!"
+			]
+			dependencies: ["4B7DEE8AE96767EA"]
+			id: "7116780502A3E4C4"
+			tasks: [{
+				id: "08FF21CCCB1615E9"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+			rewards: [{
+				id: "064BF0A3D5241A0F"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			subtitle: "Lucky number 3! not as good as 4!"
+			description: [
+				"Can hold 8 bees, 10 honeycomb, and decreases the time a bee spends doing nothing in the hive by 15%!"
+				""
+				"do know, jei shows all the hives in the game as being valid ingredients in this recipe, however, only a tier 2 beehive will work!"
+			]
+			dependencies: ["7116780502A3E4C4"]
+			id: "391EA30360D4E2CF"
+			tasks: [{
+				id: "034AB72F7C020A97"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+			rewards: [{
+				id: "36F2518CF37E4318"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			subtitle: "whats better than 3? 4!!"
+			description: [
+				"can hold 16 bees, 20 honeycomb, and decreases the time a bee spends doing nothing in the hive by 20%!"
+				""
+				"as with the previous bee boxes, this shows as being craftable with all lower tier beehives, however, only a tier 3 beehive will work!"
+			]
+			dependencies: ["391EA30360D4E2CF"]
+			id: "0F11FEA02578EF8E"
+			tasks: [{
+				id: "673E43BE62A00A3D"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+			rewards: [{
+				id: "4E1A2A150EC05834"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+		}
+		{
+			icon: "resourcefulbees:t1_apiary"
+			x: 6.5d
+			y: 1.5d
+			subtitle: "abeeary. man, this is when i realize, making puns for all these bee items is gonna be... unbeelievably hard."
+			description: ["reduces the time a bee spends doing nothing in the hive by 35%! This will output multiple combs per visit instead of a bee boxes 1! (for most bees)"]
+			dependencies: ["6060C6632A352F37"]
+			id: "26493A9B83A16CD7"
+			tasks: [
+				{
+					id: "29F73817CAF29EEE"
+					type: "item"
+					item: "resourcefulbees:t1_apiary"
+				}
+				{
+					id: "39EACC741AC43B53"
+					type: "item"
+					item: "resourcefulbees:apiary_storage"
+				}
+			]
+			rewards: [{
+				id: "0C821A02DBF2546A"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+		}
+		{
+			icon: "resourcefulbees:t2_apiary"
+			x: 5.5d
+			y: 2.0d
+			subtitle: "Theres more? oh no."
+			description: ["decreases the time a bee spends doing nothing in the hive by 40%, this apiary has double the output of the tier 1 apiary!"]
+			hide_dependency_lines: false
+			dependencies: ["26493A9B83A16CD7"]
+			id: "4501D4B7682680B1"
+			tasks: [
+				{
+					id: "3CD46C1B60DB448D"
+					type: "item"
+					item: "resourcefulbees:t2_apiary"
+				}
+				{
+					id: "68C5AB2D1B340268"
+					type: "item"
+					item: "resourcefulbees:apiary_storage"
+				}
+			]
+			rewards: [{
+				id: "450DB892A78B1D6C"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+		}
+		{
+			icon: "resourcefulbees:t3_apiary"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "i put the boxes in the box to make a better box!"
+			description: ["Decreases the time spends doing nothing in the hive by 45%, the tier 3 apiary outputs honeycomb BLOCKS instead of just combs! (this amounts to 9x the output of the tier 1 apiary!)"]
+			dependencies: ["4501D4B7682680B1"]
+			id: "61F0E6C42DB37229"
+			tasks: [
+				{
+					id: "1451E0F6A6DD8356"
+					type: "item"
+					item: "resourcefulbees:t3_apiary"
+				}
+				{
+					id: "3497B963468B9461"
+					type: "item"
+					item: "resourcefulbees:apiary_storage"
+				}
+			]
+			rewards: [{
+				id: "65024F3DFBF4E876"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+		}
+		{
+			icon: "resourcefulbees:t4_apiary"
+			x: 3.5d
+			y: 1.5d
+			subtitle: "the metaphorical big guns of bee boxes!"
+			description: ["Decreases the time a bee spends doing nothing in the hive by 50% (doubling the unmodified speed!), This outputs double the BLOCKS of honeycomb that the tier 3 apiary does! (18x times the production of the tier 1 apiary!)"]
+			dependencies: ["61F0E6C42DB37229"]
+			id: "01510740CE2EEEDD"
+			tasks: [
+				{
+					id: "388CFBD03D74F8B6"
+					type: "item"
+					item: "resourcefulbees:t4_apiary"
+				}
+				{
+					id: "3133C48124B8989F"
+					type: "item"
+					item: "resourcefulbees:apiary_storage"
+				}
+			]
+			rewards: [{
+				id: "7CB009EBA84C0483"
+				type: "item"
+				item: "minecraft:nether_star"
+				count: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "WARNING: text wall incoming! brace for impact!"
+			description: [
+				"Apiaries are a 7x6x7 Hollow multiblock! click on an unbuild apiary to see the area that you must build to make the bee box! You can change where you would like the apiary block to bee with the position arrows. it can be anywhere on a side of an apiary!"
+				""
+				"The face of the apiary with the \"Hole\" goes INSIDE the apiary multiblock, NOT the outside, Then, for an apiary to bee valid, you also need an apiary storage inside the walls of the multiblock. Past that point, once the apiary is completed, you can decorate the inside!"
+				"You can place whatever you want inside the apiary, ofcourse, this includes the flowers the bees use to pollinate!. you can place multiple apiary blocks per apiary, but each apiary block requires its own apiary storage!"
+				""
+				"the apiary can be made out of virtually any block a bee can't fly through. all blocks that will work have the \"valid_apiary\" tag. but anything you want to make an apiary out of likely works."
+				""
+				"an apiary can only hold 9 unique bees. However, this can be completely negated by simply placing the bees in the apiary yourself, instead of importing via the multiblock. "
+				"if you have any other issues not covered here, check the bee book \"fifty shades of bees\""
+			]
+			dependencies: ["0F11FEA02578EF8E"]
+			id: "6060C6632A352F37"
+			tasks: [{
+				id: "17EF0A66EBE409F0"
+				type: "checkmark"
+				title: "apiaries!"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			subtitle: "reminds me of many pieces of honey, nuts, and unbranded O's of cereal."
+			description: ["used to bind bees to either bee boxes or flowers. If you have issues with bees going to the wrong box, or if 2 of the same type of bee are fighting over the same flower (but you have multiple) Then you can bind bees to separate flowers!"]
+			dependencies: ["72BC326BB0B9691A"]
+			id: "1B73772B3576D40E"
+			tasks: [{
+				id: "558C2975A66D1BCA"
+				type: "item"
+				item: "resourcefulbees:honey_dipper"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			subtitle: "a dedicated apiarist will crank it out in no time."
+			description: ["place honeycomb inside the manual centrifuge, as well as empty bottles to collect honey, and shift right click the crank to seperate the comb!"]
+			dependencies: ["087508546D0524C0"]
+			id: "712EBE4D1090127D"
+			tasks: [{
+				id: "75C8F746350E6CBB"
+				type: "item"
+				item: "resourcefulbees:mechanical_centrifuge"
+			}]
+			rewards: [{
+				id: "1D6394D224C4A8A1"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			subtitle: "Bee vomit is PURE POWER!"
+			description: ["generates RF from honey! simply pipe honey into it (or place honey bottles inside) to generate power! will transfer power to pipes or adjacent power using blocks. Great for powering centrifuges!"]
+			dependencies: ["72BC326BB0B9691A"]
+			id: "7C4311DDE3DE7962"
+			tasks: [{
+				id: "508E66691316D2A7"
+				type: "item"
+				item: "resourcefulbees:honey_generator"
+			}]
+			rewards: [{
+				id: "52DF7D01C0239A9C"
+				type: "item"
+				item: "minecraft:honey_bottle"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			subtitle: "wikipedia for bees... obviously."
+			description: ["use to scan a bee! simply rightclick a bee with this in hand to log it. and then this will tell you information about those bees!"]
+			dependencies: ["72BC326BB0B9691A"]
+			id: "7EFCDFEDBFA4738D"
+			tasks: [{
+				id: "34417C7B9C9A6E9E"
+				type: "item"
+				item: "resourcefulbees:beepedia"
+			}]
+			rewards: [{
+				id: "67EC07A9ED9C62CB"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["051642E48275B28E"]
+			id: "72BC326BB0B9691A"
+			tasks: [{
+				id: "70CA569C94A83B1A"
+				type: "checkmark"
+				title: "tools"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["051642E48275B28E"]
+			id: "5674F2BD3DC69187"
+			tasks: [{
+				id: "558E0F0184B83863"
+				type: "checkmark"
+				title: "bee boxes"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["051642E48275B28E"]
+			id: "087508546D0524C0"
+			tasks: [{
+				id: "31967696C13FC271"
+				type: "checkmark"
+				title: "Centrifuges"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "glutton for beereeding!"
+			description: [
+				"there are 13 basic bees that spawn in the world (currently), these can be used to breed higher tier bees! simply use the breeding material of two bees on their respective bees to breed them, or use an apiary breeder. (the basic honeycombs will unlock after unlocking this, showing you their progression trees)"
+				"all combs can be used in recipes, (and compressed to blocks to be used in recipes requiring blocks of honeycomb)"
+			]
+			dependencies: ["051642E48275B28E"]
+			id: "2244297DD6439F9F"
+			tasks: [{
+				id: "73DF693A44DC37BA"
+				type: "checkmark"
+				title: "bees and combs!"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "applies haste to bees for free! too bad they can't use it."
+			description: ["Works as a beacon does, but for bees! consumes honey to give up to 4 possible effects, water breathing, calming, regeneration, and fire resistance, this also prevents bees from teleporting!"]
+			dependencies: ["72BC326BB0B9691A"]
+			id: "4428B3147FF0B6FA"
+			tasks: [{
+				id: "615DF02BD03ECA2D"
+				type: "item"
+				item: "resourcefulbees:ender_beecon"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			subtitle: "RELEASE THE BEES!"
+			description: ["Works like a bee jar, but can hold (and release) 10 bees at once! shift right click to release."]
+			dependencies: ["72BC326BB0B9691A"]
+			id: "471228C5D716CAC4"
+			tasks: [{
+				id: "4D99E61F5BC66F64"
+				type: "item"
+				item: "resourcefulbees:bee_box"
+			}]
+			rewards: [{
+				id: "590C6DBC488E8E39"
+				type: "item"
+				item: "resourcefulbees:wax"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			subtitle: "a smart apiarist won't twist a stick for hours."
+			description: ["can be used to automatically centrifuge honey combs with energy! pipe in energy from an external source or a honey generator and this will centrifuge combs. However, this is NOT efficient enough to keep itself running constantly with honey power alone.  (has an internal honey storage that can be piped out, or manually taken out with bottles)"]
+			dependencies: ["712EBE4D1090127D"]
+			id: "284EFF53524A039C"
+			tasks: [{
+				id: "4B350F4289E8C2E6"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+			rewards: [{
+				id: "0378DA96A0CF3075"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			subtitle: "Now we're spinning!"
+			description: [
+				"This is a 3x4x3 multblock (4 blocks tall) that will centrifuge 3 honeycombs (or honeycomb BLOCKS, which smaller centrifuges cannot do!) this also works quicker,  and holds more items. this is efficient enough to power itself with a honey generator!"
+				""
+				"centrifuges have the ability to be connected with pipes on any block to pipe in comb and energy, and pipe out items and honey."
+			]
+			dependencies: ["284EFF53524A039C"]
+			id: "0619ABB8EC776B84"
+			tasks: [
+				{
+					id: "50B7FF429ADBFCD0"
+					type: "item"
+					item: "resourcefulbees:centrifuge_controller"
+				}
+				{
+					id: "557BD86899C34E16"
+					type: "item"
+					item: "resourcefulbees:centrifuge_casing"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "541EA4F1A9EEB5AF"
+				type: "item"
+				item: "minecraft:honey_bottle"
+				count: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			subtitle: "can seperate ANYTHING. except everything that isn't in a recipe."
+			description: ["works faster than a normal multiblock centrifuge, but can also hold more combs at a time!"]
+			dependencies: ["0619ABB8EC776B84"]
+			id: "02B905D4B82327A2"
+			tasks: [
+				{
+					id: "0052BF68EF8CC2FD"
+					type: "item"
+					item: "resourcefulbees:elite_centrifuge_controller"
+				}
+				{
+					id: "0057481FCB2635BE"
+					type: "item"
+					item: "resourcefulbees:elite_centrifuge_casing"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "7CC4E922479D2DD0"
+				type: "item"
+				item: "minecraft:honey_bottle"
+				count: 8
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			subtitle: "i painted the outside gold now it works better."
+			description: ["the tier 3 centrifuge is an incredible upgrade, not only does it hold more than an elite centrifuge (and goes faster), but will also DOUBLE the output of honeycombs, at the cost of double the energy consumption."]
+			dependencies: ["02B905D4B82327A2"]
+			id: "0CC1FBB12F655E2A"
+			tasks: [
+				{
+					id: "107F1135DD7D9D16"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_3"
+				}
+				{
+					id: "22DBCDA4AA7347C7"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_3"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "4C477C49EB39D014"
+				type: "item"
+				item: "minecraft:honey_bottle"
+				count: 16
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			subtitle: "Bedazzling something always makes it better!"
+			description: ["Faster and holds more combs than a tier 3 centrifuge. this also QUADRUPLES (4x) the output of combs!"]
+			dependencies: ["0CC1FBB12F655E2A"]
+			id: "79C6401C7B862557"
+			tasks: [{
+				id: "67DC236D9E3D5D55"
+				type: "item"
+				item: "ctiers:centrifuge_controller_tier_4"
+			}]
+			rewards: [{
+				id: "1CD5F0A2896E389C"
+				type: "item"
+				item: "minecraft:honey_block"
+				count: 16
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			subtitle: "holy mother of bees, this is unnecessary."
+			description: [
+				"the emerald centrifuge is the highest (obtainable) tier of centrifuge, at a massive processing speed of many combs at a time, this blazes through hundreds of items a minute.  This increases energy consumption by 8, But also octuples (8x) the output! This requires ALOT of storage."
+				"the bottomless honeypot can be piped into to deposit Honey, This will instantly trash the honey. trust me, youll have plenty."
+			]
+			dependencies: ["79C6401C7B862557"]
+			id: "72BC83D67364C477"
+			tasks: [{
+				id: "6EC04BE848201289"
+				type: "item"
+				item: "ctiers:centrifuge_controller_tier_5"
+			}]
+			rewards: [{
+				id: "46305E5A1F0472E6"
+				type: "item"
+				item: "resourcefulbees:bottomless_honey_pot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			subtitle: "water, prismarine, eh, same thing."
+			description: ["water bees spawn naturally in oceans and rivers, produces prismarine."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "3DFFC4C544B55D7E"
+			tasks: [{
+				id: "2A301528488FABA6"
+				type: "item"
+				item: "resourcefulbees:water_honeycomb"
+			}]
+			rewards: [{
+				id: "0AC57E81FA187F33"
+				type: "item"
+				item: "resourcefulbees:water_honeycomb"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			subtitle: "Spicy! wait no thats hot! oh NO MY TONGUE!"
+			description: ["lava bees spawns naturally in the nether, Produces magma blocks."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "6BF6364EC5A5AF37"
+			tasks: [{
+				id: "6A39AA4749489A36"
+				type: "item"
+				item: "resourcefulbees:lava_honeycomb"
+			}]
+			rewards: [{
+				id: "4096B7B8A52EE93B"
+				type: "item"
+				item: "resourcefulbees:lava_honeycomb"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			subtitle: "its just a rock, why is it just a rock??"
+			description: ["spawns naturally in hilly and mountainous biomes, produces stone."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "5C08F19C16C3308C"
+			tasks: [{
+				id: "38257780D68DFDB4"
+				type: "item"
+				item: "resourcefulbees:stone_honeycomb"
+			}]
+			rewards: [{
+				id: "67C262F9A4E1CD8A"
+				type: "item"
+				item: "resourcefulbees:stone_honeycomb"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			subtitle: "best tasting honeycomb, Gritty!"
+			description: [
+				"can be used to obtain gravel."
+				"Spawns naturally in the world in mountains and hills."
+				"spawn naturally in hilly or mountainous biomes, produces gravel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "74A6B4C16DD4B324"
+			tasks: [{
+				id: "6F44942E2E84BA36"
+				type: "item"
+				item: "resourcefulbees:gravel_honeycomb"
+			}]
+			rewards: [{
+				id: "0004F2E6BAC46050"
+				type: "item"
+				item: "resourcefulbees:gravel_honeycomb"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			subtitle: "Braaaaains covered in honeeeeey."
+			description: ["found naturally in the world while exploring at night, produces rotten flesh."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "7092D393F337C5E1"
+			tasks: [{
+				id: "4B7FC7BC38D48458"
+				type: "item"
+				item: "resourcefulbees:zombie_honeycomb"
+			}]
+			rewards: [{
+				id: "3DD5BE6E0BBE4D71"
+				type: "item"
+				item: "resourcefulbees:zombie_honeycomb"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			subtitle: "Oak is best wood, no questions axed."
+			description: ["spawns naturally in forests, produces sticks in a centrifuge, but the combs can be crafted into all the different wood types."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "11F30B2B930362F4"
+			tasks: [{
+				id: "7C35D13DBBA1DFFC"
+				type: "item"
+				item: "resourcefulbees:wood_honeycomb"
+			}]
+			rewards: [{
+				id: "39E5CB0B445F5FE2"
+				type: "item"
+				item: "resourcefulbees:wood_honeycomb"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.0d
+			subtitle: "great in lemonade!"
+			description: ["icy bees spawn naturally in icy areas, produces ice."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "02324BD7D3845070"
+			tasks: [{
+				id: "452B6C6EFE61BC5E"
+				type: "item"
+				item: "resourcefulbees:icy_honeycomb"
+			}]
+			rewards: [{
+				id: "157FEDB1B027080E"
+				type: "item"
+				item: "resourcefulbees:icy_honeycomb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			subtitle: "\"i made a rainbow!\" pepa that one time at the end of encanto."
+			description: ["rgbees spawns naturally in the overworld, produces black dye in a centrifuge, or can be crafted into all the other dyes, check recipes."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "090141ABEE4F1B58"
+			tasks: [{
+				id: "0B69A04003596304"
+				type: "item"
+				item: "resourcefulbees:rgbee_honeycomb"
+			}]
+			rewards: [{
+				id: "1335CF039764A752"
+				type: "item"
+				item: "resourcefulbees:rgbee_honeycomb"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			subtitle: "hell bee with you."
+			description: ["netherrack bees spawn naturally in the nether, produces netherrack."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "75AD330BF9FB3200"
+			tasks: [{
+				id: "6C20FE570512F53F"
+				type: "item"
+				item: "resourcefulbees:netherrack_honeycomb"
+			}]
+			rewards: [{
+				id: "13355254D5B8CB43"
+				type: "item"
+				item: "resourcefulbees:netherrack_honeycomb"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			subtitle: "its the end of the world! but the beginning of bees!"
+			description: ["End stone bees spawn naturally in the end, produces end stone."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "2AEAE3AFF301FB32"
+			tasks: [{
+				id: "4F4A72DFA723DFC1"
+				type: "item"
+				item: "resourcefulbees:end_stone_honeycomb"
+			}]
+			rewards: [{
+				id: "5F5B84D095415ED3"
+				type: "item"
+				item: "resourcefulbees:end_stone_honeycomb"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			subtitle: "Loney dirt bees, too gross to love. no possible offspring, except dirt bees). "
+			description: ["dirt bees can be found anywhere in the overworld, produces dirt (this has no offspring, and the combs may be more useful for crafting instead of obtaining dirt)."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "05392BAF264DA81D"
+			tasks: [{
+				id: "193957D1D4ED4339"
+				type: "item"
+				item: "resourcefulbees:dirt_honeycomb"
+			}]
+			rewards: [{
+				id: "53E702F101B176B3"
+				type: "item"
+				item: "resourcefulbees:dirt_honeycomb"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			subtitle: "prevents lighting bees on fire with buckets of lava before you realize that you can't feed bees buckets so it just places it under it and ends up killing the bee you spent ages finding because the lava bee isn't LAVAPROOF!   this is totally just a random thought and not me being upsetti spaghetti in early versions of waddlecraft."
+			description: [
+				"place two bees in, as well as their breeding material, and an empty jar, this will automatically breed a full size bee after a few minutes!"
+				"this is an optional block in an apiary, replace any wall block with one to incorporate it into an apiary."
+			]
+			dependencies: ["26493A9B83A16CD7"]
+			id: "562FD86D9145F524"
+			tasks: [{
+				id: "355DDF1C86DD2923"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			subtitle: "Theres enough room in here for 2.. or 4.. or 8. privacy doesnt matter!"
+			description: ["increases the amount of breeding slots each apiary breeder has, up to a max of 4 additional slots (plus the original 1 for 5 total)"]
+			dependencies: ["562FD86D9145F524"]
+			id: "60275D46C5AA2E30"
+			tasks: [{
+				id: "004A7DBB7246371A"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}]
+			rewards: [{
+				id: "2FC7EBEF2D5BA331"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			subtitle: "Get on with it already we have places to go, people to see, and bees to breed!"
+			description: ["Reduces the time it takes for bees to breed in an apiary breeder by 300 ticks (15 seconds), reducing up to 1200 ticks with 4 upgrades! (60 seconds)"]
+			dependencies: ["562FD86D9145F524"]
+			id: "25C582CB3238C9D8"
+			tasks: [{
+				id: "5D018C79490F0F49"
+				type: "item"
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+			rewards: [{
+				id: "56E5E3E296AC889A"
+				type: "item"
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			subtitle: "when you want an apiary storage to grow."
+			description: ["increases the amount that an apiary storage can hold."]
+			dependencies: ["26493A9B83A16CD7"]
+			id: "0720B6894D0B8FC4"
+			tasks: [
+				{
+					id: "00F76DA0014B58BA"
+					type: "item"
+					item: "resourcefulbees:iron_storage_upgrade"
+				}
+				{
+					id: "3E1565B846F54A62"
+					type: "item"
+					item: "resourcefulbees:gold_storage_upgrade"
+				}
+				{
+					id: "5FBE4426A9C36CFE"
+					type: "item"
+					item: "resourcefulbees:diamond_storage_upgrade"
+				}
+				{
+					id: "05BE0487FF0BB603"
+					type: "item"
+					item: "resourcefulbees:emerald_storage_upgrade"
+				}
+			]
+			rewards: [{
+				id: "6F0A532BB7F29656"
+				type: "item"
+				item: "resourcefulbees:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			subtitle: "Snow bee can be bred from icy and water bee, produces snow."
+			description: ["Snow bee can be bred from icy and water bees, produces snow."]
+			dependencies: ["02324BD7D3845070"]
+			id: "310268A3C7062DD7"
+			tasks: [{
+				id: "3BDA9A60FC578814"
+				type: "item"
+				item: "resourcefulbees:snow_honeycomb"
+			}]
+			rewards: [{
+				id: "52259261A3AB3150"
+				type: "item"
+				item: "resourcefulbees:snow_honeycomb"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			subtitle: "Contains 4.02 million percent of your daily iron per comb! i really did the math (for an average 18yo male)"
+			description: ["iron bees can be bred from stony and gravel bees, produces iron."]
+			dependencies: ["74A6B4C16DD4B324"]
+			id: "441D2B6B8F29468C"
+			tasks: [{
+				id: "513C73689B11B7CF"
+				type: "item"
+				item: "resourcefulbees:iron_honeycomb"
+			}]
+			rewards: [{
+				id: "7FBAFA472097348D"
+				type: "item"
+				item: "resourcefulbees:iron_honeycomb"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			subtitle: "obby maul+obby armor is a great zerker set, huge max hits and cheap!"
+			description: ["obsidian bees can be bred from water and lava bees, produces obsidian."]
+			dependencies: [
+				"3DFFC4C544B55D7E"
+				"6BF6364EC5A5AF37"
+			]
+			id: "6DB5057B105365E6"
+			tasks: [{
+				id: "7274A4A7C56229BB"
+				type: "item"
+				item: "resourcefulbees:obsidian_honeycomb"
+			}]
+			rewards: [{
+				id: "2DE4A2584BFDEC0A"
+				type: "item"
+				item: "resourcefulbees:obsidian_honeycomb"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			subtitle: "What do you call a hammer that destroys ender killing swords? Ender ender ender."
+			description: ["Ender bees can be bred from zombie and end stone bees, produces ender pearls."]
+			dependencies: [
+				"2AEAE3AFF301FB32"
+				"7092D393F337C5E1"
+			]
+			id: "19B4E2492FEB93D3"
+			tasks: [{
+				id: "4E25C1AEE34A57A3"
+				type: "item"
+				item: "resourcefulbees:ender_honeycomb"
+			}]
+			rewards: [{
+				id: "731FE0B8302BF55A"
+				type: "item"
+				item: "resourcefulbees:ender_honeycomb"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			subtitle: "Uraninite, i know how its suppose to be pronounced, but i keep saying uranite anyway."
+			description: ["uraninite bees can be bred from zombie and emerald bees, produces uraninite."]
+			dependencies: ["2B7FED7C4C143C1F"]
+			id: "26926BB9DAD702CE"
+			tasks: [{
+				id: "77AB887A01A60737"
+				type: "item"
+				item: "resourcefulbees:uraninite_honeycomb"
+			}]
+			rewards: [{
+				id: "6CAF5978E76399C2"
+				type: "item"
+				item: "resourcefulbees:uraninite_honeycomb"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			subtitle: "to think, people can have blaze rods within 4 minutes and 20 seconds of starting a new world, Crazy."
+			description: ["Blaze bees can be bred from Sulphur and lava bees, produces blaze rods."]
+			dependencies: ["087B6EC828D0B81C"]
+			id: "5237DF26CE265345"
+			tasks: [{
+				id: "20451596355BB738"
+				type: "item"
+				item: "resourcefulbees:blaze_honeycomb"
+			}]
+			rewards: [{
+				id: "0AC687A064B56869"
+				type: "item"
+				item: "resourcefulbees:blaze_honeycomb"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.0d
+			subtitle: "Beeper, awwww man."
+			description: ["Beeper bees spawn naturally when exploring at night, produces gunpowder."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "03FF79C6B4972CA7"
+			tasks: [{
+				id: "12477508E4D60FB1"
+				type: "item"
+				item: "resourcefulbees:creeper_honeycomb"
+			}]
+			rewards: [{
+				id: "007DA7F18BE7A810"
+				type: "item"
+				item: "resourcefulbees:creeper_honeycomb"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "GHAST, ITS A GHASP!"
+			description: ["Ghast bees can be bred from creeper and netherrack bees, produces ghast tears."]
+			dependencies: ["75AD330BF9FB3200"]
+			id: "65C67261A092A3B4"
+			tasks: [{
+				id: "1C678A0125668329"
+				type: "item"
+				item: "resourcefulbees:ghast_honeycomb"
+			}]
+			rewards: [{
+				id: "58A8A6CF0194AFBF"
+				type: "item"
+				item: "resourcefulbees:ghast_honeycomb"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			subtitle: "thats a gross pig, man."
+			description: ["Pigman bees can be bred from zombie and netherrack bees, produces glowstone dust."]
+			dependencies: ["75AD330BF9FB3200"]
+			id: "171BF11FBB88DDCD"
+			tasks: [{
+				id: "0F958770132F182A"
+				type: "item"
+				item: "resourcefulbees:pigman_honeycomb"
+			}]
+			rewards: [{
+				id: "4D48F0A4F0CC7A75"
+				type: "item"
+				item: "resourcefulbees:pigman_honeycomb"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 5.0d
+			subtitle: "4 of these make a nether gallon."
+			description: ["Nether quartz bees can be bred from snow and nether bees, produces nether quartz."]
+			dependencies: ["310268A3C7062DD7"]
+			id: "21F894EAF9543D06"
+			tasks: [{
+				id: "7C6C9767BE64C77D"
+				type: "item"
+				item: "resourcefulbees:nether_quartz_honeycomb"
+			}]
+			rewards: [{
+				id: "3A9275E2AB5E675B"
+				type: "item"
+				item: "resourcefulbees:nether_quartz_honeycomb"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			subtitle: "very dangerous, but i have a beesalz vaccine."
+			description: ["Beesalz bees can be bred from blaze and netherrack bees, produces besalz shards."]
+			dependencies: ["5237DF26CE265345"]
+			id: "5AA64211F15C8094"
+			tasks: [{
+				id: "1C65596632E8D284"
+				type: "item"
+				item: "resourcefulbees:beesalz_honeycomb"
+			}]
+			rewards: [{
+				id: "2E1271D41627852E"
+				type: "item"
+				item: "resourcefulbees:beesalz_honeycomb"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			subtitle: "For when you really want to kill electricity. DIE ELECTRIC paste."
+			description: ["Dielectric bees can be bred from coal and creeper bees, produces dielectric paste."]
+			dependencies: ["415AD6FA50E9C8CE"]
+			id: "38A9C787A7921323"
+			tasks: [{
+				id: "517534C657555952"
+				type: "item"
+				item: "resourcefulbees:dielectric_honeycomb"
+			}]
+			rewards: [{
+				id: "599BABBCC2A8B67E"
+				type: "item"
+				item: "resourcefulbees:dielectric_honeycomb"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.0d
+			subtitle: "Who farted?"
+			description: ["Sulfur bees can be bred from blaze and coal bees, produces sulfur."]
+			dependencies: [
+				"03FF79C6B4972CA7"
+				"21F894EAF9543D06"
+			]
+			id: "087B6EC828D0B81C"
+			tasks: [{
+				id: "2142857B196F1A87"
+				type: "item"
+				item: "resourcefulbees:sulfur_honeycomb"
+			}]
+			rewards: [{
+				id: "6F6B3160134508BC"
+				type: "item"
+				item: "resourcefulbees:sulfur_honeycomb"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.0d
+			subtitle: "darn, second place!"
+			description: ["Silver bees are bred from iron and icy bee, Produces silver."]
+			dependencies: ["02324BD7D3845070"]
+			id: "649DF43565950C10"
+			tasks: [{
+				id: "67A0887BAA506BD5"
+				type: "item"
+				item: "resourcefulbees:silver_honeycomb"
+			}]
+			rewards: [{
+				id: "51551D0B8CCA48CA"
+				type: "item"
+				item: "resourcefulbees:silver_honeycomb"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			subtitle: "Jerry, is that you?"
+			description: ["Slimy bees can be bred from RGbee and water bees, produces slime balls."]
+			dependencies: ["090141ABEE4F1B58"]
+			id: "357248355D0BEB9D"
+			tasks: [{
+				id: "4A75B36DB0104507"
+				type: "item"
+				item: "resourcefulbees:slimy_honeycomb"
+			}]
+			rewards: [{
+				id: "51C2E00A4A38737B"
+				type: "item"
+				item: "resourcefulbees:slimy_honeycomb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			subtitle: "Do not breed with creeper bees! (it won't do anything)"
+			description: ["Redstone bees can be bred from RGBee and stone bees, produces redstone."]
+			dependencies: ["090141ABEE4F1B58"]
+			id: "00ADB69CFD18A205"
+			tasks: [{
+				id: "6626E1EF4C0A2C1C"
+				type: "item"
+				item: "resourcefulbees:redstone_honeycomb"
+			}]
+			rewards: [{
+				id: "2FA30FACFF827AA6"
+				type: "item"
+				item: "resourcefulbees:redstone_honeycomb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			subtitle: "is it Lapis Lapees, or lah-pis?"
+			description: ["lapis bees can be bred from redstone and water bees, produces lapis lazuli."]
+			dependencies: ["00ADB69CFD18A205"]
+			id: "1467364ABE68E2B0"
+			tasks: [{
+				id: "569AF2CB73888F59"
+				type: "item"
+				item: "resourcefulbees:lapis_honeycomb"
+			}]
+			rewards: [{
+				id: "3E0F30F3B27AE732"
+				type: "item"
+				item: "resourcefulbees:lapis_honeycomb"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 6.0d
+			subtitle: "they are just some little watery guys."
+			description: ["Aquamarine bees can be gotten from quartz and water bees, produces aquamarine."]
+			dependencies: ["21F894EAF9543D06"]
+			id: "05BDBE206AEF2FBE"
+			tasks: [{
+				id: "0A0AC080826C2C7F"
+				type: "item"
+				item: "resourcefulbees:aquamarine_honeycomb"
+			}]
+			rewards: [{
+				id: "6CBCAD2225CABF63"
+				type: "item"
+				item: "resourcefulbees:aquamarine_honeycomb"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			subtitle: "coal story bro."
+			description: ["coal bee can be bred from wood and lava bees, produces coal."]
+			dependencies: [
+				"6BF6364EC5A5AF37"
+				"11F30B2B930362F4"
+			]
+			id: "415AD6FA50E9C8CE"
+			tasks: [{
+				id: "50239CE03F0996EE"
+				type: "item"
+				item: "resourcefulbees:coal_honeycomb"
+			}]
+			rewards: [{
+				id: "0CA0B7A06A9C45BD"
+				type: "item"
+				item: "resourcefulbees:coal_honeycomb"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			subtitle: "Can a match box?"
+			description: ["tin bees can be bred from iron and stone bees, produces tin."]
+			dependencies: ["5C08F19C16C3308C"]
+			id: "2B9496612E4D5C57"
+			tasks: [{
+				id: "102759110C02AD23"
+				type: "item"
+				item: "resourcefulbees:tin_honeycomb"
+			}]
+			rewards: [{
+				id: "5CF9E2AB9ECA65B4"
+				type: "item"
+				item: "resourcefulbees:tin_honeycomb"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.0d
+			subtitle: "anyone else play with imaginary swords and just constantly make the sound \"ZINK\". i was cringe af."
+			description: ["Zinc bees can be bred from tin and gravel bees, produces zinc."]
+			dependencies: ["2B9496612E4D5C57"]
+			id: "5854F4256C87D6FE"
+			tasks: [{
+				id: "0373F9C1D968BAAA"
+				type: "item"
+				item: "resourcefulbees:zinc_honeycomb"
+			}]
+			rewards: [{
+				id: "2AA132C193CF3CB2"
+				type: "item"
+				item: "resourcefulbees:zinc_honeycomb"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.5d
+			subtitle: "Gold for cash! and by that i mean gold honeycombs for what cash was originally meant to represent, gold."
+			description: ["Gold bees can be bred from iron bees and gravel bees, produces gold."]
+			dependencies: ["441D2B6B8F29468C"]
+			id: "33186A01F7EE23C0"
+			tasks: [{
+				id: "07EB497A10C0097A"
+				type: "item"
+				item: "resourcefulbees:gold_honeycomb"
+			}]
+			rewards: [{
+				id: "07BA9DA5EE8DF5D9"
+				type: "item"
+				item: "resourcefulbees:gold_honeycomb"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			subtitle: "Get to the C.O.P.P.A.! Copper official personal protection act."
+			description: ["Copper bees can be bred from gold and stone bees, produces copper."]
+			dependencies: ["33186A01F7EE23C0"]
+			id: "1F93E32DD2BBB155"
+			tasks: [{
+				id: "5DE0D4C620825566"
+				type: "item"
+				item: "resourcefulbees:copper_honeycomb"
+			}]
+			rewards: [{
+				id: "60506951144C799C"
+				type: "item"
+				item: "resourcefulbees:copper_honeycomb"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			subtitle: "tastes like licorice."
+			description: ["Black iron can be bred from RGBee and iron bees, produces black iron."]
+			dependencies: ["090141ABEE4F1B58"]
+			id: "09200EB41F080916"
+			tasks: [{
+				id: "1B99C3EC204FAA3E"
+				type: "item"
+				item: "resourcefulbees:black_iron_honeycomb"
+			}]
+			rewards: [{
+				id: "67E3320E27A808EC"
+				type: "item"
+				item: "resourcefulbees:black_iron_honeycomb"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.0d
+			subtitle: "you can lead lead bees with a lead to take it places."
+			description: ["Lead bees can be bred from obsidian and iron bees, produces lead."]
+			dependencies: ["6DB5057B105365E6"]
+			id: "588A388384F47922"
+			tasks: [{
+				id: "221B210836D9C86E"
+				type: "item"
+				item: "resourcefulbees:lead_honeycomb"
+			}]
+			rewards: [{
+				id: "1E20868578DFDC68"
+				type: "item"
+				item: "resourcefulbees:lead_honeycomb"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			subtitle: "Wither or not it is right or wrong, breeding bees is for the greater good."
+			dependencies: [
+				"3E8E86CFA210BF05"
+				"724ED761BDD005C3"
+			]
+			id: "1F033A1DE5E4367A"
+			tasks: [{
+				id: "49177B3035732C84"
+				type: "item"
+				item: "resourcefulbees:wither_honeycomb"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.5d
+			subtitle: "they are the dragonhearted."
+			description: ["Dragon bees are bred from wither and ender bees, produces dragon eggs (and dragons breath if bottles are provided)."]
+			dependencies: ["1F033A1DE5E4367A"]
+			id: "2FE8ACE2A7B5EE7D"
+			tasks: [{
+				id: "4BBBADE6D0405604"
+				type: "item"
+				item: "resourcefulbees:dragon_honeycomb"
+			}]
+			rewards: [{
+				id: "53D5BD81ADAE729F"
+				type: "item"
+				item: "resourcefulbees:dragon_honeycomb"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			subtitle: "endearium, will you pass me the butter? yeah, i didn't know what to put, i'm sorry."
+			description: ["enderium bees can be bred from lead and ender bees, produces enderium."]
+			dependencies: ["588A388384F47922"]
+			id: "247080CC2F73D053"
+			tasks: [{
+				id: "70548B60D3EE53EC"
+				type: "item"
+				item: "resourcefulbees:enderium_honeycomb"
+			}]
+			rewards: [{
+				id: "7BFDFE6F3276F6E7"
+				type: "item"
+				item: "resourcefulbees:enderium_honeycomb"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.0d
+			subtitle: "lights up my life. mostly by BURNING EVERYTHING AHHHHH"
+			description: ["Lumium bees can be bred from pigman and tin bees, produces lumium."]
+			dependencies: ["2B9496612E4D5C57"]
+			id: "3339A119548F27D3"
+			tasks: [{
+				id: "3FE0EB86C98CCBDB"
+				type: "item"
+				item: "resourcefulbees:lumium_honeycomb"
+			}]
+			rewards: [{
+				id: "387095EE85E76842"
+				type: "item"
+				item: "resourcefulbees:lumium_honeycomb"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			subtitle: "This was a reindeer or something i think."
+			description: ["Beelitz bees can be bred from Blaze and pigman bees, produces Blitz rods."]
+			dependencies: ["5237DF26CE265345"]
+			id: "3D049D1C7B6F8AD2"
+			tasks: [{
+				id: "4469D2D5CE795BEB"
+				type: "item"
+				item: "resourcefulbees:beelitz_honeycomb"
+			}]
+			rewards: [{
+				id: "571813758C72D645"
+				type: "item"
+				item: "resourcefulbees:beelitz_honeycomb"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			subtitle: "mmmm beelizzard milk shakes.. "
+			description: ["Beelizz bees can be bred from blaze and snow bees, produces blizz cubes."]
+			dependencies: ["5237DF26CE265345"]
+			id: "6C82CD7C33DB52E0"
+			tasks: [{
+				id: "0AEF40B311520264"
+				type: "item"
+				item: "resourcefulbees:beelizz_honeycomb"
+			}]
+			rewards: [{
+				id: "1E0B6EBFCBC4641D"
+				type: "item"
+				item: "resourcefulbees:beelizz_honeycomb"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			subtitle: "the crystallized version of the stuff in your toothpaste."
+			description: ["fluorite bee can be bred from sulphur and snow bee, produces fluorite."]
+			dependencies: ["310268A3C7062DD7"]
+			id: "0BC6395BE7045F6C"
+			tasks: [{
+				id: "0038A418770EF2F4"
+				type: "item"
+				item: "resourcefulbees:fluorite_honeycomb"
+			}]
+			rewards: [{
+				id: "00582AEC36FF2AC0"
+				type: "item"
+				item: "resourcefulbees:fluorite_honeycomb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.5d
+			subtitle: "Diamonds are a minecrafters 3rd best friend. behind emerald and netherite."
+			description: ["Diamond bees can be made from lapis bees and quartz bees, produces diamonds."]
+			dependencies: ["1467364ABE68E2B0"]
+			id: "0F1D5F731303120D"
+			tasks: [{
+				id: "6F2F9798CE5DF09C"
+				type: "item"
+				item: "resourcefulbees:diamond_honeycomb"
+			}]
+			rewards: [{
+				id: "46A54F5E8512A9BE"
+				type: "item"
+				item: "resourcefulbees:diamond_honeycomb"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.5d
+			subtitle: "Good to be green! oh wait maybe its sick."
+			description: ["Emerald bees can be bred from diamond and slimy bees, produces emeralds."]
+			dependencies: ["0F1D5F731303120D"]
+			id: "2B7FED7C4C143C1F"
+			tasks: [{
+				id: "25FF26AD3818136B"
+				type: "item"
+				item: "resourcefulbees:emerald_honeycomb"
+			}]
+			rewards: [{
+				id: "7A631697C502B1AA"
+				type: "item"
+				item: "resourcefulbees:emerald_honeycomb"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			subtitle: "contrary to popular belief, it isn't a metal bee, its just a bee that enjoys thievery."
+			description: ["steel bees can be bred from coal and iron bees, produces steel."]
+			dependencies: ["415AD6FA50E9C8CE"]
+			id: "52FAF62F11B02E6E"
+			tasks: [{
+				id: "6A5B8BBE63E36FBC"
+				type: "item"
+				item: "resourcefulbees:steel_honeycomb"
+			}]
+			rewards: [{
+				id: "5D64861376FBE863"
+				type: "item"
+				item: "resourcefulbees:steel_honeycomb"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 6.0d
+			subtitle: "great for shaping into many sturdy soft shapes!"
+			description: ["silicon bees can be bred from quartz and coal bees, produces silicon."]
+			dependencies: ["21F894EAF9543D06"]
+			id: "7E421351FF9774FE"
+			tasks: [{
+				id: "05596C59039D2602"
+				type: "item"
+				item: "resourcefulbees:silicon_honeycomb"
+			}]
+			rewards: [{
+				id: "49C1D502EE4A8630"
+				type: "item"
+				item: "resourcefulbees:silicon_honeycomb"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 11.0d
+			subtitle: "In var = (\"item:thermal:invar_ingot\");"
+			description: ["invar bees can be bred from nickel and iron bees, produces invar."]
+			dependencies: ["25DA781E5AE44F1B"]
+			id: "3A050474EA26CF07"
+			tasks: [{
+				id: "5F953CEE0B1A9B40"
+				type: "item"
+				item: "resourcefulbees:invar_honeycomb"
+			}]
+			rewards: [{
+				id: "759CC745216E4993"
+				type: "item"
+				item: "resourcefulbees:invar_honeycomb"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			subtitle: "ozzy osmiumborn"
+			description: ["osmium bees are bred from fluorite and iron bees, produces osmium."]
+			dependencies: ["0BC6395BE7045F6C"]
+			id: "0B7B9F154AB3F2AC"
+			tasks: [{
+				id: "10968EC195B0627F"
+				type: "item"
+				item: "resourcefulbees:osmium_honeycomb"
+			}]
+			rewards: [{
+				id: "48FF94ACB8C169B2"
+				type: "item"
+				item: "resourcefulbees:osmium_honeycomb"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.0d
+			subtitle: "fortified with iron for better nutritional value!"
+			description: ["quartz iron bees can be bred from iron and quartz bees, produces quartz enriched iron."]
+			dependencies: ["21F894EAF9543D06"]
+			id: "7583C03C505099A4"
+			tasks: [{
+				id: "1FBF63B296C57EAF"
+				type: "item"
+				item: "resourcefulbees:quartz_iron_honeycomb"
+			}]
+			rewards: [{
+				id: "133417AE6B378E71"
+				type: "item"
+				item: "resourcefulbees:quartz_iron_honeycomb"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 10.0d
+			subtitle: "if i had a nickel for every time i named a bee nickel id have a nickel, Which checks out."
+			description: ["Nickel bees can be bred from brass and iron bees, produces nickel."]
+			dependencies: ["01192932488233FF"]
+			id: "25DA781E5AE44F1B"
+			tasks: [{
+				id: "60FEA4330E0F2D8B"
+				type: "item"
+				item: "resourcefulbees:nickel_honeycomb"
+			}]
+			rewards: [{
+				id: "78EA060E0C0A8460"
+				type: "item"
+				item: "resourcefulbees:nickel_honeycomb"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			subtitle: "it can read my thoughts.. luckily it doesn't speed human."
+			description: ["psimetal bees can be bred from dielectric and gold bees, produces psimetal."]
+			dependencies: ["38A9C787A7921323"]
+			id: "7E6F4F5DF5C6DABB"
+			tasks: [{
+				id: "17992CD076418B1D"
+				type: "item"
+				item: "resourcefulbees:psimetal_honeycomb"
+			}]
+			rewards: [{
+				id: "083E50F0571FDAB4"
+				type: "item"
+				item: "resourcefulbees:psimetal_honeycomb"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 7.0d
+			subtitle: "shoot for the moon! youll miss that and the stars, instead landing in the chest you keep your starmetal."
+			description: ["starmetal bees can be bred from aquamarine and iron bees, produces starmetal."]
+			dependencies: ["05BDBE206AEF2FBE"]
+			id: "5F3D3FC84BB3730A"
+			tasks: [{
+				id: "13DBA3D0F76191F4"
+				type: "item"
+				item: "resourcefulbees:starmetal_honeycomb"
+			}]
+			rewards: [{
+				id: "4B3D7D63DCAE7AC2"
+				type: "item"
+				item: "resourcefulbees:starmetal_honeycomb"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.5d
+			subtitle: "What do you do when you see a family of ducks waiting to cross the road? you signalum through."
+			description: ["Signalum bees can be bred from copper and redstone bees, produces signalum."]
+			dependencies: ["1F93E32DD2BBB155"]
+			id: "3DB6F31EF4C5D463"
+			tasks: [{
+				id: "37D5FB3891BDC357"
+				type: "item"
+				item: "resourcefulbees:signalum_honeycomb"
+			}]
+			rewards: [{
+				id: "0E5549DEE16E0159"
+				type: "item"
+				item: "resourcefulbees:signalum_honeycomb"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 12.0d
+			subtitle: "tea is made with all the basic elements. fire, water, earth (leaves) and air (steam, boiling) Fun!"
+			description: ["Elementium bees can be bred from redstone and terrasteel bees, produces elementium."]
+			dependencies: ["6EE9F3C71B27EB24"]
+			id: "24C94184D3749BC0"
+			tasks: [{
+				id: "33103E633B5D86B7"
+				type: "item"
+				item: "resourcefulbees:elementium_honeycomb"
+			}]
+			rewards: [{
+				id: "6C23AF4DAF57091D"
+				type: "item"
+				item: "resourcefulbees:elementium_honeycomb"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.0d
+			subtitle: "its just steel that is painted green and tastes like grass."
+			description: ["Terrasteel bees can be bred from emeralds and manasteel, produces terrasteel."]
+			dependencies: ["14B49573B1B482B9"]
+			id: "6EE9F3C71B27EB24"
+			tasks: [{
+				id: "298B5354C12AEFFE"
+				type: "item"
+				item: "resourcefulbees:terrasteel_honeycomb"
+			}]
+			rewards: [{
+				id: "1FC532AB6C4AE969"
+				type: "item"
+				item: "resourcefulbees:terrasteel_honeycomb"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.0d
+			subtitle: "level 1 frozen orb costs a whopping 25 mana with no synergies, blizzard sorc is a far better sorcerer build."
+			description: ["manasteel bees can be bred from steel and lapis bees, produces manasteel."]
+			dependencies: ["52FAF62F11B02E6E"]
+			id: "14B49573B1B482B9"
+			tasks: [{
+				id: "5D87C57AA55DB78E"
+				type: "item"
+				item: "resourcefulbees:manasteel_honeycomb"
+			}]
+			rewards: [{
+				id: "5DE6083B4E19BCF9"
+				type: "item"
+				item: "resourcefulbees:manasteel_honeycomb"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.5d
+			subtitle: "It has cheese knees."
+			description: ["Cheesy bees can be bred from Blaze and gold bees, produces cheese,"]
+			dependencies: ["5237DF26CE265345"]
+			id: "4F4FFF1997D8985D"
+			tasks: [{
+				id: "4BDE26F289BDE7D3"
+				type: "item"
+				item: "resourcefulbees:cheesy_honeycomb"
+			}]
+			rewards: [{
+				id: "17E3065166763A59"
+				type: "item"
+				item: "resourcefulbees:cheesy_honeycomb"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 12.5d
+			subtitle: "Uranium fever has gone and got me down."
+			description: ["Uranium bees can be bred from uraninite and sulfur bees, produces uranium."]
+			dependencies: ["26926BB9DAD702CE"]
+			id: "05B7633140C49E96"
+			tasks: [{
+				id: "0F02429CF96BFB5E"
+				type: "item"
+				item: "resourcefulbees:uranium_honeycomb"
+			}]
+			rewards: [{
+				id: "56DE61E46D9734E7"
+				type: "item"
+				item: "resourcefulbees:uranium_honeycomb"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			subtitle: "electrum drum bedrum! "
+			description: ["electrum bees are bred from silver and gold bees, and produces electrum."]
+			dependencies: ["649DF43565950C10"]
+			id: "00CB01EFBE9B8514"
+			tasks: [{
+				id: "0A052FAA94697D93"
+				type: "item"
+				item: "resourcefulbees:electrum_honeycomb"
+			}]
+			rewards: [{
+				id: "07013C12A947D9A8"
+				type: "item"
+				item: "resourcefulbees:electrum_honeycomb"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.5d
+			subtitle: "this puns in third place. i tried, im sorry."
+			description: ["Bronze bees can be bred from tin and copper bees, produces bronze."]
+			dependencies: [
+				"1F93E32DD2BBB155"
+				"2B9496612E4D5C57"
+			]
+			id: "18BEA99B6FF3B4F2"
+			tasks: [{
+				id: "5506B0ED6209153F"
+				type: "item"
+				item: "resourcefulbees:bronze_honeycomb"
+			}]
+			rewards: [{
+				id: "00C640C3D2CDD7B1"
+				type: "item"
+				item: "resourcefulbees:bronze_honeycomb"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 11.0d
+			subtitle: "he paid for it, i stole the bed, i can con stan of his tan!"
+			description: ["Constantan bees can be bred from nickel and copper bees, produces constantan."]
+			dependencies: ["25DA781E5AE44F1B"]
+			id: "1C04AB0E6A08B95F"
+			tasks: [{
+				id: "25286DED75A49F1A"
+				type: "item"
+				item: "resourcefulbees:constantan_honeycomb"
+			}]
+			rewards: [{
+				id: "30CE8E88BD128423"
+				type: "item"
+				item: "resourcefulbees:constantan_honeycomb"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			subtitle: "Brass monkey, that funky monkey ( i have NO idea where this is from)"
+			description: ["Brass bees can be bred from copper and zinc bees, produces brass."]
+			dependencies: ["1F93E32DD2BBB155"]
+			id: "01192932488233FF"
+			tasks: [{
+				id: "46DF86F6B7BA31E7"
+				type: "item"
+				item: "resourcefulbees:brass_honeycomb"
+			}]
+			rewards: [{
+				id: "3D7C56A044F8960F"
+				type: "item"
+				item: "resourcefulbees:brass_honeycomb"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			subtitle: "Ok so i have a bone to pick, Immersiveengineering is great, but don't make your coding name for aluminum ALUMINUM, and then spell it in game as ALUMINIUM. WHY WOULD YOU NOT HAVE THEM BE THE SAME??"
+			description: ["Aluminum bees can be bred from zinc and tin bees, produces aluminum."]
+			dependencies: ["5854F4256C87D6FE"]
+			id: "279917D64B7A081E"
+			tasks: [{
+				id: "2CEA6766239F33B7"
+				type: "item"
+				item: "resourcefulbees:aluminium_honeycomb"
+			}]
+			rewards: [{
+				id: "3C28FAE3D502BAB8"
+				type: "item"
+				item: "resourcefulbees:aluminium_honeycomb"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 13.0d
+			subtitle: "Careful, if alf catches you with this you are gonna be in misery"
+			description: ["alfsteel bees can be bred from elementium and bronze bees, produces alfsteel."]
+			dependencies: ["24C94184D3749BC0"]
+			id: "24852240BF8FC222"
+			tasks: [{
+				id: "5859248D23D9621C"
+				type: "item"
+				item: "resourcefulbees:alfsteel_honeycomb"
+			}]
+			rewards: [{
+				id: "72786859E680B032"
+				type: "item"
+				item: "resourcefulbees:alfsteel_honeycomb"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 14.0d
+			subtitle: "I had perticulary familiar relations with a planet morty!"
+			description: ["Gaia bees can be produced from alfsteel and elementium bees, produces gaia ingots."]
+			dependencies: ["24852240BF8FC222"]
+			id: "6C7E381C94569875"
+			tasks: [{
+				id: "364E26D52BDBEDD7"
+				type: "item"
+				item: "resourcefulbees:gaia_honeycomb"
+			}]
+			rewards: [{
+				id: "238296D94F2B3A45"
+				type: "item"
+				item: "resourcefulbees:gaia_honeycomb"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			subtitle: "draconic evolution is balanced because it takes effort.(totally)"
+			description: ["Draconium bees can be bred from dragon and alfsteel bees, produces draconium."]
+			dependencies: ["2FE8ACE2A7B5EE7D"]
+			id: "6BDA01565467171E"
+			tasks: [{
+				id: "0E1AFE727077E1BC"
+				type: "item"
+				item: "resourcefulbees:draconium_honeycomb"
+			}]
+			rewards: [{
+				id: "330341104CA1AFDF"
+				type: "item"
+				item: "resourcefulbees:draconium_honeycomb"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 14.5d
+			subtitle: "you get this by waking up a morning person at 2 in the morning."
+			description: ["Awakened draconium bees can be bred from draconium and dragon bees, produces awaked draconium nuggets."]
+			dependencies: ["6BDA01565467171E"]
+			id: "02B5AEC5DD71216C"
+			tasks: [{
+				id: "3AFF10203605221B"
+				type: "item"
+				item: "resourcefulbees:awakened_draconium_honeycomb"
+			}]
+			rewards: [{
+				id: "1375F9EF6F234A45"
+				type: "item"
+				item: "resourcefulbees:awakened_draconium_honeycomb"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			subtitle: "It's nether right nor wrong to breed bees, its just necessary."
+			description: ["Netherite bees can be bred from netherrack bees and diamond bees, produces netherite"]
+			dependencies: ["0F1D5F731303120D"]
+			id: "3E8E86CFA210BF05"
+			tasks: [{
+				id: "2670B620E9B02DDD"
+				type: "item"
+				item: "resourcefulbees:netherite_honeycomb"
+			}]
+			rewards: [{
+				id: "47F41F529333387D"
+				type: "item"
+				item: "resourcefulbees:netherite_honeycomb"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 15.5d
+			subtitle: "the state of my desk."
+			description: ["Chaotic bees can be bred from draconium and awakened draconium bees, produces tiny chaos shards."]
+			dependencies: ["02B5AEC5DD71216C"]
+			id: "692C71A75A80F3ED"
+			tasks: [{
+				id: "32B1CC1A184ECE96"
+				type: "item"
+				item: "resourcefulbees:chaos_honeycomb"
+			}]
+			rewards: [{
+				id: "2FBB8A5DBC1390BD"
+				type: "item"
+				item: "resourcefulbees:chaos_honeycomb"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			subtitle: "Should i make a nyan cat joke? idk, how dead is it? am i old? AM I OUT OF TOUCH? OH GOD."
+			description: ["kitten bees spawn in a multitude of biomes, check JEI for a full list. Special resourceful bees bee, produces catnip!"]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "1FEE98C94B5C9AAA"
+			tasks: [{
+				id: "522CE042271803DC"
+				type: "item"
+				item: "resourcefulbees:catnip_honeycomb"
+			}]
+			rewards: [{
+				id: "692FDAE05A8D0789"
+				type: "item"
+				item: "resourcefulbees:catnip_honeycomb"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			subtitle: "you know, stars are hot and terrifying. bees are cute and fluffy. what happens if you combine the two?"
+			description: ["starry bees spawn in small end islands, these combs produce starry honey, which, when put into a blocks, can be placed next to a starry bee and the bee will sometimes transform the honey into a nether star."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "786F09DD8C5547E6"
+			tasks: [{
+				id: "6BCC1CE81AA95B28"
+				type: "item"
+				item: "resourcefulbees:starry_honeycomb"
+			}]
+			rewards: [{
+				id: "4AC87C9EE71755CB"
+				type: "item"
+				item: "resourcefulbees:starry_honeycomb"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			subtitle: "went kosher to spite hydrox."
+			description: [
+				"oreo bees can be found rarely in the world, check jei for full list of biomes, produces these oreos which give fire resist, saturation, water breathing, absorbtion, resistance, speed, and night vision. pretty awesome!"
+				"(based off the creator of the mod, epic_oreo)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "11823C6226B410E6"
+			tasks: [{
+				id: "2CC29E4440F87A03"
+				type: "item"
+				item: "resourcefulbees:oreo_cookie"
+			}]
+			rewards: [{
+				id: "16206C55A1733B45"
+				type: "item"
+				item: "resourcefulbees:oreo_cookie"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			subtitle: "God it looks SO GOOD"
+			description: ["AbBees can be found rarely in the world (check jei for biome spawns) produces these milkshakes that provide high sustainance, regen, jump boost, and luck. (and taste DELICIOUS)."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "27D7EAC9B858041E"
+			tasks: [{
+				id: "483866628814C988"
+				type: "item"
+				item: "resourcefulbees:strawbeerry_milkshake"
+			}]
+			rewards: [{
+				id: "10BB75C4347C34A4"
+				type: "item"
+				item: "resourcefulbees:strawbeerry_milkshake"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.5d
+			subtitle: "drank 10 5 hour energies, for 50 continuous hours of energy."
+			description: ["energized steel bees can be bred from gold and iron bees, produces energized steel."]
+			dependencies: ["33186A01F7EE23C0"]
+			id: "2390A5CD666317D0"
+			tasks: [{
+				id: "2F7A90C32ECE114F"
+				type: "item"
+				item: "resourcefulbees:energized_steel_honeycomb"
+			}]
+			rewards: [{
+				id: "4F31CA32DAD5ADB0"
+				type: "item"
+				item: "resourcefulbees:energized_steel_honeycomb"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.5d
+			subtitle: "its blazin' men, Hallelujah, its blazin' men."
+			description: ["Blazing bees can be bred from energized steel and blaze bees, produces blazing crystals."]
+			dependencies: ["2390A5CD666317D0"]
+			id: "4A144231BBE762F9"
+			tasks: [{
+				id: "038889CEF939FE64"
+				type: "item"
+				item: "resourcefulbees:blazing_honeycomb"
+			}]
+			rewards: [{
+				id: "2C8B7888CD30668A"
+				type: "item"
+				item: "resourcefulbees:blaze_honeycomb"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.5d
+			subtitle: "i don't know what to put here, so instead, heres a mob (o_(o_(o_o)_o)_o)"
+			description: ["Niotic bees can be bred from blazing and diamond bees, produces niotic crystals."]
+			dependencies: ["4A144231BBE762F9"]
+			id: "6FC07E5CF72A2226"
+			tasks: [{
+				id: "43FA8F4640B390FC"
+				type: "item"
+				item: "resourcefulbees:niotic_honeycomb"
+			}]
+			rewards: [{
+				id: "52EE2E4CA4C7061D"
+				type: "item"
+				item: "resourcefulbees:niotic_honeycomb"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 11.5d
+			subtitle: "Spirits say \"W-A-L-U-I-G-i\". Goodbye."
+			description: ["Spirited bees can be bred from niotic and emerald bees, produces spirited crystals."]
+			dependencies: ["6FC07E5CF72A2226"]
+			id: "6D4255EB076177EB"
+			tasks: [{
+				id: "0CB6DB89ED6F0937"
+				type: "item"
+				item: "resourcefulbees:spirited_honeycomb"
+			}]
+			rewards: [{
+				id: "28119D9A70DDC647"
+				type: "item"
+				item: "resourcefulbees:spirited_honeycomb"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 12.5d
+			subtitle: "can i boost a server now?"
+			description: ["Nitro bees can be bred from spirited and redstone bees, produces nitro crystals."]
+			dependencies: ["6D4255EB076177EB"]
+			id: "590CCCECE9504A3A"
+			tasks: [{
+				id: "69DBB36A82CF35B2"
+				type: "item"
+				item: "resourcefulbees:nitro_honeycomb"
+			}]
+			rewards: [{
+				id: "2E5C425DECEA8840"
+				type: "item"
+				item: "resourcefulbees:nitro_honeycomb"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.5d
+			subtitle: "Spooky scary skeletons, produce bones from spinning combs."
+			description: ["Skeleton bees spawn naturally while exploring at night, produces bones."]
+			hide_dependency_lines: true
+			dependencies: ["2244297DD6439F9F"]
+			id: "724ED761BDD005C3"
+			tasks: [{
+				id: "37D5C96E3B0BD07E"
+				type: "item"
+				item: "resourcefulbees:skeleton_honeycomb"
+			}]
+			rewards: [{
+				id: "03C92DAFF8BA04E8"
+				type: "item"
+				item: "resourcefulbees:skeleton_honeycomb"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			subtitle: "Toothless, but with a pointy butt."
+			description: ["Fire dragonsteel bees can be bred from beesalz and dragon bee, produces fire dragonsteel."]
+			dependencies: ["5AA64211F15C8094"]
+			id: "65A874492DEA4A34"
+			tasks: [{
+				id: "2DEB4D415AC54803"
+				type: "item"
+				item: "resourcefulbees:fire_dragonsteel_honeycomb"
+			}]
+			rewards: [{
+				id: "07532E8C8E460C29"
+				type: "item"
+				item: "resourcefulbees:fire_dragonsteel_honeycomb"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			subtitle: "ice dragon you have! does it have lice?"
+			description: ["Ice dragonsteel bees can be bred from dragon and beelizz bees, Produces ice dragonsteel."]
+			dependencies: ["6C82CD7C33DB52E0"]
+			id: "2D544F996CCC62ED"
+			tasks: [{
+				id: "6FC06A507624D15D"
+				type: "item"
+				item: "resourcefulbees:ice_dragonsteel_honeycomb"
+			}]
+			rewards: [{
+				id: "1F8A5AE32892CAE6"
+				type: "item"
+				item: "resourcefulbees:ice_dragonsteel_honeycomb"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			subtitle: "UNLIMITED... POWERRRRRRR. Crackle."
+			description: ["Lightning dragonsteel bees can be bred from beelitz and dragon bees, produces lightning dragonsteel."]
+			dependencies: ["3D049D1C7B6F8AD2"]
+			id: "101B74C91B1841EF"
+			tasks: [{
+				id: "445CBFCD83E3E6FF"
+				type: "item"
+				item: "resourcefulbees:lightning_dragonsteel_honeycomb"
+			}]
+			rewards: [{
+				id: "064A2E7E487BF874"
+				type: "item"
+				item: "resourcefulbees:lightning_dragonsteel_honeycomb"
+			}]
+		}
+	]
+}

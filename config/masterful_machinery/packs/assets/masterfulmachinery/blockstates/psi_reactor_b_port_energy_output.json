@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "masterfulmachinery:block/psi_reactor_b_port_energy_output"
+    }
+  }
+}

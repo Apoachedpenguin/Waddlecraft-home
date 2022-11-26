@@ -1,0 +1,26 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:litherite_interconnect"
+  },
+  "bottom": {
+    "raw:item_tag": "forge:storage_blocks/redstone"
+  },
+  "left": {
+    "raw:item_tag": "forge:ingots/iron"
+  },
+  "right": {
+    "raw:item_tag": "forge:ingots/iron"
+  },
+  "center": {
+    "raw:item": "waddlecraft:fe_output_node"
+  },
+  "output": {
+    "raw:itemstack": "envirocore:fe_output",
+    "nbt": "{tier:1,energy:{capacity:1024}}"
+  },
+  "merge_center_nbt": false
+}

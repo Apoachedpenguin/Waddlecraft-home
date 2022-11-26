@@ -1,0 +1,10 @@
+{
+  "name": "Pure Certus Quartz",
+  "colors": [
+    "75faff",
+    "bababa"
+  ],
+  "ingredient": {
+    "item": "appliedenergistics2:purified_certus_quartz_crystal"
+  }
+}

@@ -24,6 +24,6 @@
 	"isBreedable": true,
 	"parent1": "Icy",
 	"parent2": "Water",
-	"feedItem": "minecraft:snowball",
+	"feedItem": "minecraft:snow_block",
 	"feedAmount": 1}
 }

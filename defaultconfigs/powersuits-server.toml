@@ -30,7 +30,7 @@
 	#Allow PowerFistModel2 model to be customized
 	allowPowerFistCustomization = false
 	#Allow high polly armor models instead of just skins
-	allowHighPollyArmorModuels = false
+	allowHighPollyArmorModuels = true
 	#Use legacy cosmetic configuration instead of cosmetic presets
 	useLegacyCosmeticSystem = false
 

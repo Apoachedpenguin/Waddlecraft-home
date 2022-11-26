@@ -1,0 +1,10 @@
+{
+  "name": "Armored",
+  "colors": [
+    "565656",
+    "565656"
+  ],
+  "ingredient": {
+    "item": "immersiveengineering:plate_steel"
+  }
+}

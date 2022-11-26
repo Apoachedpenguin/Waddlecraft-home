@@ -1,0 +1,10 @@
+{
+  "name": "Dielectric",
+  "colors": [
+    "050505",
+    "362336"
+  ],
+  "ingredient": {
+    "item": "powah:dielectric_paste"
+  }
+}

@@ -95,10 +95,18 @@ const hideItems = [
     'create:copper_ore',
     'mekanism:copper_ore',
     'iceandfire:copper_ore',
+    'mana-and-artifice:book_marks',
+    'mana-and-artifice:book_phylactery',
+    'powersuits:plating_netherite',
+    '/(extrastorage:storagepart_.*)/',
+    '/(extrastorage:disk.*)/',
+    '/(extrastorage:block.*)/',
+    '/(extrastorage:advanced.*)/',
+    
     // you can also .forEach in this way instead of calling the array seperately
 ].forEach(item => {
     onEvent('jei.hide.items', jei => {
-        jei.hide(item)
+        jei.hide(item).ignoreNBT()
     })
 })
 
@@ -106,5 +114,5 @@ const hideItems = [
 // JEI information
 onEvent('jei.information', event => {
     event.add('rats:rat_whistle', ['disabled due to crashing, sorry!'])
-    event.add('resourcefulbees:cheesy_bee_spawn_egg')
+    event.add('resourcefulbees:cheesy_bee_spawn_egg', ['it has cheese knees'])
 })

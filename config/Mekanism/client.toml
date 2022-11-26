@@ -90,8 +90,8 @@
 				y = 2147483647
 
 			[client.gui.window.upgrade]
-				x = 2147483647
-				y = 2147483647
+				x = 27
+				y = 15
 
 			[client.gui.window.crafting0]
 				x = 2147483647
@@ -102,8 +102,8 @@
 				y = 2147483647
 
 			[client.gui.window.sideConfig]
-				x = 2147483647
-				y = 2147483647
+				x = 27
+				y = 15
 
 			[client.gui.window.confirmation]
 				x = 2147483647

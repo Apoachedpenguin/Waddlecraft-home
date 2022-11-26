@@ -1,0 +1,10 @@
+{
+  "name": "Elven Quartz",
+  "colors": [
+    "28bf28",
+    "82f582"
+  ],
+  "ingredient": {
+    "item": "botania:quartz_elven"
+  }
+}

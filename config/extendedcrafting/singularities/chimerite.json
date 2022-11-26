@@ -1,0 +1,10 @@
+{
+  "name": "Chimerite",
+  "colors": [
+    "fbb3ff",
+    "a3f0ff"
+  ],
+  "ingredient": {
+    "item": "mana-and-artifice:chimerite_gem"
+  }
+}

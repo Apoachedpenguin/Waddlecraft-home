@@ -1,0 +1,12 @@
+{
+  "item.projectred-core.silicon_chip": "Compound Chip",
+    "item.projectred-core.energized_silicon_chip": "Energized Compound Chip",
+    "item.projectred-core.boule": "Silicon Compound Boule",
+    "item.projectred-core.silicon": "Silicon Compound",
+    "item.projectred-core.infused_silicon": "Redstone Compound",
+    "item.projectred-core.energized_silicon": "Glowstone Compound",
+    "item.projectred-core.red_silicon_comp": "Red Compound",
+    "item.projectred-core.glow_silicon_comp": "Yellow Compound",
+    "item.projectred-core.electrotine_silicon_comp": "Blue Compound",
+    "item.projectred-core.electrotine_silicon": "Electrotine Compound"
+}

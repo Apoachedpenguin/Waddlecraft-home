@@ -1,0 +1,10 @@
+{
+  "name": "Ivory Psimetal",
+  "colors": [
+    "b7c2b6",
+    "4a4a4a"
+  ],
+  "ingredient": {
+    "item": "psi:ivory_psimetal"
+  }
+}

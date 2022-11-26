@@ -1,0 +1,1135 @@
+{
+	id: "0449281DC6584E08"
+	group: ""
+	order_index: 3
+	filename: "create"
+	title: "Create"
+	icon: "create:large_cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Create a mechanical press"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "was this ingot always so... flat?"
+			description: ["the mechanical press can press ingots into plates! it can also compress items. but thats not as cool."]
+			hide_dependency_lines: false
+			dependencies: ["3D73B21EB3C18957"]
+			id: "1AF66CC36F5C7F6F"
+			tasks: [{
+				id: "29F1D29CE3BF71C9"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "0F8D07671C9E75AE"
+				type: "item"
+				item: "thermal:gold_plate"
+			}]
+		}
+		{
+			title: "Create a mechanical mixer"
+			x: -1.5d
+			y: 4.0d
+			subtitle: "Insert three wheat to continue."
+			description: [
+				"automatically combines shapeless recipes, brews potions, and most importantly, make items like brass!"
+				""
+			]
+			dependencies: ["3D73B21EB3C18957"]
+			id: "5220F7EE9CFD1C8E"
+			tasks: [{
+				id: "618B3C97855BF453"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "60493AABEBACE3BB"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 3
+			}]
+		}
+		{
+			title: "Create an andesite casing"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "its a casing... but better."
+			description: [
+				"the base for many create mods!"
+				"most create machinery require rotational energy to function."
+				"Create has the ability to \"ponder\" items added by it. Simply hold [W] with your mouse over an item in jei or an inventory to see its uses!"
+			]
+			dependencies: ["60ADEF34F6363B8E"]
+			id: "00F46DA531F02BDE"
+			tasks: [{
+				id: "6E6A104102A79F66"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			title: "Create some cogs"
+			x: 3.5d
+			y: 2.0d
+			subtitle: "The cogs on the entirely-automated-transportation-system go round and round!"
+			description: [
+				"These transfer rotational force. (turny spiny energy)"
+				"ponder cogs in your inventory for a more in depth guide."
+				"small cogs connect side to side and top to bottom."
+				"large cogs connect on a 90 degree angle."
+				"small cogs connects to large cogs on diagonals."
+				"{image:kubejs:textures/2022-09-07_21.45.25.png width:300 height:300 align:1 fit:true}"
+			]
+			dependencies: ["1733BB2F1C759C43"]
+			id: "0DF2636AC45CA911"
+			tasks: [
+				{
+					id: "28D0952981361324"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "49585DF03F242867"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+			rewards: [
+				{
+					id: "323FB87DA5476E0A"
+					type: "item"
+					item: "create:cogwheel"
+					count: 2
+				}
+				{
+					id: "54AACC2106FBB7C2"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Create some shafts"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "when you need spinny over there, but have it over here!"
+			description: [
+				"Connects cogs from the side. also can be connected to certain machines."
+				"ponder a shaft in your inventory to see uses!"
+			]
+			dependencies: ["1733BB2F1C759C43"]
+			id: "7E856672A2E7FB43"
+			tasks: [{
+				id: "780627C2B0CB2718"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [{
+				id: "1E8AE87322D08852"
+				type: "item"
+				item: "create:shaft"
+				count: 5
+			}]
+		}
+		{
+			title: "Create a gearbox"
+			x: 6.0d
+			y: -2.0d
+			subtitle: "Spins the spinny!"
+			description: [
+				"allows one input to become multiple outputs. (or turns a shaft in a one block space)"
+				"a verticle gearbox and a regular gearbox can be converted by simply putting one into a crafting table."
+			]
+			dependencies: ["1733BB2F1C759C43"]
+			id: "050E0747AE242C14"
+			tasks: [
+				{
+					id: "6CFE6858C96FBB77"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "5EF654AFB06BA598"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+			rewards: [{
+				id: "36C2DCAB6F076EFE"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 10
+			}]
+		}
+		{
+			title: "create a basin"
+			x: -1.5d
+			y: 5.0d
+			subtitle: "put it on a shopkeepers head and everything becomes free!"
+			description: ["Holds recipes for the mixer primarily. place a blaze burner under for heated recipes."]
+			dependencies: ["5220F7EE9CFD1C8E"]
+			id: "7FD413343F558AF8"
+			tasks: [{
+				id: "2207B92111962EEF"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "524FAE31F4222AD4"
+				type: "item"
+				auto: "disabled"
+				item: "create:andesite_alloy"
+				count: 3
+			}]
+		}
+		{
+			title: "Create a blaze burner"
+			x: -2.5d
+			y: 4.0d
+			subtitle: "This blaze is on fire!"
+			description: [
+				"heats the basin via blaze energy! accepts fuel to burn hotter."
+				"required for brass"
+			]
+			dependencies: ["5220F7EE9CFD1C8E"]
+			id: "222599A5C7BFD2F4"
+			tasks: [{
+				id: "6C0F6F4BD57A1D71"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "3282F0FDCDEB25F7"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 3
+			}]
+		}
+		{
+			title: "Create a wrench"
+			x: 1.5d
+			y: 4.5d
+			subtitle: "[player] the builder, can we fix it? Eh, probably."
+			description: ["used to rotate, instantly remove, change, or connect Create items! very handy."]
+			dependencies: ["1AF66CC36F5C7F6F"]
+			id: "75B4BF5E901D74D3"
+			tasks: [{
+				id: "771DBD3531C062DA"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "7A0534E56C3FADFB"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "Create a millstone"
+			x: -6.5d
+			y: 1.0d
+			subtitle: "Mill? nah I'm already full."
+			description: ["Useful for breaking down certain items efficiently."]
+			dependencies: ["53A907A8A0A1A3CE"]
+			id: "42A13D27315448F9"
+			tasks: [{
+				id: "4905660F6AFF8991"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "20D0CFAA2A9E344E"
+				type: "item"
+				item: "create:wheat_flour"
+			}]
+		}
+		{
+			title: "Create a water wheel"
+			x: -2.0d
+			y: -5.5d
+			subtitle: "What-a-Wheel!!"
+			description: [
+				"easy and compact, but can't handle stress well."
+				"the more sides are covered in flowing water, the faster it goes!"
+			]
+			dependencies: ["2EC363473AEFCDE5"]
+			id: "708E0A43A2A9F01F"
+			tasks: [{
+				id: "64EDA07A84281FBB"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "131A0E2C7C6DE66A"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			title: "Create a windmill"
+			x: -2.0d
+			y: -4.5d
+			subtitle: "Eustace, i think its time to fix that old windmill!"
+			description: [
+				"remember to use the ponder ability!"
+				"windmills are large, but can handle ALOT of stress, can keep multiple machines going at a time."
+			]
+			dependencies: ["2EC363473AEFCDE5"]
+			id: "02D887F10D3994DD"
+			tasks: [
+				{
+					id: "25ADCE541AEAE665"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "7693CBC0B5DA7EB5"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+			rewards: [{
+				id: "718BDC97CC3885F5"
+				type: "item"
+				item: "create:white_sail"
+				count: 10
+			}]
+		}
+		{
+			title: "Create a hand crank"
+			x: 2.0d
+			y: -4.5d
+			subtitle: "CRANK IT!"
+			description: ["Small stress compacity but incredibly easy and quick to set up. (you do have to manually spin it however)"]
+			dependencies: ["2EC363473AEFCDE5"]
+			id: "2BBE9CF369CCE6B9"
+			tasks: [{
+				id: "1BDD3C9600C4F305"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "6247B402F1E3E6F2"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+		}
+		{
+			title: "Create some meters"
+			x: 0.0d
+			y: -6.5d
+			subtitle: "This mods stressing me out fast!"
+			description: ["the speedometer will tell you how fast something is spinning. The stressometer will tell you how much stress a system can handle."]
+			dependencies: ["2EC363473AEFCDE5"]
+			id: "187AE8FDF48B77E1"
+			tasks: [
+				{
+					id: "4A0474785B3AA2CC"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "4D9127AA49A82728"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+			rewards: [{
+				id: "0F79880BB7D50C7F"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			title: "Create some mechanical belts"
+			x: 5.5d
+			y: 2.0d
+			subtitle: "i've always wanted to go to one of those conveyor belt sushi bars... Mmm."
+			description: ["can be placed on shafts to transfer items, one shaft on either end. you only need to spin one side and the other will spin with it."]
+			dependencies: ["1733BB2F1C759C43"]
+			id: "2DE9FB0A7EBD5E96"
+			tasks: [{
+				id: "2E28E14F53EF488B"
+				type: "item"
+				item: "create:belt_connector"
+				count: 5L
+			}]
+			rewards: [{
+				id: "1C6D749DBC700151"
+				type: "item"
+				item: "create:belt_connector"
+				count: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			subtitle: "It's not a wheel made of flies."
+			description: [
+				"Place the furnace generator onto a furnace, then,  on the side that the furnace generators face is, go one block out, then place the flywheel, it should automatically connect up."
+				"placing a valid furnace recipe into the furnace (or for more efficiency, a blast furnace) will power the fly wheel and give a HIGH stress tolerance source."
+			]
+			dependencies: ["2EC363473AEFCDE5"]
+			id: "7B289DDA8A342CC7"
+			tasks: [
+				{
+					id: "1C9E3FE99BF86736"
+					type: "item"
+					item: "create:flywheel"
+				}
+				{
+					id: "5922A05D2858BE5C"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+			]
+			rewards: [{
+				id: "521B6D1B628FA28E"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 2
+			}]
+		}
+		{
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 7.8500000000000005d
+			shape: "gear"
+			subtitle: "It's hammer time."
+			description: ["With the creation of the mechanical press, you can now begin immersive engineering!"]
+			dependencies: ["1AF66CC36F5C7F6F"]
+			size: 1.3d
+			id: "3C57AA47BBAC2D2B"
+			tasks: [{
+				id: "15FB22CB50C0C7B0"
+				type: "checkmark"
+				title: "Immersive engineering requirement met!"
+			}]
+			rewards: [{
+				id: "1E5C72F529D578E7"
+				type: "item"
+				item: "thermal:iron_plate"
+				count: 4
+			}]
+		}
+		{
+			title: "Create some rose quartz"
+			x: -7.0d
+			y: 6.0d
+			subtitle: "looks delicious."
+			description: ["rose quartz can be polished with sand paper.  hold sandpaper in one hand, quartz in the other. and hold right click."]
+			hide_dependency_lines: true
+			dependencies: ["19F0BF4BA209FBF7"]
+			id: "39E5E5D7CC20AF3D"
+			tasks: [{
+				id: "15022C27453EA9C3"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "72BEDF3CCFD18CC2"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.0d
+			subtitle: "automate crafting, or not, i'm not your dad."
+			description: [
+				"the mechanical crafter can be used to automate crafting. but the main thing you will want it for is making bigger recipes."
+				"Place them next to eachother and line up the arrows to go to one corner of the crafter. then provide it with redstone to start it."
+			]
+			dependencies: [
+				"19F0BF4BA209FBF7"
+				"39E5E5D7CC20AF3D"
+			]
+			id: "1ADE4AC2DD0B3CC7"
+			tasks: [{
+				id: "1A1A7E72B885DEB8"
+				type: "item"
+				title: "Create a mechanical crafter"
+				item: "create:mechanical_crafter"
+				count: 9L
+			}]
+			rewards: [{
+				id: "10B9A5FAA654E944"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 5
+			}]
+		}
+		{
+			title: "Create some brass ingots"
+			x: -2.5d
+			y: 5.0d
+			subtitle: "brassias por favor"
+			description: ["a useful ingot for crafting, or making into plates."]
+			dependencies: [
+				"222599A5C7BFD2F4"
+				"7FD413343F558AF8"
+			]
+			id: "4656BFCBC5A1BE82"
+			tasks: [{
+				id: "44874F2B851F8EBC"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "7603CD38EA66C73D"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "Create some brass sheets"
+			x: -2.5d
+			y: 6.0d
+			subtitle: "want a slice of cheese?"
+			description: ["Brass sheets are useful for making brass casing! (and quite a bit of other good stuff)."]
+			dependencies: [
+				"1AF66CC36F5C7F6F"
+				"4656BFCBC5A1BE82"
+			]
+			id: "72232B9A39BA43A2"
+			tasks: [{
+				id: "669C9632550B8B74"
+				type: "item"
+				item: "create:brass_sheet"
+			}]
+			rewards: [{
+				id: "2FC1AC0BAA4E3F80"
+				type: "item"
+				item: "create:brass_sheet"
+			}]
+		}
+		{
+			title: "Create some brass casing"
+			x: -4.0d
+			y: 6.0d
+			subtitle: "it's an andesite casing... but butter."
+			dependencies: ["72232B9A39BA43A2"]
+			id: "19F0BF4BA209FBF7"
+			tasks: [{
+				id: "0CECF50380F7C67A"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "2AC538A75FE25874"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			title: "Create some crushing wheels"
+			icon: "create:crushing_wheel"
+			x: -5.5d
+			y: 3.5d
+			subtitle: "gives good foot massages. just stand on top."
+			description: ["put two together, make them spin into eachother and it will work as a cheap ore doubler!"]
+			dependencies: ["1ADE4AC2DD0B3CC7"]
+			hide_text_until_complete: false
+			id: "6860AFC805CAAF02"
+			tasks: [{
+				id: "6626ECCFF95ADB9C"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [{
+				id: "7BA7C5926758DD0D"
+				type: "item"
+				item: "create:crushed_gold_ore"
+				count: 2
+			}]
+		}
+		{
+			title: "Create andesite transportation"
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["2DE9FB0A7EBD5E96"]
+			id: "31763EB4C985ACFE"
+			tasks: [
+				{
+					id: "15D2C04C3E0459D6"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "6A5E902F0A5F1FBF"
+					type: "item"
+					item: "create:andesite_tunnel"
+				}
+			]
+			rewards: [{
+				id: "04917B3FC9C79E08"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			title: "Create brass transportation"
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["2DE9FB0A7EBD5E96"]
+			id: "7D27725F4A206974"
+			tasks: [
+				{
+					id: "6C0D133B092C3788"
+					type: "item"
+					item: "create:brass_funnel"
+				}
+				{
+					id: "6F9A72626DEE46A3"
+					type: "item"
+					item: "create:brass_tunnel"
+				}
+			]
+			rewards: [{
+				id: "28B08B7CC335B245"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+		}
+		{
+			title: "Create some fluid pipes"
+			x: 4.0d
+			y: 6.0d
+			subtitle: "do you have to pee now?"
+			dependencies: ["5F6C9877A6182701"]
+			id: "36E0BA188352A5CB"
+			tasks: [
+				{
+					id: "714AE7ABAE3CDF06"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "61212DEFB0B79B38"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
+			rewards: [{
+				id: "0D004D01B322EFC2"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 5
+			}]
+		}
+		{
+			title: "Create a mechanical saw"
+			x: -5.5d
+			y: -2.0d
+			subtitle: "Do you want to play a game?"
+			description: ["can be used to strip bark, create items made by a stone cutter, and gain higher returns when making planks."]
+			dependencies: ["53A907A8A0A1A3CE"]
+			id: "102136F4095474CA"
+			tasks: [{
+				id: "4C5658D655B242F9"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "68D8A9F0955C0C3E"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 10
+			}]
+		}
+		{
+			title: "Create a mechanical piston"
+			x: -3.5d
+			y: -2.0d
+			subtitle: "We should take bikini bottom... and push it... SOMEWHERE ELSE!"
+			description: ["pushes further than  a regular piston."]
+			dependencies: ["53A907A8A0A1A3CE"]
+			id: "1E9F2D162D27CC28"
+			tasks: [{
+				id: "4BBA5055CE534AF4"
+				type: "item"
+				item: "create:mechanical_piston"
+			}]
+			rewards: [{
+				id: "40522ADF5C0CE4A1"
+				type: "item"
+				item: "minecraft:piston"
+			}]
+		}
+		{
+			title: "Create a mechanical sticky piston"
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Why is it sticky? why are ALL THE BALLS STICKY?"
+			description: ["its a sticky mechanical piston. do you need more? let's ponder on it."]
+			dependencies: ["1E9F2D162D27CC28"]
+			id: "4A1764BCE58ABFCD"
+			tasks: [{
+				id: "101027348805A626"
+				type: "item"
+				item: "create:sticky_mechanical_piston"
+			}]
+			rewards: [{
+				id: "500331236D10ED32"
+				type: "item"
+				item: "minecraft:sticky_piston"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			subtitle: "how low can you go! wait this isn't a limbo pole."
+			description: ["used to extend the range of mechanical pistons."]
+			dependencies: ["1E9F2D162D27CC28"]
+			id: "3DA50EA052F5D071"
+			tasks: [{
+				id: "6819D748A8675827"
+				type: "item"
+				item: "create:piston_extension_pole"
+			}]
+			rewards: [{
+				id: "48C20CA0B3ABCCC8"
+				type: "item"
+				item: "create:piston_extension_pole"
+				count: 3
+			}]
+		}
+		{
+			title: "Create some super glue"
+			x: -4.0d
+			y: -3.0d
+			subtitle: "apply directly TO ANYWHERE EXCEPT YOUR BODY!"
+			description: [
+				"glues items together, think a slime block, but can be applied directly to the side of a block, making that side itself a slime ball."
+				"useful for chassis, or pistons!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1E9F2D162D27CC28"
+				"4C1033724EE09EE6"
+			]
+			dependency_requirement: "one_completed"
+			id: "09DA31CEE4C88A4A"
+			tasks: [{
+				id: "48FF46D46DF16ECF"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F8AF294536DC847"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 2
+			}]
+		}
+		{
+			title: "Create a mechanical harvester"
+			x: -6.5d
+			y: 0.0d
+			subtitle: "AH MY ORGANS! wait it's not that kind of harvester."
+			description: ["Harvests crops! "]
+			dependencies: ["53A907A8A0A1A3CE"]
+			id: "513B88284864F5F8"
+			tasks: [{
+				id: "28CA3A0B7D361E0E"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "3E07AA8C31461C27"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 3
+			}]
+		}
+		{
+			title: "Create a mechanical plough"
+			x: -4.5d
+			y: 2.0d
+			subtitle: "no comment. you come up with a joke, you got this."
+			description: ["can break non solid blocks and till farmland, can be used to collect those items."]
+			dependencies: ["53A907A8A0A1A3CE"]
+			id: "137864FF12DBD32B"
+			tasks: [{
+				id: "5E6ACDFD209F7B42"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+		}
+		{
+			title: "Create a clutch"
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["1733BB2F1C759C43"]
+			id: "48B0DB68699C35A7"
+			tasks: [{
+				id: "4912BEDD51886123"
+				type: "item"
+				item: "create:clutch"
+			}]
+			rewards: [{
+				id: "62D852E02178F20F"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 10
+			}]
+		}
+		{
+			title: "Create an encased chain drive"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "so like. to be cool i have to have these around my neck?"
+			description: ["can relay rotation to eachother, on the sides or on top."]
+			dependencies: ["1733BB2F1C759C43"]
+			id: "39DC9204FFBBA11A"
+			tasks: [{
+				id: "525CE12A5026A56E"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+			rewards: [{
+				id: "69B4187ABF68EBA5"
+				type: "item"
+				icon: "create:andesite_alloy"
+				item: "create:shaft"
+				count: 10
+			}]
+		}
+		{
+			title: "Create a gearshift"
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["1733BB2F1C759C43"]
+			id: "1D82BE99A61E5937"
+			tasks: [{
+				id: "5530CA1467EDD4A4"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [{
+				id: "65636C084E653FFB"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 10
+			}]
+		}
+		{
+			title: "Create a mechanical drill"
+			x: -6.5d
+			y: -1.0d
+			subtitle: "BEHOLD! THE UNDER MINER!"
+			dependencies: ["53A907A8A0A1A3CE"]
+			id: "1E1F8A179119692B"
+			tasks: [{
+				id: "44E6AA08613D520C"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "560E01E01EE937BE"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "Create an encased fan"
+			x: -3.5d
+			y: 2.0d
+			subtitle: "Wow! You're the Grand Champion! I saw your fight against the gray Prince! can i follow you around?"
+			description: [
+				"acn be used to push air in a certain direction, causing entities to be pushed!"
+				"(the yellow wool reward is part of the reference)"
+			]
+			dependencies: ["53A907A8A0A1A3CE"]
+			id: "10AF0EB1E822A02E"
+			tasks: [{
+				id: "66739F66621AB4CB"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "1CCAD8CF559032AA"
+				type: "item"
+				item: "minecraft:yellow_wool"
+			}]
+		}
+		{
+			title: "Create some chassis"
+			x: -4.5d
+			y: -2.0d
+			subtitle: "GEORGE WATCH OUT FOR THAT.... oh.."
+			description: ["can be used to move large amounts of objects. instead of pushing like a piston however, it turns like a turntable! Ponder to find out more."]
+			dependencies: ["53A907A8A0A1A3CE"]
+			id: "4C1033724EE09EE6"
+			tasks: [
+				{
+					id: "7FF5C7E76D82DC84"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "357C1F87FACDD106"
+					type: "item"
+					item: "create:secondary_linear_chassis"
+				}
+				{
+					id: "1F200248612F83F7"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+			]
+			rewards: [{
+				id: "66F71BEE269FC383"
+				type: "item"
+				item: "create:radial_chassis"
+			}]
+		}
+		{
+			title: "Create a deployer"
+			x: -5.5d
+			y: 2.0d
+			subtitle: "Are we blind? deploy the birthday wishes!"
+			description: ["Can act as a player for certain actions. use, break, or place items, also attacks mobs, ponder to learn more."]
+			dependencies: ["53A907A8A0A1A3CE"]
+			id: "39B8BE0512860A8C"
+			tasks: [{
+				id: "052DF30F2D9FC957"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "4A3A62DA694AA26B"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+		{
+			title: "Create a mechanical arm"
+			x: -4.0d
+			y: 3.5d
+			subtitle: "he has scissors for hands! or in this case, hands for hands."
+			description: [
+				"can be used in multiple different ways."
+				"can be used to move items automatically, early sorting, or assembly, to name a few. ponder for more!"
+				"to create a precision mechanism, Set up 3 deployers facing into a conveyor belt below them,  leaving one empty block between, place the items required into the deployers, and have a gold plate go through on the conveyor belt. it will automatically stop the belt and apply the item. set it to automatically loop back around and re enter the conveyor belt (or replace by hand) until the piece is complete."
+			]
+			dependencies: ["19F0BF4BA209FBF7"]
+			id: "053DF13585442AC0"
+			tasks: [{
+				id: "677076060E3ED4B5"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "2A2FE68700E10F18"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 5
+			}]
+		}
+		{
+			title: "Create a copper casing"
+			x: 2.0d
+			y: 6.0d
+			subtitle: "its an andesite casing... but better."
+			dependencies: ["1AF66CC36F5C7F6F"]
+			id: "5F6C9877A6182701"
+			tasks: [{
+				id: "2B36817D7D1F261B"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+			rewards: [{
+				id: "739439181415F255"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			subtitle: "fun, useful, but not \"required\"."
+			description: ["fun and useful machines, however, for progression through the pack, are not required."]
+			dependencies: ["00F46DA531F02BDE"]
+			size: 1.3d
+			id: "53A907A8A0A1A3CE"
+			tasks: [{
+				id: "18348AADBC6CA062"
+				type: "checkmark"
+				title: "Other machines"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Spinny go burrrrr"
+			description: [
+				"useful ways to transfer your kinetic energy. remember to use creates \"ponder\" ability!"
+				"also pipes are here too don't judge me."
+			]
+			dependencies: ["00F46DA531F02BDE"]
+			size: 1.3d
+			id: "1733BB2F1C759C43"
+			tasks: [{
+				id: "0343534CA53FD088"
+				type: "checkmark"
+				title: "kinetic transfer"
+			}]
+		}
+		{
+			title: "Create some filters"
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["2DE9FB0A7EBD5E96"]
+			id: "1091A49C4A1EE1C1"
+			tasks: [
+				{
+					id: "339E2716EF725F91"
+					type: "item"
+					item: {
+						id: "create:filter"
+						Count: 1b
+						tag: {
+							Items: { }
+						}
+					}
+				}
+				{
+					id: "56D004824B699A3F"
+					type: "item"
+					item: {
+						id: "create:attribute_filter"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "743E7F5C0199E819"
+				type: "item"
+				item: {
+					id: "create:filter"
+					Count: 1b
+					tag: {
+						Items: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "How hard is it to make things spin.. pfft."
+			description: ["Generates rotational energy, required for most create machines."]
+			dependencies: ["00F46DA531F02BDE"]
+			size: 1.3d
+			id: "2EC363473AEFCDE5"
+			tasks: [{
+				id: "10B74136709515C0"
+				type: "checkmark"
+				title: "kinetic generation"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "\"do i have to??\" well no, but actually yes."
+			description: ["the path forward! make a mechanical press to progress to immersive engineering!"]
+			dependencies: ["00F46DA531F02BDE"]
+			size: 1.4d
+			id: "3D73B21EB3C18957"
+			tasks: [{
+				id: "2E5B1D567CE355C5"
+				type: "checkmark"
+				title: "Progression"
+			}]
+		}
+		{
+			title: "Create a spout"
+			x: 4.0d
+			y: 5.0d
+			subtitle: "now i have to pee."
+			description: ["used to dump fluids below it, can be used to fill bottles with brewed potions (mixer and basin). ponder for some other uses!"]
+			dependencies: ["36E0BA188352A5CB"]
+			id: "157A617D19748873"
+			tasks: [{
+				id: "31C30245B0EA3B3B"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "2435AC9736909501"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			title: "Create a hose pulley"
+			x: 5.0d
+			y: 6.0d
+			subtitle: "Ah, Pull it!"
+			description: ["fills or drains large bodies of water."]
+			dependencies: ["36E0BA188352A5CB"]
+			id: "11BEEDA63CA234FA"
+			tasks: [{
+				id: "14C55831B792C014"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+			rewards: [{
+				id: "0CC46D7D728319F4"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			title: "Create a fluid tank"
+			x: 4.0d
+			y: 7.0d
+			subtitle: "it puts the lotion in the tank or else it gets the spout again."
+			description: ["holds fluids. can be pumped from, or to, via copper pipes. can also be stacked together."]
+			dependencies: ["36E0BA188352A5CB"]
+			id: "2CCAECA8E059FF48"
+			tasks: [{
+				id: "1194F1D90868B26C"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "2029331A9CC70A2F"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+	]
+}

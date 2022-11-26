@@ -1,0 +1,26 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:ionite_interconnect"
+  },
+  "bottom": {
+    "raw:item_tag": "forge:storage_blocks/redstone"
+  },
+  "left": {
+    "raw:item": "envirocore:lonsdaleite_crystal"
+  },
+  "right": {
+    "raw:item": "envirocore:lonsdaleite_crystal"
+  },
+  "center": {
+    "raw:item": "waddlecraft:fe_output_node"
+  },
+  "output": {
+    "raw:itemstack": "envirocore:fe_output",
+    "nbt": "{tier:5,energy:{capacity:4194304}}"
+  },
+  "merge_center_nbt": false
+}

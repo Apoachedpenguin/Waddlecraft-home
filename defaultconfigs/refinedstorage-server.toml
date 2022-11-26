@@ -39,7 +39,7 @@
 	baseUsage = 0
 	#The energy capacity of the Controller
 	#Range: > 0
-	capacity = 32000
+	capacity = 256000
 
 [cable]
 	#The energy used by the Cable

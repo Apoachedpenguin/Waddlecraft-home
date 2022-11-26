@@ -1,0 +1,1002 @@
+{
+	id: "3D640CD1F3BA6334"
+	group: ""
+	order_index: 9
+	filename: "psi"
+	title: "PSI"
+	icon: "psi:cad_assembly_psimetal"
+	subtitle: ["This mod can be confusing, sorry for the text walls incoming"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 0.5d
+			subtitle: "When you want your gun to gun properly"
+			description: ["the cad assembler allows for the assembly of a casting assisted device, place a NEW cad assembler into the center, as well as any cad upgrades you desire, and then take the cad out of the top square. Once it is made it CANNOT be remade or have pieces taken from it! The top left is where Bullets are loaded into a cad, Place an ASSEMBLED casting assisted device (that has had a socket inside) to see your spell bullet slots, placing a bullet inside of those slots will allow you to use that spell (if you have the cad upgrades to do so, explained more in the \"progression\" or \"cad parts\" questlines)"]
+			dependencies: [
+				"127FE90A79747BFA"
+				"7DF219D001D3CF41"
+			]
+			id: "42C171DF55400A51"
+			tasks: [{
+				id: "26F87C38B3F021E5"
+				type: "item"
+				item: "psi:cad_assembler"
+			}]
+			rewards: [{
+				id: "747751B93F377E02"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "program soultrap 2 seconds, Range, and any dramora gear conjuring spell, works for buff spells too!"
+			description: [
+				"Programs spell bullets. very complicated if its your first time. The Grid is ONE spell, not each square is a seperate spell. So if you want trick infusion and trick GREATER infusion on seperate bullets, OVERWRITE a single square, NOT selecting two different squares. to select a spell, right click in the grid on a square, and search in the new pop up box for the spell part you want. "
+				"The spell programmer IS player specific, so if you make it, your friends CANNOT use it!  after programming your spell, right click the block with a spell bullet to place the spell onto it."
+			]
+			dependencies: [
+				"127FE90A79747BFA"
+				"7DF219D001D3CF41"
+			]
+			id: "60BFCEF28B67C462"
+			tasks: [{
+				id: "7AD1F3604B39E1A8"
+				type: "item"
+				item: "psi:programmer"
+			}]
+			rewards: [{
+				id: "752F919F3E40C6EF"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 4
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			subtitle: "Yes, you will need a second one."
+			description: ["Your first PSI casting assisted device! worthless on its own, requires the cad assembly to put it together."]
+			dependencies: [
+				"127FE90A79747BFA"
+				"7DF219D001D3CF41"
+			]
+			id: "5275C32D1E3ED5D2"
+			tasks: [{
+				id: "695D58AA2BDE9B2A"
+				type: "item"
+				item: "psi:cad_assembly_iron"
+			}]
+			rewards: [{
+				id: "5CC22D69F8EB134B"
+				type: "item"
+				item: "psi:cad_assembly_iron"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			subtitle: "Requirements: psigem. Required for: psigem."
+			description: ["now that you have psimetal, create a PSI cad with a core and socket upgrade. and place trick: infusion, Trick:greater infusion, and trick: ebony and ivory. This will be ALL you need for this mod pack. However, psi can get pretty crazy if you delve into it."]
+			dependencies: [
+				"788132E05EECBFCB"
+				"12E5FC0F599B85B8"
+			]
+			id: "17E0A523811F16A0"
+			tasks: [{
+				id: "6044874F87C36607"
+				type: "item"
+				item: "psi:cad_assembly_psimetal"
+			}]
+			rewards: [{
+				id: "44CA1EAB8F6E32E8"
+				type: "item"
+				item: "psi:psimetal"
+				count: 10
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			subtitle: "real guns made of gold would SUCK. luckily this is a MAGIC GUN"
+			description: ["Its a strictly better iron cad! but not quite as good as a psi cad."]
+			dependencies: ["3B2F625ABF8F7E72"]
+			id: "07EA14F60E37785F"
+			tasks: [{
+				id: "148AFA752141E188"
+				type: "item"
+				item: "psi:cad_assembly_gold"
+			}]
+			rewards: [{
+				id: "22D5FED0A30F32E0"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			subtitle: "MMMM marshmellowy"
+			description: ["The ivory Cad is more efficient than an ebony one, allowing for more Psi to be used in casting spells. but cannot channel psi energy as quick."]
+			dependencies: [
+				"3B2F625ABF8F7E72"
+				"3D86806DB21BDEA2"
+			]
+			id: "3A33FD3C893B3E9B"
+			tasks: [{
+				id: "0C8CC2C05F8CFB93"
+				type: "item"
+				item: "psi:cad_assembly_ivory_psimetal"
+			}]
+			rewards: [{
+				id: "3E4039659EEB1B35"
+				type: "item"
+				item: "psi:ivory_psimetal"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			subtitle: "its high noon! oh wait its 11:45 gimme a few minutes."
+			description: ["This can channel psi energy quicker than the ivory, but is not capable of using as much psi per cast."]
+			dependencies: [
+				"3B2F625ABF8F7E72"
+				"3D86806DB21BDEA2"
+			]
+			id: "2558F3E3901C326C"
+			tasks: [{
+				id: "2009336E3062C875"
+				type: "item"
+				item: "psi:cad_assembly_ebony_psimetal"
+			}]
+			rewards: [{
+				id: "43120EB26FA947A6"
+				type: "item"
+				item: "psi:cad_assembly_ebony_psimetal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			subtitle: "Like a regular bullet, but different in every way!"
+			description: ["Spell bullets can hold spells! This is a basic bullet that will simply cast a spell directly infront of you. Spell bullets are INFINITE use. When programming spell bullets, you will need 3 basic tricks for everything you need for BASIC PSI. Trick: infusion, Trick:greater infusion, and Trick: ebony and ivory. go to your spell programmer, Right click the top left grid square (any square works, but for this, we will ONLY be using this one), then, then you can SEARCH for the trick you want to apply. click it, once it shows in the top left grid, exit the interface. then right click your bullet onto the spell programmer."]
+			dependencies: ["4BA5944691C6ED22"]
+			id: "0B5869D341773BFF"
+			tasks: [{
+				id: "083D7720755AB3C3"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5F477748DFE222F4"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			subtitle: "put bulets"
+			description: ["This needs to be placed inside of a CAD during assembly to HOLD bullets.  holds 5 seperate bullets."]
+			dependencies: ["4BA5944691C6ED22"]
+			id: "56EAF526BB191F31"
+			tasks: [{
+				id: "5074914D086EA176"
+				type: "item"
+				item: "psi:cad_socket_basic"
+			}]
+			rewards: [{
+				id: "2BEFF6ADE994D200"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			subtitle: "perfect for bitcoin mining.. idk what im saying i never got into that"
+			description: [
+				"cad cores make it so it can deal with more complex spell bullets. meaning more spell parts PER spell. For a beginners needs, this cad core will suffice."
+				"make sure that when making Tricks (see spell bullet), that there is only ONE grid filled in the spell programmer, if you fill in multiple grids THIS core will NOT have enough processing power to cast the spell."
+			]
+			dependencies: ["4BA5944691C6ED22"]
+			id: "0E51A317214D26CF"
+			tasks: [{
+				id: "271176E60C66077C"
+				type: "item"
+				item: "psi:cad_core_basic"
+			}]
+			rewards: [{
+				id: "311DDEAD35371D22"
+				type: "item"
+				item: "psi:cad_core_basic"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			subtitle: "its a salted barrey - That was a typo, but ill keep it anyway"
+			description: [
+				"Batteries hold extra psi energy , allowing for higher storage capacities!"
+				"this holds 100 extra!"
+			]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "777FC0C3C08D4028"
+			tasks: [{
+				id: "04657897637F1012"
+				type: "item"
+				item: "psi:cad_battery_basic"
+			}]
+			rewards: [{
+				id: "2316343FA12105FE"
+				type: "item"
+				item: "psi:cad_battery_basic"
+			}]
+		}
+		{
+			title: "Psimetal exosuit"
+			x: -0.5d
+			y: -6.5d
+			subtitle: "I am psimetalman! wait. i did this one already."
+			description: ["Psimetal armor casts spells when performing actions. helmets trigger based off exosuit sensors (crafted with the helmet in a grid) the chestpiece casts spells upon taking damage, The legs cast their spells continuously, and the boots cast their spells when you jump! The Exosuit controller allows you to change the pieces inside your suit."]
+			dependencies: ["3B2F625ABF8F7E72"]
+			id: "5EE57AE800B024CF"
+			tasks: [
+				{
+					id: "3037CD93CCC4AA61"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "566D487B6E645FEB"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "302A82E280FC2818"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42823C17CF30E7B4"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "28546633BF14F4A0"
+					type: "item"
+					item: "psi:exosuit_controller"
+				}
+			]
+			rewards: [{
+				id: "0B4864BE61D30015"
+				type: "item"
+				item: "psi:psimetal"
+				count: 2
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			subtitle: "Having to learn all of these items so i can properly describe them is killing me. i only ever did basic psi stuff before and had NO idea what any of this did."
+			description: ["Sockets hold bullets! there are two factors that are determined with sockets, the first, is bandwidth, increasing how much of the Spell programmer grid You can use (7 for this one means 7x7 of the grid), The other is how many bullets a socket can hold, This holds 6."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "0120B2FEE4EEE305"
+			tasks: [{
+				id: "48C4AB938A810648"
+				type: "item"
+				item: "psi:cad_socket_signaling"
+			}]
+			rewards: [{
+				id: "73910B74B362BA45"
+				type: "item"
+				item: "psi:cad_socket_signaling"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			subtitle: "how many bullets do you have left in that 8 shot shotgun? 68 says the movie protagonist."
+			description: ["Holds 8 bullets but can only use a 6x6 portion of the spell programmer grid."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "4C6D3A4383258B3E"
+			tasks: [{
+				id: "738E4DDDC1C52696"
+				type: "item"
+				item: "psi:cad_socket_large"
+			}]
+			rewards: [{
+				id: "6C1EB1C62C51D1C2"
+				type: "item"
+				item: "psi:cad_socket_large"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -0.5d
+			subtitle: "goes pew pew but like.. real nicely"
+			description: ["can hold 10 spell bullets, and can use the full 9x9 spell programmer grid."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "4CD71E72F8F62C3A"
+			tasks: [{
+				id: "7E7B4C3F6F024656"
+				type: "item"
+				item: "psi:cad_socket_transmissive"
+			}]
+			rewards: [{
+				id: "6B5A34C83E285E2B"
+				type: "item"
+				item: "psi:cad_socket_transmissive"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			subtitle: "more stronker than my internet."
+			description: ["can hold 12 spell bullets, but only uses 8x8 of the spell programmers grid."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "40704FAC82A3B581"
+			tasks: [{
+				id: "23635C1C566DECC8"
+				type: "item"
+				item: "psi:cad_socket_huge"
+			}]
+			rewards: [{
+				id: "7B38E24A323251F9"
+				type: "item"
+				item: "psi:cad_socket_huge"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			subtitle: "Battery up!"
+			description: ["Holds double the capacity of the basic battery (for a total of 200)."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "57D5CD892422DB32"
+			tasks: [{
+				id: "0D4F64674D54D8A1"
+				type: "item"
+				item: "psi:cad_battery_extended"
+			}]
+			rewards: [{
+				id: "0544E06B8077EBB9"
+				type: "item"
+				item: "psi:cad_battery_extended"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			subtitle: "taping batteries together does not work."
+			description: ["Holds double the capacity of the extended battery (for a total of 400)."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "3CCFC9826F065C71"
+			tasks: [{
+				id: "424651D6A8CC1910"
+				type: "item"
+				item: "psi:cad_battery_ultradense"
+			}]
+			rewards: [{
+				id: "1C86F434E254087D"
+				type: "item"
+				item: "psi:cad_battery_ultradense"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			subtitle: "mmmm peanut butter core icecream..."
+			description: [
+				"Cores have two functions, adding more potential TRICKS per bullet, and adding more complex ways to use and activate those tricks."
+				"This core can handle more complexity than the basic core!"
+			]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "272AD07A9ABA2034"
+			tasks: [{
+				id: "428259007464AE5A"
+				type: "item"
+				item: "psi:cad_core_overclocked"
+			}]
+			rewards: [{
+				id: "2C44F7600C0535B1"
+				type: "item"
+				item: "psi:cad_core_overclocked"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			subtitle: "cadberry egg core "
+			description: ["can handle the same complexity of a basic core, but can handle another function!"]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "685ADE04598E21D7"
+			tasks: [{
+				id: "6E6507E7EC78DFC9"
+				type: "item"
+				item: "psi:cad_core_conductive"
+			}]
+			rewards: [{
+				id: "32615CC1E2836333"
+				type: "item"
+				item: "psi:cad_core_conductive"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			subtitle: "Drank an energy drink"
+			description: ["can handle around 60% increased complexity over the basic core, and holds 3 extra functions!"]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "48138C32BB4656BE"
+			tasks: [{
+				id: "72F52368EDE14721"
+				type: "item"
+				item: "psi:cad_core_hyperclocked"
+			}]
+			rewards: [{
+				id: "57A15E9949EE3050"
+				type: "item"
+				item: "psi:cad_core_hyperclocked"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			subtitle: "RADIOACTIVE, RADIOACTIVE! wait let me grab my glasses, oh.. radiative"
+			description: ["is not capable of dealing with the complexity that the hyperclocked core does, but it can handle an extra function."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "3FA26230EA0B975B"
+			tasks: [{
+				id: "6B8F60B40580E23F"
+				type: "item"
+				item: "psi:cad_core_radiative"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			subtitle: "its like a real gun!"
+			description: ["Instead of executing a spell directly infront of the cad, it will instead shoot a projectile straight, executing the spell where the projectile hits!"]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "71D43B9462C5495B"
+			tasks: [{
+				id: "5316203B0327E94E"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_projectile"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "79B3F0D772187A7F"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_projectile"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			subtitle: "wanna see me cast a spell? wanna see me do it again? and again? and again? and again?"
+			description: ["casts a spell like a regular spell bullet, However, it will constantly cast the same spell over and over, until you no longer are holding the cad in your hand, OR you switch spells."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "4A5C497CACC40093"
+			tasks: [{
+				id: "2A51B6BC81EE3A8C"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_loop"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4DC88427F85AF82C"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_loop"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			subtitle: "Have i got a bomb for you!"
+			description: ["the grenade spell bullet fires a projectile out of your cad, which is affected by gravity, and will detonate after 3 seconds."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "7E1B768DC5A23D57"
+			tasks: [{
+				id: "05DA9249872FCAC5"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_grenade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6FF907286E9187A4"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_grenade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			subtitle: "when a Spell square ain't doin it."
+			description: ["designates a circle on the ground and repeatedly casts the spell in this bullet 20 times, before disappearing."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "31114DF8E5FB5982"
+			tasks: [{
+				id: "36C4A10851583E91"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_circle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "379100593D143009"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_circle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			subtitle: "You like booby traps? this bullet do"
+			description: ["can fire a projectile containing a spell, Which detonates after using a spell detonator. (dispels after 5 minutes)"]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "623F34F89020E06F"
+			tasks: [
+				{
+					id: "4146AE2838CBF673"
+					type: "item"
+					item: {
+						id: "psi:spell_bullet_charge"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1D88A00FA37B2C15"
+					type: "item"
+					item: "psi:detonator"
+				}
+			]
+			rewards: [{
+				id: "6127AA6D4CE0A483"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_charge"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.0d
+			subtitle: "This spell bullet is MINE. get your own."
+			description: ["wil lay a mine on the ground, that disappears after 5 minutes. activates the spell when stepped on."]
+			dependencies: ["3E81C3FD2AFC58C8"]
+			id: "595CA7CF81F27816"
+			tasks: [{
+				id: "35A228C2C32B5C1A"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_mine"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3F435AE30FF22CD9"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_mine"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			subtitle: "don't comment about other white substances."
+			description: ["Collect 10 ivory substance with a psi cad or better, using \"trick:ebony and ivory\" on quartz. (CAN ONLY BE CREATED IN THE END!)"]
+			dependencies: ["7084E0AD85B90E69"]
+			id: "18B5C132D758CD22"
+			tasks: [{
+				id: "53646A5FF9CB9E2A"
+				type: "item"
+				item: "psi:ivory_substance"
+				count: 10L
+			}]
+			rewards: [{
+				id: "0C82D82E7D8153E4"
+				type: "item"
+				item: "psi:ivory_substance"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			subtitle: "When you have a substance but don't know what to name it. call it substance!"
+			description: ["With trick:ebony and ivory, you can use the spell IN THE END (doesnt work elsewhere) to infuse coal into ebony substance! this is the last piece thats required for progression into different mods!"]
+			dependencies: ["17E0A523811F16A0"]
+			id: "5D64CB36CD082256"
+			tasks: [{
+				id: "3B8459D1EBD04C1E"
+				type: "item"
+				item: "psi:ebony_substance"
+			}]
+			rewards: [{
+				id: "624A9B776B0A9B13"
+				type: "item"
+				item: "psi:ebony_substance"
+				count: 4
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			subtitle: "To get a juicy Ebony ingot, you are gonna want to REALLY rub the ebony substance into the ingot. make sure to get a heavy layer of ebony substance."
+			description: ["Create 10 ebony psimetal ingots."]
+			dependencies: ["353CBCFDEC429703"]
+			id: "67C56B79989AD69E"
+			tasks: [{
+				id: "6CF9433C818C3274"
+				type: "item"
+				item: "psi:ebony_psimetal"
+				count: 10L
+			}]
+			rewards: [{
+				id: "1C8E98D344A95444"
+				type: "item"
+				item: "psi:ebony_psimetal"
+				count: 3
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			subtitle: "ah, the ages old technique to refine and create strong useful ingots. Smear stuff on it."
+			description: ["Create 10 ivory psimetal ingots."]
+			dependencies: ["18B5C132D758CD22"]
+			id: "4877F03774CEC77D"
+			tasks: [{
+				id: "77EFF8807B737F7B"
+				type: "item"
+				item: "psi:ivory_psimetal"
+				count: 10L
+			}]
+			rewards: [{
+				id: "1D2FA32625C855CC"
+				type: "item"
+				item: "psi:ivory_psimetal"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			subtitle: "you want to test the mettle of man, huh? how about you *taste* the metal of man"
+			description: ["Create 10 psimetal ingots using an iron cad or better with \"trick:infusion\" used on Gold ingots."]
+			dependencies: ["7084E0AD85B90E69"]
+			id: "2D8077CB44D4DA85"
+			tasks: [{
+				id: "610265C2D6DB3360"
+				type: "item"
+				item: "psi:psimetal"
+				count: 10L
+			}]
+			rewards: [{
+				id: "750767024947013B"
+				type: "item"
+				item: "psi:psimetal"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "dusty! don't breath it in, might result in achoo."
+			description: ["collect 10 psidust with any cad, No spells needed!"]
+			dependencies: ["7084E0AD85B90E69"]
+			id: "3B04984FAE839555"
+			tasks: [{
+				id: "2A01891411E91114"
+				type: "item"
+				item: "psi:psidust"
+				count: 10L
+			}]
+			rewards: [{
+				id: "526B1DA63297530A"
+				type: "item"
+				item: "psi:psidust"
+				count: 3
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			subtitle: "it knows you want it."
+			description: ["Collect 10 psi gems with a psi or better CAD with the \"greater infusion\" trick. (CAN ONLY BE MADE IN THE END)"]
+			dependencies: ["7084E0AD85B90E69"]
+			id: "49F918229220B519"
+			tasks: [{
+				id: "302FD44D134F8546"
+				type: "item"
+				item: "psi:psigem"
+				count: 10L
+			}]
+			rewards: [{
+				id: "03726AFB9ABABA11"
+				type: "item"
+				item: "psi:psigem"
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "oh hey are you actually getting more into psi? no? your just doing the quests? ok... :("
+			description: ["none of these are nessicary for strictly progression, however will be highly necessary if you want to use the highest level of psi equipment and spells! The book has higher levels of explanations than i do here. so check the encyclopaedia psionica. "]
+			dependencies: [
+				"42C171DF55400A51"
+				"5275C32D1E3ED5D2"
+				"60BFCEF28B67C462"
+			]
+			id: "3E81C3FD2AFC58C8"
+			tasks: [{
+				id: "3AADA636F8E1BED5"
+				type: "checkmark"
+				title: "Cad parts"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "EVERYTHING LOOKS BETTER IN PURPLE. unless you dye it to other colors.."
+			dependencies: [
+				"42C171DF55400A51"
+				"5275C32D1E3ED5D2"
+				"60BFCEF28B67C462"
+			]
+			id: "3B2F625ABF8F7E72"
+			tasks: [{
+				id: "39852F7F5FAEDD72"
+				type: "checkmark"
+				title: "PSI equipment"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "i didn't know what to put here so here, get all the resources! woo!"
+			description: ["Show you have conquered PSI by creating all PSI materials."]
+			dependencies: [
+				"42C171DF55400A51"
+				"5275C32D1E3ED5D2"
+				"60BFCEF28B67C462"
+			]
+			id: "7084E0AD85B90E69"
+			tasks: [{
+				id: "59E31D0C639F93D1"
+				type: "checkmark"
+				title: "PSI materials"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "the pew pew you need!"
+			description: ["make sure to read all three of the following quests before doing anything!"]
+			dependencies: [
+				"42C171DF55400A51"
+				"5275C32D1E3ED5D2"
+				"60BFCEF28B67C462"
+			]
+			id: "4BA5944691C6ED22"
+			tasks: [{
+				id: "1AC76F75B9F4F236"
+				type: "checkmark"
+				title: "Progression"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			subtitle: "Back in black!"
+			description: ["Create 10 ebony substance with any psi cad or better, using \"trick: ebony and ivory\" on coal. (ONLY CREATABLE IN THE END!)"]
+			dependencies: ["7084E0AD85B90E69"]
+			id: "353CBCFDEC429703"
+			tasks: [{
+				id: "0D87450BB7C950DA"
+				type: "item"
+				item: "psi:ebony_substance"
+				count: 10L
+			}]
+			rewards: [{
+				id: "2EAC8C5D00664E81"
+				type: "item"
+				item: "psi:ebony_substance"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			subtitle: "Took a while, but we are here now!"
+			description: ["make sure you have a brand new iron cad. once you have that, place a socket, and a core inside it in cad assembler. Assemble it, then place a spell bullet with trick infusion inside. once thats done, select the spell with the psi keybind (default: C). upon doing so, shooting Gold with your iron cad will give you psimetal!"]
+			dependencies: [
+				"56EAF526BB191F31"
+				"0B5869D341773BFF"
+				"0E51A317214D26CF"
+			]
+			id: "788132E05EECBFCB"
+			tasks: [{
+				id: "17C0025995194986"
+				type: "item"
+				item: "psi:psimetal"
+			}]
+			rewards: [{
+				id: "555ED3D4331EFC8E"
+				type: "item"
+				item: "psi:psimetal"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			subtitle: "spoon"
+			description: ["Create a psimetal shovel, psimetal tools will cast spell upon breaking their respective blocks. can hold up to 3 different spells! (equivalent to diamond tools)"]
+			dependencies: ["3B2F625ABF8F7E72"]
+			id: "7F9930083594321A"
+			tasks: [{
+				id: "3D8F1C68D28C7B2A"
+				type: "item"
+				item: {
+					id: "psi:psimetal_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E8841D20DDF0941"
+				type: "item"
+				item: "psi:psimetal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			subtitle: "for when mining isn't magical."
+			description: ["create a psimetal pickaxe, psimetal tools cast spells upon breaking their respective blocks, Holds up to 3 spell bullets. (equivalent to diamond tools)"]
+			dependencies: ["3B2F625ABF8F7E72"]
+			id: "3176A987FF66D3B3"
+			tasks: [{
+				id: "1C8FEE9BB9FA6081"
+				type: "item"
+				item: {
+					id: "psi:psimetal_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D402E4A1EA0734A"
+				type: "item"
+				item: "psi:psimetal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			subtitle: "Whoa-oh-oh its MAGIC. You know!"
+			description: ["create a psimetal axe, Psimetal tools will cast spells upon breaking their respective blocks, Holds up to 3 spell bullets. (equivalent to diamond tools)"]
+			dependencies: ["3B2F625ABF8F7E72"]
+			id: "00C8CDBBA3737A34"
+			tasks: [{
+				id: "45C34EBCF38DC8F3"
+				type: "item"
+				item: {
+					id: "psi:psimetal_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AA02FC238EFB6C1"
+				type: "item"
+				item: "psi:psimetal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			subtitle: "I can shwing my swrod"
+			description: ["create a psimetal sword, psimetal swords will cast spells upon hitting an enemy (they will gain invunerability for half a second afterwards), holds up to three spell bullets. (equivalent to a diamond sword)"]
+			dependencies: ["3B2F625ABF8F7E72"]
+			id: "4510770A207B7F24"
+			tasks: [{
+				id: "5F974C468DA8C15F"
+				type: "item"
+				item: {
+					id: "psi:psimetal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A3D8649C753E45D"
+				type: "item"
+				item: "psi:psimetal"
+			}]
+		}
+	]
+}

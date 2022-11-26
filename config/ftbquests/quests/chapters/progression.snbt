@@ -1,0 +1,401 @@
+{
+	id: "2DC5F5F5BC5DABBD"
+	group: ""
+	order_index: 1
+	filename: "progression"
+	title: "Progression"
+	icon: "astralsorcery:tree_beacon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Progression: Create"
+			icon: "create:wrench"
+			x: -8.5d
+			y: -3.0d
+			subtitle: "create a lovely machine!"
+			description: ["Start the create questline!"]
+			id: "60ADEF34F6363B8E"
+			tasks: [{
+				id: "460112B3C381AB63"
+				type: "checkmark"
+				title: "Start the \"create\" questline."
+			}]
+			rewards: [{
+				id: "7540101D3D2E2DEC"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "Progression: Immersive Engineering"
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.5d
+			y: -1.5d
+			subtitle: "immerse yourself into being an awesome engineer!"
+			description: ["Start the Immersive Engineering questline!"]
+			dependencies: [
+				"60ADEF34F6363B8E"
+				"15FB22CB50C0C7B0"
+			]
+			id: "1155D72338C83A00"
+			tasks: [{
+				id: "29E6AA337ECC9A7D"
+				type: "checkmark"
+				title: "Immersive engineering"
+			}]
+			rewards: [{
+				id: "57F4251F6BAA89A8"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			icon: "industrialforegoing:dissolution_chamber"
+			x: -10.0d
+			y: 0.5d
+			subtitle: "Go forward! create your industry!"
+			description: ["Start the industrial foregoing quest line!"]
+			dependencies: [
+				"1155D72338C83A00"
+				"3AFA90DAB55A43FD"
+			]
+			id: "21458DCD1F216727"
+			tasks: [{
+				id: "746D3DA063C63610"
+				type: "checkmark"
+				title: "Progression: Industrial Foregoing"
+			}]
+			rewards: [{
+				id: "0650C61401F82421"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}]
+		}
+		{
+			title: "Progression: Thermal Expansion"
+			icon: "thermal:wrench"
+			x: -7.0d
+			y: 0.5d
+			subtitle: "its getting hot in here! so leave all your clothes on due to temperature not directly effecting you!"
+			description: ["Start the thermal questline!"]
+			dependencies: [
+				"1155D72338C83A00"
+				"32FEE621E7F27CED"
+			]
+			id: "66607C99548366E8"
+			tasks: [{
+				id: "662D4943DEDCE3B3"
+				type: "checkmark"
+				title: "Progression: Thermal"
+			}]
+			rewards: [{
+				id: "2648152CAF7A2BA6"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+		}
+		{
+			title: "progression: resourceful bees"
+			icon: "minecraft:bee_nest"
+			x: -13.0d
+			y: -3.0d
+			subtitle: "NOT THE BEES OH GOD NOT THE BEES!!!.. wait no these are awesome!"
+			description: [
+				"Start the resourceful bees questline!"
+				"This mod is the \"get loads of resources\" mod. it is mildly nerfed due to it being absolutely BONKERS strong unnerfed."
+			]
+			id: "0DE15D2E3E055B26"
+			tasks: [{
+				id: "1084FF3969CB8549"
+				type: "checkmark"
+				title: "resourceful bees!"
+			}]
+			rewards: [{
+				id: "198D5953E1C6CF74"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+					}
+				}
+			}]
+		}
+		{
+			icon: "pneumaticcraft:pressure_gauge"
+			x: -5.0d
+			y: -3.0d
+			subtitle: "under pressure!"
+			description: ["start the pneumaticcraft questline."]
+			id: "3FE9469D0A9C4E2C"
+			tasks: [{
+				id: "2E4D1610781282AE"
+				type: "checkmark"
+				title: "progression: pneumaticcraft"
+			}]
+			rewards: [{
+				id: "5227CC39091A97F6"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
+		}
+		{
+			icon: "psi:cad_assembly_psimetal"
+			x: -5.0d
+			y: -1.5d
+			subtitle: "if you don't know what you are doing, this can be a pain *Sigh* IM HERE FOR YOU THO!"
+			description: ["Start the PSI questline!"]
+			dependencies: [
+				"3FE9469D0A9C4E2C"
+				"1155D72338C83A00"
+			]
+			id: "6A730B2571D995AB"
+			tasks: [{
+				id: "52FAF1523D3181F1"
+				type: "checkmark"
+				title: "progression: PSI"
+			}]
+		}
+		{
+			icon: "astralsorcery:altar_discovery"
+			x: -3.5d
+			y: -3.0d
+			id: "42AE9DC06258536C"
+			tasks: [{
+				id: "529196D13A2EEE1A"
+				type: "checkmark"
+				title: "Astral Sorcery"
+			}]
+		}
+		{
+			icon: {
+				id: "mythicbotany:alfsteel_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["42AE9DC06258536C"]
+			id: "2ABDB9208A12CF42"
+			tasks: [{
+				id: "7066F718727420E5"
+				type: "checkmark"
+				title: "Botania"
+			}]
+		}
+		{
+			icon: "refinedstorage:controller"
+			x: -3.5d
+			y: 0.5d
+			dependencies: [
+				"2ABDB9208A12CF42"
+				"0E4EAAC1258B2D84"
+			]
+			id: "00A323002880D209"
+			tasks: [{
+				id: "30838E8F06EF7DA1"
+				type: "checkmark"
+				title: "Refined storage"
+			}]
+		}
+		{
+			icon: "ars_nouveau:arcane_relay"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "20 points if you spell it right without looking"
+			id: "7CA50C3743EE2536"
+			tasks: [{
+				id: "3C65C05AA9A0880C"
+				type: "checkmark"
+				title: "Ars neavuoaoao"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.0d
+			id: "32419908B1A1AA13"
+			tasks: [{
+				id: "13F6330A5647EDE4"
+				type: "item"
+				item: "tconstruct:seared_basin"
+			}]
+		}
+		{
+			icon: "extendedcrafting:ultimate_table"
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["5CACD292A53CF5A3"]
+			id: "0E61A1A8D58DA0D9"
+			tasks: [{
+				id: "1A94D1603EC925DE"
+				type: "checkmark"
+				title: "Extended crafting"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			id: "5CACD292A53CF5A3"
+			tasks: [{
+				id: "37401385BA5FB998"
+				type: "item"
+				item: "rats:cheese_stick"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -3.0d
+			id: "44B519DDBE53A70D"
+			tasks: [{
+				id: "0DD4F089676A2613"
+				type: "checkmark"
+				title: "iceandfire?"
+			}]
+		}
+		{
+			icon: "powah:energizing_orb"
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["6A730B2571D995AB"]
+			id: "0E4EAAC1258B2D84"
+			tasks: [{
+				id: "6E2ACDC735D5DDE5"
+				type: "checkmark"
+				title: "Powah"
+			}]
+		}
+		{
+			icon: {
+				id: "projecte:philosophers_stone"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["42B9F0D821B31530"]
+			id: "40E5C238E25B7ABA"
+			tasks: [{
+				id: "5C23975FBB173E73"
+				type: "checkmark"
+				title: "ProjectE"
+			}]
+		}
+		{
+			icon: "rftoolsbase:smartwrench"
+			x: -7.0d
+			y: 2.0d
+			dependencies: ["66607C99548366E8"]
+			id: "1590E2A86913EE6F"
+			tasks: [{
+				id: "4DDFFF941B36EDC9"
+				type: "checkmark"
+				title: "rftools"
+			}]
+		}
+		{
+			icon: {
+				id: "draconicevolution:chaotic_chestpiece"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: {
+						module_host: {
+							provider_id: [I;
+								-1708085487
+								337920675
+								-1557855962
+								-1267982864
+							]
+							modules: [ ]
+							properties: { }
+						}
+						energy: {
+							energy: 0L
+						}
+					}
+				}
+			}
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["6290315E0CC158CF"]
+			id: "42B9F0D821B31530"
+			tasks: [{
+				id: "0A9C750041B2D61E"
+				type: "checkmark"
+				title: "Draconic evolution"
+			}]
+		}
+		{
+			icon: "mekanism:configurator"
+			x: -8.5d
+			y: 2.0d
+			dependencies: [
+				"66607C99548366E8"
+				"21458DCD1F216727"
+			]
+			id: "5D9C27FDAD2C97D8"
+			tasks: [{
+				id: "173D1884B402F2D8"
+				type: "checkmark"
+				title: "Mekanism"
+			}]
+		}
+		{
+			icon: "envirocore:xerothium_crystal"
+			x: 2.0d
+			y: -3.0d
+			subtitle: "don't have time for quests but may as well put this here"
+			description: ["This is used in many recipes. start it early :)"]
+			id: "041D002FA580E8D3"
+			tasks: [{
+				id: "3C0E9867B611317C"
+				type: "checkmark"
+				title: "Envirotech"
+			}]
+		}
+		{
+			icon: "bloodmagic:altar"
+			x: -1.5d
+			y: 0.5d
+			dependencies: [
+				"0E61A1A8D58DA0D9"
+				"00A323002880D209"
+			]
+			id: "6290315E0CC158CF"
+			tasks: [{
+				id: "4EE31C1DB2336650"
+				type: "checkmark"
+				title: "Blood magic"
+			}]
+		}
+	]
+}

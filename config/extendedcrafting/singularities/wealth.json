@@ -1,0 +1,10 @@
+{
+  "name": "Wealth",
+  "colors": [
+    "d4c30d",
+    "b0a100"
+  ],
+  "ingredient": {
+    "item": "thermal:gold_coin"
+  }
+}
