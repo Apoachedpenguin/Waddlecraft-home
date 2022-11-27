@@ -5,6 +5,7 @@
     - reverted a change to ultimate netherite making it nearly impossible to create a singularity<br/>
     - dealt with a unity issue with star fragment <br/>
     - added more ways to create coke and petcoke dust <br/>
+    - added akashic tome <br/>
 
 - 1.2.6<br/>
     - added a way to craft chimerite gems <br/>
