@@ -1,3 +1,11 @@
+- 1.2.6.5<br/>
+    - added a way to craft [Crimson iron, azure silver, and inert crystals] <br/>
+    - added a way to create vanilla minecraft trapped chests <br/>
+    - fixed an issue causing printed silicon from being craftable <br/>
+    - reverted a change to ultimate netherite making it nearly impossible to create a singularity<br/>
+    - dealt with a unity issue with star fragment <br/>
+    - added more ways to create coke and petcoke dust <br/>
+
 - 1.2.6<br/>
     - added a way to craft chimerite gems <br/>
     - added an ender pearl block as a flower for ender bee. <br/>

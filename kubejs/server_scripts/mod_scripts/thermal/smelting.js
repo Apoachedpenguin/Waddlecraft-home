@@ -15,7 +15,7 @@ const thermalsmelting = [
         energy: '4000'
     },
     {
-        input: ['projecte:high_covalence_dust','waddlecraft:rock_crystal_dust','silentgear:nether_star_fragment'],
+        input: ['projecte:high_covalence_dust','waddlecraft:rock_crystal_dust','cagedmobs:nether_star_fragment'],
         output: 'waddlecraft:etherium_paste',
         energy: '3000'
     }

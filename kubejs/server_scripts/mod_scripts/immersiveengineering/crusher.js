@@ -10,13 +10,13 @@ const IEcrusher = [
     {
         output: 'thermal:cinnabar_dust',
         input: 'thermal:cinnabar'
-    },    {
+    }, {
         output: 'thermal:niter_dust',
         input: 'thermal:niter'
-    },    {
+    }, {
         output: 'thermal:sulfur_dust',
         input: 'thermal:sulfur'
-    },    {
+    }, {
         output: 'thermal:apatite_dust',
         input: 'thermal:apatite'
     },
@@ -100,4 +100,12 @@ const IEcrusher = [
         output: '5x powah:uraninite',
         input: 'powah:uraninite_ore_dense'
     },
+    {
+        output: 'immersiveengineering:dust_coke',
+        input: 'immersiveengineering:coal_coke'
+    },
+    {
+        output: 'immersivepetroleum:petcoke_dust',
+        input: 'immersivepetroleum:petcoke'
+    }
 ]

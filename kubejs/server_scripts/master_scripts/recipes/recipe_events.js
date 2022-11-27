@@ -177,6 +177,7 @@ onEvent('recipes', event => {
 		})
 	})
 
+
 	//blood magic --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	BloodAltar.forEach(recipe => {
@@ -251,8 +252,42 @@ onEvent('recipes', event => {
 			type: "industrialforegoing:dissolution_chamber"
 		})
 	})
+
+	//applied energistics AE2 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	inscriber.forEach(recipe => {
+		if (recipe.bottom == null) {
+			event.custom({
+				type: 'appliedenergistics2:inscriber',
+				mode: 'inscribe',
+				result: recipe.output,
+				ingredients: { "top": recipe.top, "middle": recipe.middle }
+			}).id(recipe.ID)
+		}
+		else {
+			event.custom({
+				type: 'appliedenergistics2:inscriber',
+				mode: 'inscribe',
+				result: recipe.output,
+				ingredients: { "top": recipe.top, "middle": recipe.middle, "bottom": recipe.bottom }
+			}).id(recipe.ID)
+		}
+	})
+
+	//powah ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	energizing.forEach(recipe => {
+		event.custom({
+			"type": "powah:energizing",
+			"ingredients": recipe.inputs,
+			"energy": recipe.energy,
+			"result": recipe.output
+		}).id(recipe.ID)
+	})
+
 	//extra scripts i didn't have time nor care to seperate ------------------------------------------------------------------------------------------------------------------------------------------
 
 	event.replaceInput({ type: 'minecraft:crafting_shapeless' }, 'minecraft:honeycomb', '#resourcefulbees:resourceful_honeycomb')
 	event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'minecraft:honeycomb', '#resourcefulbees:resourceful_honeycomb')
+	event.replaceInput({ type: 'minecraft:crafting_shapeless' }, 'appliedenergistics2:silicon', 'refinedstorage:silicon')
+	event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'appliedenergistics2:silicon', 'refinedstorage:silicon')
 })

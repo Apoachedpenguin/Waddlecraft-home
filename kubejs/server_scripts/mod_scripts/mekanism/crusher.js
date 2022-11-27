@@ -58,5 +58,13 @@ const mekanismCrusher = [
     {
         output: 'astralsorcery:stardust',
         input: 'astralsorcery:starmetal_ingot'
+    },
+    {
+        output: 'immersiveengineering:dust_coke',
+        input: 'immersiveengineering:coal_coke'
+    },
+    {
+        output: 'immersivepetroleum:petcoke_dust',
+        input: 'immersivepetroleum:petcoke'
     }
 ]

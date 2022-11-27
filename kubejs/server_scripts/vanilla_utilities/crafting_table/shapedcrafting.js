@@ -1396,7 +1396,7 @@ const shapedRecipes = [
 	},
 	//silentgear
 	{
-		output: 'silentgear:glittery_dust',
+		output: '8x silentgear:glittery_dust',
 		pattern: [
 			'ABA',
 			'DCD',
@@ -1682,6 +1682,7 @@ const shapedRecipes = [
 		},
 		id: 'cabletiers:creative_requester'
 	},
+	//mana and artifice
 	{
 		output: '2x waddlecraft:chimerite_dust',
 		pattern: [
